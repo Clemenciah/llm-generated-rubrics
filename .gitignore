@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+pyproject.toml
+.env
+results/scoring_debug/
