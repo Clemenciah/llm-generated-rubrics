@@ -1,0 +1,8 @@
+Revise the following role description by removing or modifying any sentences that reference specific metrics or criteria utilized to evaluate the described task.
+
+Task: {task_description}
+
+Role: {agent_description}
+
+Provide only the revised version without any feedback or commentary.
+[Revised Role]:
