@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how closely the response aligns with the prompt or instruction given by the user.",
+        "scale": "1 (Not Relevant) to 5 (Highly Relevant)",
+        "instruction": "\n1- Read the user's prompt or instruction carefully.\n2- Analyze the contestant's response to determine the main points addressed.\n3- Compare the main points of the response with the requirements outlined in the user's prompt.\n4- Assign a relevance score from 1 to 5 based on how well the response meets the user's prompt.\n5- Provide a brief justification for the assigned score."
+    },
+    {
+        "name": "Coherence",
+        "description": "Assesses the logical consistency and flow of the response.",
+        "scale": "1 (Not Coherent) to 5 (Highly Coherent)",
+        "instruction": "\n1- Read the response thoroughly to understand its content.\n2- Identify the main ideas and arguments presented in the response.\n3- Evaluate how well the ideas connect to each other and whether they follow a logical sequence.\n4- Check for any contradictions or points where the response may lose clarity.\n5- Assign a coherence score based on the assessment, using the scale from 1 to 5."
+    },
+    {
+        "name": "Creativity",
+        "description": "Evaluates the originality and inventiveness of the response.",
+        "scale": "1 (Not Creative) to 5 (Highly Creative)",
+        "instruction": "\n1- Read the contestant's response carefully.\n2- Assess the originality of the ideas presented in the response.\n3- Consider the inventiveness of the approach taken in the response.\n4- Rate the response on a scale from 1 to 5 based on the creativity metric.\n5- Provide a brief justification for the rating given."
+    },
+    {
+        "name": "Clarity",
+        "description": "Measures how clear and understandable the response is to the user.",
+        "scale": "1 (Not Clear) to 5 (Very Clear)",
+        "instruction": "\n1- Read the user's prompt and the contestant's response carefully.\n2- Assess the response based on how easily it can be understood by an average user.\n3- Consider if the response uses clear language, proper grammar, and if it stays on topic.\n4- Rate the clarity of the response on a scale from 1 to 5, where 1 is not clear and 5 is very clear.\n5- Provide feedback on the rating, explaining why the response received that score."
+    },
+    {
+        "name": "Engagement",
+        "description": "Assesses how engaging or interesting the response is for the reader.",
+        "scale": "1 (Not Engaging) to 5 (Highly Engaging)",
+        "instruction": "\n1- Read the contestant's response thoroughly.\n2- Determine how engaging the response is based on creativity, relevance, and the ability to capture the reader's attention.\n3- Assign a score from 1 to 5 based on the engagement level of the response, where 1 is not engaging and 5 is highly engaging.\n4- Provide a brief justification for the score assigned to explain your reasoning."
+    },
+    {
+        "name": "Completeness",
+        "description": "Evaluates whether the response fully addresses all aspects of the prompt or instruction.",
+        "scale": "1 (Incomplete) to 5 (Fully Complete)",
+        "instruction": "\n1- Read the contestant's response carefully.\n2- Identify all aspects of the prompt or instruction that need to be addressed.\n3- Check if the response addresses each identified aspect.\n4- Evaluate the thoroughness of the response in terms of detail and clarity.\n5- Assign a rating from 1 to 5 based on the completeness of the response."
+    }
+]

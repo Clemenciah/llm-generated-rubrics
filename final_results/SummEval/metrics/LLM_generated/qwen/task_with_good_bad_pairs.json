@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how closely the summary relates to the main points of the context.",
+        "scale": "1-5, with 1 being not relevant and 5 being very relevant",
+        "instruction": "1. Read the provided context and the contestant's summary.\n2. Determine if the summary accurately reflects the main points of the context.\n3. Assign a score from 1 to 5 based on how relevant the summary is to the context."
+    },
+    {
+        "name": "Conciseness",
+        "description": "Measures how succinct and to the point the summary is.",
+        "scale": "1-5, with 1 being very verbose and 5 being very concise",
+        "instruction": "1. Read the provided summary.\n2. Assess the summary based on the conciseness metric, focusing on how succinct and to the point it is.\n3. Rate the summary on a scale from 1 to 5, with 1 being very verbose and 5 being very concise."
+    },
+    {
+        "name": "Accuracy",
+        "description": "Measures the factual correctness of the summary.",
+        "scale": "1-5, with 1 being highly inaccurate and 5 being highly accurate",
+        "instruction": "1. Read the provided summary and the original news article.\n2. Check if the summary contains any factual errors or inconsistencies with the original article.\n3. Assess if the summary accurately captures the main points and key details of the article.\n4. Determine the accuracy score based on the presence or absence of factual errors and the overall correctness of the summary."
+    },
+    {
+        "name": "Clarity",
+        "description": "Measures how clear and understandable the summary is.",
+        "scale": "1-5, with 1 being very unclear and 5 being very clear",
+        "instruction": "1. Read the summary provided by the contestant.\n2. Evaluate the clarity of the summary based on the given scale (1-5).\n3. Provide a score and a brief explanation for the score."
+    },
+    {
+        "name": "Engagement",
+        "description": "Measures how engaging and interesting the summary is to the reader.",
+        "scale": "1-5, with 1 being not engaging and 5 being very engaging",
+        "instruction": "1. Read the summary provided by the contestant.\n2. Evaluate the summary based on how engaging and interesting it is to the reader.\n3. Rate the summary on a scale of 1 to 5, where 1 is not engaging and 5 is very engaging."
+    }
+]

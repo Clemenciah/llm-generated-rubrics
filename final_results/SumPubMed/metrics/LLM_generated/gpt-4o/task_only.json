@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how well the generated summary captures the key points and main findings of the original biomedical research paper.",
+        "scale": "Scale of 1 to 5, where 1 is not relevant at all and 5 is extremely relevant.",
+        "instruction": "\n1- Read the provided summary carefully.\n2- Read the original biomedical research paper or its abstract to understand the key points and main findings.\n3- Compare the summary with the original paper to determine how well it captures the key points and main findings.\n4- Assign a relevance score based on how well the summary aligns with the main points and findings of the paper, using a scale from 1 to 5 (1 = not relevant at all, 5 = extremely relevant).\n5- Repeat the process for each summary provided."
+    },
+    {
+        "name": "Clarity",
+        "description": "Assesses how clearly and understandably the summary is written for the target audience, including appropriate use of medical terminology.",
+        "scale": "Scale of 1 to 5, where 1 is unclear/confusing and 5 is very clear and easy to understand.",
+        "instruction": "\n1- Familiarize yourself with the target audience for the summaries, which includes professionals in medicine, pharmacy, nursing, dentistry, health care, and health services.\n2- Read each summary carefully, paying attention to the use of language and terminology.\n3- Assess whether the summary uses medical terminology appropriately and whether it is understandable to the target audience.\n4- Rate the clarity of each summary on a scale of 1 to 5, where 1 means the summary is unclear or confusing, and 5 means it is very clear and easy to understand.\n5- Consider both the structure and language of the summary in your assessment, ensuring that it conveys the main points effectively without unnecessary complexity.\n6- Provide specific feedback for each rating to justify your score and help improve future summaries."
+    },
+    {
+        "name": "Conciseness",
+        "description": "Evaluates whether the summary is brief and to the point, without unnecessary information or excessive verbosity.",
+        "scale": "Scale of 1 to 5, where 1 is too verbose and 5 is concise and appropriately brief.",
+        "instruction": "\n1- Carefully read the full text of the provided biomedical research paper to understand the main points and key findings.\n2- Read the contestant's summary of the biomedical research paper.\n3- Compare the contestant's summary against the full text to determine if the summary captures the main points and key findings effectively.\n4- Assess whether the summary includes unnecessary details or excessive verbosity that do not contribute to the understanding of the paper's main points.\n5- Assign a score from 1 to 5 based on how concise and to the point the summary is, with 1 being too verbose and 5 being concise and appropriately brief.\n6- Document any specific observations or examples that influenced your scoring decision, particularly any instances of verbosity or lack of necessary details."
+    },
+    {
+        "name": "Accuracy",
+        "description": "Determines how factually correct the information in the summary is in representing the original document\u2019s content.",
+        "scale": "Scale of 1 to 5, where 1 is inaccurate and 5 is completely accurate.",
+        "instruction": "\n1- Read the original biomedical research paper thoroughly to understand its content and key points.\n2- Read the provided summary of the research paper.\n3- Compare the key points in the summary with the key points in the original document to determine factual accuracy.\n4- Assess whether the summary accurately represents the main findings, conclusions, and important details from the original document.\n5- Check for any factual errors, omissions of important information, or inclusion of incorrect details in the summary.\n6- Rate the summary on a scale of 1 to 5 based on its factual accuracy, where 1 is inaccurate and 5 is completely accurate.\n7- Provide any additional comments or notes on the accuracy of the summary if necessary."
+    },
+    {
+        "name": "Coverage",
+        "description": "Measures whether the summary includes all critical aspects and sections of the original document, such as objectives, methods, results, and conclusions.",
+        "scale": "Scale of 1 to 5, where 1 is poor coverage and 5 is comprehensive coverage.",
+        "instruction": "\n1- Read the provided summary thoroughly to understand its contents.\n2- Identify the critical aspects and sections of the original document referred to in the summary. These typically include objectives, methods, results, and conclusions.\n3- Assess whether each of these critical aspects is covered in the summary. Note any missing or inadequately covered sections.\n4- Assign a rating on a scale of 1 to 5 based on the comprehensiveness of the coverage, where 1 represents poor coverage with many missing or inadequately covered sections, and 5 represents comprehensive coverage with all critical aspects adequately represented.\n5- Document any observations or specific examples that influenced your rating decision to provide context for your evaluation."
+    },
+    {
+        "name": "Coherence",
+        "description": "Assesses the overall logical flow and structure of the summary, ensuring that ideas are well-connected and organized.",
+        "scale": "Scale of 1 to 5, where 1 is incoherent and 5 is highly coherent and well-structured.",
+        "instruction": "\n1- Read the provided summary carefully, taking note of the logical flow and structure of the content.\n2- Identify the main ideas presented in the summary and check if they are well-connected and follow a logical sequence.\n3- Assess the organization of ideas\u2014determine if the summary presents information in a clear and orderly manner.\n4- Consider whether the summary transitions smoothly between different points or topics.\n5- Rate the coherence of the summary on a scale from 1 to 5, where 1 indicates the summary is incoherent and lacks logical flow, and 5 indicates the summary is highly coherent and well-structured.\n6- Provide justification for the assigned rating, highlighting both strengths and weaknesses in the summary's coherence."
+    }
+]

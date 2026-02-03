@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Assesses how well the summary captures the main points and important details of the original news article.",
+        "scale": "Scale from 1 to 5, where 1 indicates irrelevant content and 5 indicates highly relevant content.",
+        "instruction": "\n1- Read the original news article carefully to understand its main points and important details.\n2- Read the contestant's summary thoroughly.\n3- Compare the contestant's summary to the main points and important details of the original article.\n4- Rate the contestant's summary based on how well it captures the main points and important details of the original article using the Relevance metric.\n5- Assign a score from 1 to 5, where 1 indicates that the summary is irrelevant to the article, and 5 indicates that the summary is highly relevant and accurately captures the article's main points and details.\n6- Provide any additional comments or feedback if necessary to justify the assigned score."
+    },
+    {
+        "name": "Conciseness",
+        "description": "Measures the brevity and succinctness of the summary, ensuring it is free from unnecessary details while still conveying the core message.",
+        "scale": "Scale from 1 to 5, where 1 indicates excessive length and unnecessary details, and 5 indicates brevity and focus on essential points.",
+        "instruction": "\n1- Read the provided news article carefully to understand the core message and key points.\n2- Read the contestant's summary of the news article.\n3- Assess whether the summary includes only the essential points of the article. Check for any unnecessary details that do not contribute to the core message.\n4- Evaluate the length of the summary in relation to the original article. Determine if the summary is excessively long or appropriately concise.\n5- Rate the summary on a scale from 1 to 5 based on the Conciseness metric: \n- 1: The summary is excessively long with many unnecessary details.\n- 2: The summary is somewhat long and includes several unnecessary details.\n- 3: The summary is of average conciseness with some unnecessary details.\n- 4: The summary is concise with minor unnecessary details.\n- 5: The summary is very concise, focusing only on essential points.\n6- Record your rating and provide a brief justification for the score based on the Conciseness criteria."
+    },
+    {
+        "name": "Coherence",
+        "description": "Evaluates the logical flow and readability of the summary, ensuring it is easy to understand and follows a clear structure.",
+        "scale": "Scale from 1 to 5, where 1 indicates a disjointed and confusing summary, and 5 indicates a clear and logically structured summary.",
+        "instruction": "\n1- Read the provided summary carefully, ensuring you understand the content as if you are a reader with no prior knowledge of the full article.\n2- Assess the logical flow of the summary. Check if the ideas are presented in a sequence that makes sense and if each sentence logically follows from the previous one.\n3- Evaluate the readability of the summary. Consider if the summary is easy to read and understand without requiring rereading or additional context.\n4- Rate the summary on a scale from 1 to 5 based on the coherence, where 1 indicates a disjointed and confusing summary, and 5 indicates a clear and logically structured summary.\n5- Provide a brief justification for the rating, highlighting specific aspects of the summary that influenced your decision."
+    },
+    {
+        "name": "Accuracy",
+        "description": "Checks the factual correctness of the summary in relation to the source material, ensuring no misinformation is included.",
+        "scale": "Scale from 1 to 5, where 1 indicates multiple factual inaccuracies and 5 indicates full factual accuracy.",
+        "instruction": "\n1- Read the provided news article carefully to understand the facts and main points.\n2- Read the contestant's summary of the news article.\n3- Compare the facts presented in the contestant's summary to those in the original article.\n4- Identify any factual inaccuracies or discrepancies between the summary and the article.\n5- Assign a score based on the level of factual accuracy: 1 for multiple inaccuracies, 2 for several inaccuracies, 3 for some inaccuracies, 4 for few inaccuracies, and 5 for full factual accuracy.\n6- Provide feedback or notes on why the score was given, highlighting any specific inaccuracies or strong points in the summary."
+    },
+    {
+        "name": "Grammaticality",
+        "description": "Assesses the grammatical correctness of the summary, including syntax, spelling, and punctuation.",
+        "scale": "Scale from 1 to 5, where 1 indicates numerous grammatical errors and 5 indicates flawless grammar.",
+        "instruction": "\n1- Read the contestant's summary carefully, ensuring you understand the content and context.\n2- Identify any grammatical errors in the summary, including issues with syntax, spelling, and punctuation.\n3- Count the number of grammatical errors found in the summary.\n4- Assign a score based on the number of errors: 5 for no errors, 4 for 1-2 errors, 3 for 3-4 errors, 2 for 5-6 errors, and 1 for more than 6 errors.\n5- Provide feedback highlighting any errors found and suggesting improvements, if applicable.\n6- Record the final score and feedback for the summary."
+    },
+    {
+        "name": "Coverage",
+        "description": "Evaluates whether the summary includes all critical aspects of the news article without omitting significant information.",
+        "scale": "Scale from 1 to 5, where 1 indicates major omissions of important information and 5 indicates comprehensive coverage of all critical points.",
+        "instruction": "\n1- Read the provided news article carefully to understand all the critical aspects and important information it contains.\n2- Read the contestant's summary of the news article.\n3- Identify the critical aspects and significant information in the news article that should be included in an ideal summary.\n4- Compare the contestant's summary against the critical aspects identified in the news article.\n5- Evaluate the extent to which the contestant's summary includes the critical aspects and significant information from the news article.\n6- Assign a coverage score to the contestant's summary based on the scale from 1 to 5, considering how well it includes all critical points: 1 for major omissions, 5 for comprehensive coverage."
+    }
+]

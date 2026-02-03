@@ -1,0 +1,29 @@
+{
+  "dataset": "SummEval",
+  "setting_name": "model_name=gpt-4o-use_system=False-use_sample=True-use_response=False-number_of_shots=3-use_temperature=False-use_restriction=False.json",
+  "model_name": "gpt-4o",
+  "use_system": "False",
+  "use_sample": "True",
+  "use_response": "False",
+  "number_of_shots": "3",
+  "use_temperature": "False",
+  "use_restriction": "False",
+  "generated": 5,
+  "unique": 5,
+  "unseen": 1,
+  "unseen_over_generated": 0.2,
+  "unseen_over_unique": 0.2,
+  "teacher_coverage": 0.75,
+  "diversity": 0.25,
+  "teacher_hit_count": 3,
+  "teacher_total": 4,
+  "new_aspect_count": 1,
+  "new_aspects": [
+    "Conciseness"
+  ],
+  "use_similarity": false,
+  "similarity_threshold": 0.82,
+  "meaningfulness_threshold": 1,
+  "device": "cpu",
+  "timestamp": "2025-09-28T17:52:53.590290Z"
+}

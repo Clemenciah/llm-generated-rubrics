@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Relevance",
+        "tags": [
+            "Correctness/Completeness"
+        ]
+    },
+    {
+        "name": "Accuracy",
+        "tags": [
+            "Correctness/Completeness"
+        ]
+    },
+    {
+        "name": "Clarity",
+        "tags": [
+            "Coherence/Clarity"
+        ]
+    },
+    {
+        "name": "Engagement",
+        "tags": [
+            "Helpfulness/Understanding",
+            "Creativity"
+        ]
+    },
+    {
+        "name": "Creativity",
+        "tags": [
+            "Creativity"
+        ]
+    },
+    {
+        "name": "Brevity",
+        "tags": [
+            "Succinct vs. Verbose Language"
+        ]
+    }
+]

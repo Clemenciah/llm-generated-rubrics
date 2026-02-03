@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Relevance",
+        "tags": [
+            "Maintains Context",
+            "Understandable"
+        ]
+    },
+    {
+        "name": "Coherence",
+        "tags": [
+            "Natural",
+            "Maintains Context"
+        ]
+    },
+    {
+        "name": "Interestingness",
+        "tags": [
+            "Interesting"
+        ]
+    },
+    {
+        "name": "Contextual Understanding",
+        "tags": [
+            "Maintains Context",
+            "Uses Knowledge"
+        ]
+    },
+    {
+        "name": "Response Length",
+        "tags": [
+            "Length"
+        ]
+    }
+]

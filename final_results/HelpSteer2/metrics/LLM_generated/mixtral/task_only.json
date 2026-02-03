@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how well the generated continuation fits the given prompt or instruction. It evaluates if the response is on-topic and relevant to the user's query.",
+        "scale": "Binary (Relevant, Not relevant)",
+        "instruction": "\n1- Read the given user prompt or instruction carefully.\n2- Read the contestant's response to the prompt or instruction.\n3- Evaluate the relevance of the response by checking if it fits the given prompt or instruction. The response should be on-topic and relevant to the user's query.\n4- Rate the response as 'Relevant' if it meets the evaluation criteria, and 'Not relevant' if it does not."
+    },
+    {
+        "name": "Coherence",
+        "description": "Assesses the logical flow and consistency of the generated continuation. It checks if the response is understandable, coherent, and follows a logical sequence.",
+        "scale": " ordinal (Highly incoherent, Somewhat incoherent, Neutral, Somewhat coherent, Highly coherent)",
+        "instruction": "\n1- Read the task instructions carefully to ensure a complete understanding of the evaluation criteria and process.\n2- Review the contestant's response to a given prompt/instruction.\n3- Evaluate the logical flow and consistency of the response, checking if it is understandable, coherent, and follows a logical sequence.\n4- Rate the response on the Coherence metric using the provided ordinal scale: Highly incoherent, Somewhat incoherent, Neutral, Somewhat coherent, Highly coherent.\n5- Document the rating and provide a brief explanation of the decision, if necessary."
+    },
+    {
+        "name": "Accuracy",
+        "description": "Evaluates the correctness of factual information in the generated continuation. It verifies if the response is factually correct and reliable.",
+        "scale": "Binary (Correct, Incorrect)",
+        "instruction": "\n1- Read and understand the provided task and the evaluation criteria carefully.\n2- Ensure that the metric being evaluated is Accuracy, which checks the correctness of factual information in the generated response.\n3- Review the contestant's response and evaluate the provided information against reliable sources to verify its factual correctness.\n4- If the response is factually correct and reliable, rate it as 'Correct' for the Accuracy metric.\n5- If the response contains factual inaccuracies or is unreliable, rate it as 'Incorrect' for the Accuracy metric."
+    },
+    {
+        "name": "Completeness",
+        "description": "Measures the extent to which the generated continuation fully answers the user's prompt or instruction. It checks if the response provides all the necessary information and covers all aspects of the query.",
+        "scale": "Ordinal (Incomplete, Somewhat complete, Neutral, Mostly complete, Complete)",
+        "instruction": "\n1- Read the user's prompt or instruction carefully to understand what information is required.\n2- Read the contestant's response thoroughly to understand the information provided.\n3- Compare the contestant's response with the user's prompt or instruction to identify if all aspects of the query have been addressed.\n4- Determine if the response provides all the necessary information to fully answer the user's prompt or instruction.\n5- Rate the completeness of the response using the ordinal scale: Incomplete, Somewhat complete, Neutral, Mostly complete, Complete."
+    },
+    {
+        "name": "Grammaticality",
+        "description": "Evaluates the grammatical correctness of the generated continuation. It checks if the response is grammatically sound and follows proper language conventions.",
+        "scale": "Binary (Correct, Incorrect)",
+        "instruction": "\n1- Carefully read the contestant's response to understand the context and intended meaning.\n2- Check for proper use of grammar, including correct verb tense, subject-verb agreement, punctuation, and capitalization.\n3- Determine if the response follows proper language conventions. For example, check if it uses proper sentence structure, appropriate word choice, and accurate spelling.\n4- If the response meets all the grammatical requirements, rate it as 'Correct'. If it does not, rate it as 'Incorrect'."
+    },
+    {
+        "name": "Engagingness",
+        "description": "Measures the level of interest and engagement that the generated continuation can spark in the user. It evaluates if the response is captivating and stimulates further interaction.",
+        "scale": "Ordinal (Not engaging, Somewhat engaging, Neutral, Mostly engaging, Highly engaging)",
+        "instruction": "\n1- Read and understand the provided task, focusing on the evaluation criteria: Engagingness.\n2- Review the contestant's response to the user's prompt or instruction.\n3- Evaluate the response based on the Engagingness metric, determining if it is Not engaging, Somewhat engaging, Neutral, Mostly engaging, or Highly engaging.\n4- Consider factors such as the level of interest, captivation, and stimulation of further interaction that the response generates.\n5- Assign the appropriate rating based on the scale: Not engaging, Somewhat engaging, Neutral, Mostly engaging, or Highly engaging.\n6- Provide a brief explanation for the assigned rating, highlighting the aspects of the response that contribute to its engagingness."
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Relevance",
+        "description": "How well the continuation relates to the context",
+        "scale": "1-5",
+        "instruction": "Error occurred in generation."
+    },
+    {
+        "name": "Coherence",
+        "description": "How logical and consistent the continuation is",
+        "scale": "1-5",
+        "instruction": "Error occurred in generation."
+    },
+    {
+        "name": "Interestingness",
+        "description": "How engaging and thought-provoking the continuation is",
+        "scale": "1-5",
+        "instruction": "Error occurred in generation."
+    },
+    {
+        "name": "Contextual Understanding", "-"
+        "description": "How well the continuation demonstrates understanding of the context",
+        "scale": "1-5",
+        "instruction": "Error occurred in generation."
+    },
+    {
+        "name": "Response Length",
+        "description": "The length of the continuation in words",
+        "scale": "1-1000",
+        "instruction": "Error occurred in generation."
+    }
+]

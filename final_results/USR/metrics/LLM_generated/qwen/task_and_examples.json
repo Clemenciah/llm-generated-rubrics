@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how well the response is related to the context and the previous message.",
+        "scale": "1 to 5",
+        "instruction": "1. Read the conversation and the potential response carefully.\n2. Identify the context and the main topics discussed in the conversation.\n3. Evaluate if the potential response is directly related to the context and the previous message.\n4. Assess the relevance of the interesting fact mentioned in the response to the conversation.\n5. Rate the response on a scale of 1 to 5, where 1 is not relevant and 5 is highly relevant."
+    },
+    {
+        "name": "Engagement",
+        "description": "Evaluates the extent to which the response encourages further conversation and interaction.",
+        "scale": "1 to 5",
+        "instruction": "1. Read the conversation and the potential response.\n2. Identify the interesting fact in the response.\n3. Evaluate if the response and the interesting fact encourage further conversation and interaction.\n4. Rate the response on a scale from 1 to 5, where 1 is low engagement and 5 is high engagement."
+    },
+    {
+        "name": "Coherence",
+        "description": "Assesses the logical flow and consistency of the response within the conversation.",
+        "scale": "1 to 5",
+        "instruction": "1. Read the provided conversation between two individuals.\n2. Identify the context and the flow of the conversation.\n3. Read the potential response for the next turn in the conversation and the interesting fact it contains.\n4. Evaluate if the response logically follows the conversation and if the fact is relevant and adds value to the conversation.\n5. Rate the response on a scale of 1 to 5 based on how well it maintains the logical flow and consistency of the conversation."
+    },
+    {
+        "name": "Creativity",
+        "description": "Measures the originality and creativity of the response, considering the use of interesting facts and unique perspectives.",
+        "scale": "1 to 5",
+        "instruction": "1. Read the conversation and the provided response carefully.\n2. Identify the interesting fact mentioned in the response.\n3. Evaluate how the response incorporates the interesting fact in a creative and original way.\n4. Consider if the response adds a unique perspective to the conversation.\n5. Rate the response on a scale of 1 to 5, where 1 is not creative and 5 is highly creative."
+    },
+    {
+        "name": "Empathy",
+        "description": "Evaluates the level of understanding and empathy shown towards the other person's feelings and experiences.",
+        "scale": "1 to 5",
+        "instruction": "1. Read the conversation and understand the context and the emotions involved.\n2. Identify the potential response and the interesting fact provided.\n3. Evaluate the response based on how well it shows understanding and empathy towards the other person's feelings and experiences.\n4. Rate the response on a scale of 1 to 5, where 1 is poor and 5 is excellent in terms of empathy."
+    },
+    {
+        "name": "Knowledge",
+        "description": "Assesses the accuracy and depth of information provided in the response.",
+        "scale": "1 to 5",
+        "instruction": "1. Read and understand the conversation and the provided response.\n2. Identify the interesting fact mentioned in the response.\n3. Assess the accuracy of the fact based on reliable sources.\n4. Evaluate the depth of the information provided in the response.\n5. Rate the response on a scale of 1 to 5 for the Knowledge metric, where 1 is poor and 5 is excellent."
+    }
+]

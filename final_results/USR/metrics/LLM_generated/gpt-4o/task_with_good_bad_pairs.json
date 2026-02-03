@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how relevant the response is to the preceding conversation and context. A highly relevant response continues the conversation naturally and directly relates to the topics previously discussed.",
+        "scale": "1 to 5, where 1 is not relevant at all and 5 is highly relevant.",
+        "instruction": "\n1- Read the conversation provided between the two individuals to understand the context and topics being discussed.\n2- Read the potential response provided for the next turn in the conversation.\n3- Determine how well the response fits into the conversation contextually, considering whether it continues the conversation naturally and relates to previously discussed topics.\n4- Rate the relevance of the response on a scale from 1 to 5, with 1 being not relevant at all and 5 being highly relevant.\n5- Provide a brief justification for the rating, explaining why the response is or isn't relevant based on the previous conversation."
+    },
+    {
+        "name": "Interestingness",
+        "description": "Assesses the degree to which the response is engaging and adds value to the conversation, potentially by introducing new and intriguing information.",
+        "scale": "1 to 5, where 1 is not interesting at all and 5 is highly interesting.",
+        "instruction": "\n1- Read the entire conversation provided, including the potential response for the next turn.\n2- Identify the interesting fact within the potential response.\n3- Evaluate how engaging the response is in the context of the conversation. Consider factors like relevance, novelty, and the potential to spark further discussion.\n4- Rate the interestingness of the response on a scale from 1 to 5."
+    },
+    {
+        "name": "Coherence",
+        "description": "Determines how logically consistent and understandable the response is within the context of the conversation, ensuring it follows a clear train of thought.",
+        "scale": "1 to 5, where 1 is incoherent and 5 is completely coherent.",
+        "instruction": "\n1- Read the conversation provided to understand the context.\n2- Read the potential response to be evaluated.\n3- Determine if the response logically follows the conversation and maintains a clear train of thought.\n4- Rate the response on the Coherence scale from 1 to 5, where 1 is incoherent and 5 is completely coherent, based on how well it fits into the conversation context."
+    },
+    {
+        "name": "Use of Provided Fact",
+        "description": "Evaluates how effectively the contestant incorporates the provided interesting fact into their response, ensuring it is relevant and enhances the conversation.",
+        "scale": "1 to 5, where 1 means the fact is not used or is used poorly, and 5 means the fact is integrated seamlessly and enhances the response.",
+        "instruction": "\n1- Read the conversation provided and understand the context.\n2- Read the potential response given for the next turn in the conversation.\n3- Identify the interesting fact that should be incorporated into the response.\n4- Evaluate how well the interesting fact is used in the response based on relevance and enhancement of the conversation.\n5- Assign a score from 1 to 5 based on the Use of Provided Fact metric: 1 means the fact is not used or is used poorly, and 5 means the fact is integrated seamlessly and enhances the response."
+    },
+    {
+        "name": "Creativity",
+        "description": "Measures how original and creative the response is, considering the novelty and uniqueness of the ideas presented.",
+        "scale": "1 to 5, where 1 is not creative at all and 5 is very creative.",
+        "instruction": "\n1- Read the given conversation carefully to understand the context.\n2- Read the potential response provided for the next turn in the conversation.\n3- Identify the interesting fact included in the response.\n4- Evaluate how original and creative the response is. Consider how the interesting fact is used to contribute to the conversation in a unique way.\n5- Rate the response on a scale from 1 to 5 based on the creativity metric, where 1 is not creative at all and 5 is very creative.\n6- Provide a brief justification for the rating, explaining why you consider the response to be at the given level of creativity."
+    },
+    {
+        "name": "Fluency",
+        "description": "Checks the grammatical correctness and flow of the response, contributing to the overall readability and ease of understanding.",
+        "scale": "1 to 5, where 1 is not fluent at all, with many grammatical errors, and 5 is perfectly fluent.",
+        "instruction": "\n1- Read the entire conversation provided, including the potential next response.\n2- Evaluate the grammatical correctness of the provided response. Check for any grammatical errors such as incorrect verb tenses, subject-verb agreement, punctuation, and sentence structure.\n3- Evaluate the flow of the response. Consider how smoothly the response reads, whether it transitions naturally from one idea to the next, and if it fits logically within the context of the conversation.\n4- Rate the fluency of the response on a scale from 1 to 5 based on the criteria mentioned in the Metric description.\n5- Provide a brief justification for the rating, citing specific examples from the response to support your evaluation."
+    }
+]

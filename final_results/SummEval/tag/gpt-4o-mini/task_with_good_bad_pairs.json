@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Relevance",
+        "tags": [
+            "Relevance"
+        ]
+    },
+    {
+        "name": "Conciseness",
+        "tags": [
+            "Conciseness"
+        ]
+    },
+    {
+        "name": "Clarity",
+        "tags": [
+            "Clarity"
+        ]
+    },
+    {
+        "name": "Accuracy",
+        "tags": [
+            "Consistency"
+        ]
+    },
+    {
+        "name": "Grammar and Mechanics",
+        "tags": [
+            "Fluency"
+        ]
+    }
+]

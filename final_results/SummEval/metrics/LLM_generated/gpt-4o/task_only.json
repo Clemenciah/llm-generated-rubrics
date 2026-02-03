@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how well the summary captures the main points of the original news article.",
+        "scale": "Scale from 1 to 5, where 1 is not relevant at all and 5 is extremely relevant.",
+        "instruction": "\n1- Read the original news article carefully and identify its main points. Take note of key facts, figures, names, events, and any other important information.\n2- Read the contestant's summary of the news article.\n3- Compare the contestant's summary against the main points identified in the original news article.\n4- Determine how well the summary captures the key points of the original article. Consider whether the summary includes the most important information and whether it accurately reflects the content of the original article.\n5- Rate the summary on the Relevance metric using the scale from 1 to 5, where 1 means the summary is not relevant at all and does not capture the main points, and 5 means the summary is extremely relevant and captures all the main points accurately.\n6- Provide any necessary comments or justifications for the rating given, highlighting specific areas where the summary succeeded or fell short in terms of relevance."
+    },
+    {
+        "name": "Conciseness",
+        "description": "Assesses whether the summary is concise and free from unnecessary information.",
+        "scale": "Scale from 1 to 5, where 1 is very verbose and 5 is very concise.",
+        "instruction": "\n1- Read the provided summary carefully.\n2- Identify any information in the summary that is not essential to understanding the main points of the news article.\n3- Evaluate whether the summary includes unnecessary details or redundant information.\n4- Consider if the summary could be shortened without losing meaning.\n5- Rate the summary on the scale of 1 to 5 for conciseness: 1 being very verbose with a lot of unnecessary information, and 5 being very concise and focused only on the essential points.\n6- Provide a brief justification for the score, mentioning any specific instances of verbosity or conciseness."
+    },
+    {
+        "name": "Clarity",
+        "description": "Evaluates how clearly the summary presents the information from the article.",
+        "scale": "Scale from 1 to 5, where 1 is unclear and confusing, and 5 is very clear.",
+        "instruction": "\n1- Read the provided summary carefully.\n2- Identify the main points presented in the summary.\n3- Evaluate if the summary presents these main points in a logical and easy-to-understand manner.\n4- Decide how clear the summary is in conveying the article's information.\n5- Assign a clarity score on a scale from 1 to 5, where 1 is unclear and confusing, and 5 is very clear.\n6- Consider if any specific phrases or sentences contribute to confusion or enhance clarity, and note these for feedback if necessary."
+    },
+    {
+        "name": "Coherence",
+        "description": "Checks if the summary is logically structured and flows well from one point to another.",
+        "scale": "Scale from 1 to 5, where 1 is very incoherent and 5 is highly coherent.",
+        "instruction": "\n1- Read the contestant's summary thoroughly to understand the overall message and structure.\n2- Identify the main points or sections in the summary.\n3- Evaluate the logical flow between sections or points. Determine if the transition from one point to the next is smooth and logical.\n4- Consider the clarity of each section. Ensure that each point is clearly expressed and easy to understand.\n5- Rate the summary on a scale from 1 to 5 for coherence, where 1 indicates a very incoherent summary with poor logical flow and unclear points, and 5 indicates a highly coherent summary with excellent logical flow and clear points.\n6- Note any specific areas where the summary could improve in coherence, if applicable."
+    },
+    {
+        "name": "Accuracy",
+        "description": "Determines whether the information in the summary is factually correct and accurate with respect to the original article.",
+        "scale": "Scale from 1 to 5, where 1 is mostly inaccurate and 5 is completely accurate.",
+        "instruction": "\n1- Read the original news article carefully to understand the key facts and information it contains.\n2- Read the contestant's summary and identify any factual statements it makes.\n3- Compare the factual statements in the summary with the information in the original article to assess their accuracy.\n4- Determine how accurately the summary reflects the key facts and information from the original article.\n5- Assign a rating from 1 to 5 based on the accuracy of the information in the summary compared to the original article, where 1 is mostly inaccurate and 5 is completely accurate.\n6- Provide any additional comments or notes if necessary to justify the rating given."
+    },
+    {
+        "name": "Grammar and Syntax",
+        "description": "Evaluates the grammatical correctness and proper use of syntax in the summary.",
+        "scale": "Scale from 1 to 5, where 1 contains many grammatical errors and 5 is grammatically perfect.",
+        "instruction": "\n1- Read the entire summary carefully to understand its context and content.\n2- Identify any grammatical errors such as incorrect verb tense, subject-verb agreement, use of articles, or prepositions.\n3- Check for proper sentence structure, ensuring that sentences are complete and well-formed.\n4- Evaluate the punctuation, ensuring that commas, periods, and other punctuation marks are used correctly.\n5- Rate the summary on a scale from 1 to 5 based on the number and severity of grammatical and syntactic errors: 1 - contains many errors, 2 - contains several errors, 3 - contains some errors but is generally understandable, 4 - contains few errors, 5 - grammatically perfect.\n6- Provide a brief justification for the rating based on the errors identified and overall grammatical quality."
+    }
+]

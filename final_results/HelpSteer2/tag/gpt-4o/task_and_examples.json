@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Relevance",
+        "tags": [
+            "Correctness/Completeness",
+            "Helpfulness/Understanding"
+        ]
+    },
+    {
+        "name": "Accuracy",
+        "tags": [
+            "Correctness/Completeness"
+        ]
+    },
+    {
+        "name": "Clarity",
+        "tags": [
+            "Coherence/Clarity"
+        ]
+    },
+    {
+        "name": "Depth",
+        "tags": [
+            "Correctness/Completeness",
+            "Helpfulness/Understanding"
+        ]
+    },
+    {
+        "name": "Engagement",
+        "tags": [
+            "Helpfulness/Understanding",
+            "Engagement"
+        ]
+    },
+    {
+        "name": "Conciseness",
+        "tags": [
+            "Succinct vs. Verbose Language"
+        ]
+    },
+    {
+        "name": "Coherence",
+        "tags": [
+            "Coherence/Clarity"
+        ]
+    },
+    {
+        "name": "Tone",
+        "tags": [
+            "Safe vs Unsafe",
+            "Tone"
+        ]
+    }
+]

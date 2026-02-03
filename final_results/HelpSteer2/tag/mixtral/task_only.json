@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Relevance",
+        "tags": [
+            "Correctness/Completeness",
+            "Helpfulness/Understanding"
+        ]
+    },
+    {
+        "name": "Coherence",
+        "tags": [
+            "Coherence/Clarity"
+        ]
+    },
+    {
+        "name": "Accuracy",
+        "tags": [
+            "Correctness/Completeness"
+        ]
+    },
+    {
+        "name": "Completeness",
+        "tags": [
+            "Correctness/Completeness"
+        ]
+    },
+    {
+        "name": "Grammaticality",
+        "tags": [
+            "Coherence/Clarity",
+            "Other: Language Conventions"
+        ]
+    },
+    {
+        "name": "Engagingness",
+        "tags": [
+            "Helpfulness/Understanding",
+            "Other: User Engagement"
+        ]
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Relevance",
+        "tags": [
+            "Correctness/Completeness",
+            "Helpfulness/Understanding"
+        ]
+    },
+    {
+        "name": "Accuracy",
+        "tags": [
+            "Correctness/Completeness"
+        ]
+    },
+    {
+        "name": "Completeness",
+        "tags": [
+            "Correctness/Completeness"
+        ]
+    },
+    {
+        "name": "Coherence",
+        "tags": [
+            "Coherence/Clarity"
+        ]
+    },
+    {
+        "name": "Empathy",
+        "tags": [
+            "Helpfulness/Understanding",
+            "Empathy"
+        ]
+    },
+    {
+        "name": "Conversational Flow",
+        "tags": [
+            "Coherence/Clarity",
+            "Conversational Flow"
+        ]
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Content Coverage",
+        "description": "Measures how well the summary captures the main points and essential details of the news article.",
+        "scale": "0-5, where 0 indicates no coverage of main points and 5 indicates complete coverage of all main points.",
+        "instruction": "\n1- Read the original news article carefully to understand the main points and essential details.\n2- Read the contestant's summary of the news article.\n3- Identify the main points and essential details in the original news article that should be included in an ideal summary.\n4- Compare the contestant's summary to the main points and essential details identified in the original news article.\n5- Assign a score from 0 to 5 based on how well the contestant's summary captures the main points and essential details of the news article, with 0 indicating no coverage and 5 indicating complete coverage."
+    },
+    {
+        "name": "Clarity and Coherence",
+        "description": "Evaluates how clearly and logically the summary presents the information.",
+        "scale": "0-5, where 0 indicates very unclear and incoherent presentation, and 5 indicates very clear and coherent presentation.",
+        "instruction": "\n1- Read the summary provided by the contestant carefully.\n2- Identify the main points and arguments presented in the summary.\n3- Assess how clearly the summary communicates the main points. Consider how easy it is to understand the information presented.\n4- Evaluate the logical flow of the summary. Determine whether the information is presented in a coherent manner, with a clear progression from one point to the next.\n5- Rate the summary on a scale of 0-5 for Clarity and Coherence, where 0 indicates very unclear and incoherent presentation, and 5 indicates very clear and coherent presentation.\n6- Provide a brief justification for the rating, noting specific aspects of clarity and coherence."
+    },
+    {
+        "name": "Conciseness",
+        "description": "Assesses the ability to deliver the summary in a brief and to-the-point manner without unnecessary details.",
+        "scale": "0-5, where 0 indicates excessive length or unnecessary details, and 5 indicates a very concise summary.",
+        "instruction": "\n1- Read the provided summary carefully and understand its content and structure.\n2- Identify any sentences or phrases that contain unnecessary details or excessive information that do not contribute to the core message of the summary.\n3- Evaluate the overall length of the summary in relation to the essential information it conveys. Consider whether the summary could be made shorter while still preserving the main points.\n4- Rate the summary on a scale of 0 to 5 based on conciseness. Assign a score of 0 if the summary is excessively long or contains numerous unnecessary details, and a score of 5 if the summary is very concise and to-the-point.\n5- Provide a brief justification for the score given, highlighting specific instances of unnecessary details or praising the summary's brevity and clarity."
+    },
+    {
+        "name": "Language Quality",
+        "description": "Measures the grammatical correctness, vocabulary usage, and overall language fluency of the summary.",
+        "scale": "0-5, where 0 indicates poor language quality with multiple errors, and 5 indicates excellent language quality with no errors.",
+        "instruction": "\n1- Read the summary provided by the contestant.\n2- Evaluate the grammatical correctness of the summary. Check for spelling, punctuation, and syntax errors.\n3- Assess the vocabulary usage. Determine if the vocabulary is appropriate, varied, and precise.\n4- Evaluate the overall language fluency. Check if the summary flows well and is easy to read.\n5- Assign a score from 0 to 5 based on the language quality, where 0 indicates poor quality with multiple errors, and 5 indicates excellent quality with no errors.\n6- Provide brief feedback on the language quality, highlighting any specific strengths or areas for improvement."
+    },
+    {
+        "name": "Relevance",
+        "description": "Evaluates how relevant the included information is to the main theme or message of the article.",
+        "scale": "0-5, where 0 indicates mostly irrelevant information, and 5 indicates highly relevant information throughout.",
+        "instruction": "\n1- Read the original news article carefully to understand its main theme or message.\n2- Read the contestant's summary of the article.\n3- Identify key points or themes in the original article that are crucial for understanding its main message.\n4- Compare the contestant's summary against the key points or themes from the original article.\n5- Evaluate how well the summary includes the relevant information from the original article.\n6- Assign a relevance score from 0 to 5 based on how closely the contestant's summary aligns with the main theme or message of the original article, using the following scale: \n- 0: Mostly irrelevant information \n- 1: Some relevant information but mostly irrelevant \n- 2: Mix of relevant and irrelevant information \n- 3: Mostly relevant information with some irrelevant parts \n- 4: Relevant information with only minor irrelevant parts \n- 5: Highly relevant information throughout."
+    }
+]

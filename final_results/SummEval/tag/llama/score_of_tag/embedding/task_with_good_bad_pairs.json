@@ -1,0 +1,30 @@
+{
+  "dataset": "SummEval",
+  "setting_name": "model_name=llama-use_system=False-use_sample=True-use_response=True-number_of_shots=3-use_temperature=False-use_restriction=False.json",
+  "model_name": "llama",
+  "use_system": "False",
+  "use_sample": "True",
+  "use_response": "True",
+  "number_of_shots": "3",
+  "use_temperature": "False",
+  "use_restriction": "False",
+  "generated": 4,
+  "unique": 4,
+  "unseen": 1,
+  "unseen_over_generated": 0.25,
+  "unseen_over_unique": 0.5,
+  "teacher_coverage": 0.5,
+  "diversity": 0.5,
+  "teacher_hit_count": 2,
+  "teacher_total": 4,
+  "new_aspect_count": 2,
+  "new_aspects": [
+    "Completeness",
+    "Conciseness"
+  ],
+  "use_similarity": true,
+  "similarity_threshold": 0.82,
+  "meaningfulness_threshold": 1,
+  "device": "cpu",
+  "timestamp": "2025-09-28T17:53:32.580443Z"
+}

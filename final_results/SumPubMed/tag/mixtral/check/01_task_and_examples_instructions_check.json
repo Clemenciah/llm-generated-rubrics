@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "description": "The extent to which the summary accurately and comprehensively captures the main points and key findings of the original text.",
+        "scale": "0-10 (0: completely irrelevant, 10: highly relevant)",
+        "instruction": "\n1- Read the original biomedical research paper in detail to understand its main points and key findings.\n2- Read the provided summary and compare it with the original research paper, focusing on the relevance of the summary to the paper.\n3- Determine whether the summary accurately captures the main points and key findings of the original research paper.\n4- Evaluate the comprehensiveness of the summary, considering whether it includes all the important details from the original paper.\n5- Based on the evaluation, rate the summary on the Relevance metric using a scale of 0-10, where 0 is completely irrelevant and 10 is highly relevant."
+    },
+    {
+        "name": "Completeness", "-"
+        "description": "The degree to which the summary includes all the important details and information present in the original text.",
+        "scale": "0-10 (0: completely incomplete, 10: fully complete)",
+        "instruction": "\n1- Read the original biomedical research paper thoroughly to understand the context, main points, and important details.\n2- Read the provided summary carefully to understand the content and the points it covers.\n3- Compare the summary with the original research paper to identify if all the important details and information are included in the summary.\n4- Rate the completeness of the summary on a scale of 0-10, where 0 represents completely incomplete and 10 represents fully complete."
+    },
+    {
+        "name": "Coherence",
+        "description": "The logical and consistent organization of ideas, arguments, and information in the summary, making it easy to follow and understand.",
+        "scale": "0-10 (0: incoherent, 10: highly coherent)",
+        "instruction": "\n1- Read and understand the provided summary carefully, ensuring that you comprehend the overall context, arguments, and supporting information.\n2- Assess the logical flow of the summary. Check if the ideas, arguments, and information are presented in a sequential and organized manner.\n3- Evaluate the consistency of the summary. Ensure that the information provided is relevant to the topic and does not contradict itself.\n4- Determine how easy it is to follow and understand the summary. This involves considering the clarity of the language, the use of appropriate transition words, and the structure of the sentences and paragraphs.\n5- Rate the summary on a scale of 0-10 based on the Coherence metric, where 0 indicates incoherent and 10 indicates highly coherent. Provide a detailed explanation for the rating, highlighting the strengths and weaknesses of the summary in terms of organization, logical flow, consistency, and understandability."
+    },
+    {
+        "name": "Conciseness",
+        "description": "The ability of the summary to convey the main points and information of the original text in a clear and succinct manner, without unnecessary details or redundancy.",
+        "scale": "0-10 (0: highly verbose, 10: highly concise)",
+        "instruction": "\n1- Read and understand the provided summary of the biomedical research paper.\n2- Check if the summary conveys the main points and information of the original text.\n3- Evaluate the conciseness of the summary, ensuring it is clear and succinct without unnecessary details or redundancy.\n4- Rate the conciseness of the summary on a scale of 0-10, where 0 indicates highly verbose and 10 indicates highly concise."
+    },
+    {
+        "name": "Clarity", "-"
+        "description": "The ease with which the summary can be understood by the reader, including the use of clear and appropriate language, grammar, and style.",
+        "scale": "0-10 (0: highly unclear, 10: highly clear)",
+        "instruction": "\n1- Read the provided summary carefully and thoroughly to understand its content.\n2- Evaluate the language used in the summary. Check if the words and phrases are clear and appropriate for the intended audience.\n3- Assess the grammar and sentence structure used in the summary. Ensure that there are no grammatical errors or awkward sentences that may hinder the reader's understanding.\n4- Review the style of the summary. Check if it is consistent and appropriate for the type of document it summarizes.\n5- Based on the evaluation of the language, grammar, and style, assign a score on the scale of 0-10, with 0 being highly unclear and 10 being highly clear."
+    },
+    {
+        "name": "Objectivity",
+        "description": "The extent to which the summary presents the information and findings of the original text in an impartial and unbiased manner.",
+        "scale": "0-10 (0: highly biased, 10: highly objective)",
+        "instruction": "\n1- Read the original biomedical research paper thoroughly to understand its content, purpose, and findings.\n2- Read the provided summary carefully to comprehend its overall message and how it represents the original research paper.\n3- Determine if the summary accurately presents the key findings, methods, and conclusions of the original research paper without introducing any personal opinions or biases.\n4- Evaluate the objectivity of the summary by checking if it maintains neutrality and avoids subjective interpretations or exaggerations.\n5- Rate the summary on a scale of 0-10 (0: highly biased, 10: highly objective) based on the evaluation of its objectivity."
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Content Coverage",
+        "tags": [
+            "Informativeness, Overlap and Focus"
+        ]
+    },
+    {
+        "name": "Clarity and Coherence",
+        "tags": [
+            "Coherence",
+            "Readability"
+        ]
+    },
+    {
+        "name": "Conciseness",
+        "tags": [
+            "Readability",
+            "Conciseness"
+        ]
+    },
+    {
+        "name": "Technical Accuracy",
+        "tags": [
+            "Technical Accuracy"
+        ]
+    },
+    {
+        "name": "Engagement and Readability",
+        "tags": [
+            "Readability",
+            "Engagement"
+        ]
+    },
+    {
+        "name": "Originality",
+        "tags": [
+            "Originality"
+        ]
+    }
+]

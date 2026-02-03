@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Relevance",
+        "description": "How well the response relates to the context",
+        "scale": "1-5",
+        "instruction": "Error occurred in generation."
+    },
+    {
+        "name": "Coherence",
+        "description": "How logical and consistent the response is",
+        "scale": "1-5",
+        "instruction": "Error occurred in generation."
+    },
+    {
+        "name": "Engagement",
+        "description": "How engaging and interesting the response is",
+        "scale": "1-5",
+        "instruction": "Error occurred in generation."
+    },
+    {
+        "name": "Fluency",
+        "description": "How natural and fluent the response sounds",
+        "scale": "1-5",
+        "instruction": "Error occurred in generation."
+    },
+    {
+        "name": "Information",
+        "description": "How informative and knowledgeable the response is",
+        "scale": "1-5",
+        "instruction": "Error occurred in generation."
+    }
+]

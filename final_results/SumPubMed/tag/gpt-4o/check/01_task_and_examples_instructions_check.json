@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Relevance", "-"
+        "description": "Measures how well the summary captures the essential points and main arguments of the original research paper.",
+        "scale": "Poor, Fair, Good, Excellent",
+        "instruction": "\n1- Read the original research paper thoroughly to understand its essential points and main arguments.\n2- Read the provided summary carefully.\n3- Compare the summary to the original paper to assess how well it captures the essential points and main arguments.\n4- Assign a relevance rating to the summary based on how accurately and comprehensively it reflects the original paper's content. Use the following scale: Poor, Fair, Good, Excellent.\n5- Provide a brief justification for the assigned rating, highlighting specific elements that influenced the evaluation, such as missed key points or accurately captured arguments."
+    },
+    {
+        "name": "Clarity",
+        "description": "Assesses the readability and understandability of the summary, including grammar, sentence structure, and use of technical language.",
+        "scale": "Poor, Fair, Good, Excellent",
+        "instruction": "\n1- Read the provided summary carefully and ensure you understand the content it conveys.\n2- Evaluate the grammar used in the summary. Check for grammatical errors such as incorrect verb tenses, subject-verb disagreement, and misuse of punctuation.\n3- Assess the sentence structure of the summary. Determine whether the sentences are well-constructed and contribute to the overall flow and coherence of the summary.\n4- Consider the use of technical language. Evaluate whether the summary uses appropriate technical terms and whether these terms are explained or used in a manner that is understandable to the intended audience.\n5- Rate the clarity of the summary using the scale: Poor, Fair, Good, Excellent. Consider all aspects of readability and understandability, including grammar, sentence structure, and use of technical language, to make your decision."
+    },
+    {
+        "name": "Conciseness",
+        "description": "Evaluates whether the summary is succinct and free from unnecessary details while still being comprehensive.",
+        "scale": "Poor, Fair, Good, Excellent",
+        "instruction": "\n1- Read the original biomedical research paper to understand the key points, findings, and conclusions.\n2- Read the contestant's summary carefully.\n3- Determine if the summary includes all essential information from the original paper without omitting critical details.\n4- Evaluate whether the summary avoids unnecessary details that do not contribute to understanding the main points of the research.\n5- Assess the overall length of the summary to ensure it is succinct and not excessively wordy.\n6- Rate the summary using the following scale based on your assessment: Poor - The summary is either too detailed or too vague, missing essential information; Fair - The summary captures some important points but includes unnecessary details or lacks conciseness; Good - The summary is mostly concise and comprehensive, with minor issues; Excellent - The summary is very concise, includes all necessary information, and excludes unnecessary details.\n7- Provide a brief justification for your rating, highlighting specific aspects of the summary that influenced your decision."
+    },
+    {
+        "name": "Accuracy",
+        "description": "Checks the correctness of the information presented in the summary, ensuring it aligns with the data and findings of the original paper.",
+        "scale": "Poor, Fair, Good, Excellent",
+        "instruction": "\n1- Read the summary carefully, paying close attention to the details provided.\n2- Compare the key points in the summary with the original paper to ensure factual correctness.\n3- Identify any discrepancies or inaccuracies in the summary.\n4- Consider the overall alignment of the summary with the original document in terms of data and findings.\n5- Assign a rating based on the scale: Poor (major inaccuracies), Fair (some inaccuracies but generally correct), Good (minor inaccuracies), Excellent (accurate and well-aligned with the original paper)."
+    },
+    {
+        "name": "Coverage", "-"
+        "description": "Determines if the summary adequately addresses all major sections of the paper, such as introduction, methods, results, and conclusion.",
+        "scale": "Poor, Fair, Good, Excellent",
+        "instruction": "\n1- Read the original biomedical research paper carefully to understand its main sections: introduction, methods, results, and conclusion.\n2- Read the contestant's summary thoroughly.\n3- Compare the summary against each major section of the original paper (introduction, methods, results, and conclusion).\n4- Evaluate how well the summary covers the introduction: Does it capture the background, purpose, and scope of the research?\n5- Evaluate how well the summary covers the methods: Does it concisely describe the research design, procedures, and any significant techniques or tools used?\n6- Evaluate how well the summary covers the results: Are the key findings and data points clearly and accurately presented in the summary?\n7- Evaluate how well the summary covers the conclusion: Does it effectively summarize the implications, significance, and potential future directions of the research?\n8- Assign a rating based on the extent to which the summary covers all major sections of the paper: Poor, Fair, Good, or Excellent.\n9- Provide constructive feedback on the summary, highlighting areas where coverage could be improved or noting strengths."
+    },
+    {
+        "name": "Terminology Use",
+        "description": "Assesses the appropriate use of biomedical and scientific terminology relevant to the paper's subject matter.",
+        "scale": "Poor, Fair, Good, Excellent",
+        "instruction": "\n1- Read the summary provided by the contestant carefully.\n2- Identify key biomedical and scientific terms used in the summary.\n3- Compare the identified terms with those present in the original research paper or document, noting any discrepancies or omissions.\n4- Assess whether the terms are used correctly within the context of the summary. Consider whether they accurately reflect the content and findings of the research paper.\n5- Evaluate the precision and appropriateness of terminology usage against the research paper's subject matter, ensuring that terms are neither overly simplified nor unnecessarily complex.\n6- Assign a rating based on the following scale: Poor (incorrect or inappropriate use of terminology), Fair (some correct use but with notable errors or omissions), Good (mostly correct usage with minor errors), Excellent (accurate and comprehensive use of terminology without errors).\n7- Provide feedback or justification for the assigned rating, highlighting specific examples of correct or incorrect terminology usage."
+    },
+    {
+        "name": "Engagement",
+        "description": "Evaluates the ability of the summary to engage the reader and maintain interest in the subject matter.",
+        "scale": "Poor, Fair, Good, Excellent",
+        "instruction": "\n1- Read the entire summary carefully to understand its content and flow.\n2- Evaluate whether the summary captures the reader's interest from the beginning.\n3- Assess if the summary maintains reader engagement throughout its entirety.\n4- Consider if the summary makes the subject matter more intriguing or compelling.\n5- Rate the summary based on the engagement scale: Poor, Fair, Good, Excellent.\n6- Provide a brief justification for the rating, focusing on aspects like clarity, coherence, and interest."
+    }
+]

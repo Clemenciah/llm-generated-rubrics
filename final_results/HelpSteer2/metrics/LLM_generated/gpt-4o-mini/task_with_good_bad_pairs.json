@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how well the response addresses the user's prompt or question, staying on topic and providing appropriate information.",
+        "scale": "Scale from 1 to 5, where 1 = Not Relevant, 5 = Highly Relevant.",
+        "instruction": "\n1- Understand the user's prompt or question clearly.\n2- Read the response provided by the contestant carefully.\n3- Evaluate how well the response addresses the prompt, considering if it stays on topic and provides appropriate information.\n4- Assign a relevance score from 1 to 5 based on the evaluation.\n5- Provide a brief justification for the relevance score assigned."
+    },
+    {
+        "name": "Clarity",
+        "description": "Assesses the clarity of the response in terms of language use, sentence structure, and overall comprehensibility.",
+        "scale": "Scale from 1 to 5, where 1 = Very Unclear, 5 = Very Clear.",
+        "instruction": "\n1- Read the response thoroughly.\n2- Evaluate the language use in the response for clarity.\n3- Assess the sentence structure for coherence and flow.\n4- Determine the overall comprehensibility of the response.\n5- Assign a rating from 1 to 5 based on the clarity of the response."
+    },
+    {
+        "name": "Depth of Information",
+        "description": "Evaluates the thoroughness and completeness of the response, including details, explanations, and examples provided.",
+        "scale": "Scale from 1 to 5, where 1 = Very Shallow, 5 = Very Deep.",
+        "instruction": "\n1- Read the response thoroughly to understand the information presented.\n2- Assess the level of detail provided in the response. Check if it includes relevant examples and explanations.\n3- Determine if the response answers the prompt fully without leaving out important aspects.\n4- Assign a rating from 1 to 5 based on the criteria of depth of information.\n5- Provide a brief justification for the assigned rating."
+    },
+    {
+        "name": "Accuracy",
+        "description": "Checks the correctness of the information provided in the response, ensuring that facts and figures are accurate and trustworthy.",
+        "scale": "Scale from 1 to 5, where 1 = Very Inaccurate, 5 = Very Accurate.",
+        "instruction": "\n1- Read the response carefully to understand the content.\n2- Identify key facts, figures, and claims made in the response.\n3- Cross-check the identified facts and figures with reliable sources to determine their accuracy.\n4- Consider the context of the response and whether it accurately addresses the prompt or instruction.\n5- Assign a rating from 1 to 5 based on the accuracy of the information provided, where 1 is very inaccurate and 5 is very accurate."
+    },
+    {
+        "name": "Engagement",
+        "description": "Measures how engaging the response is in terms of tone, style, and the ability to keep the user interested in the conversation.",
+        "scale": "Scale from 1 to 5, where 1 = Not Engaging, 5 = Very Engaging.",
+        "instruction": "\n1- Read the response carefully to capture the overall tone and style.\n2- Consider how well the response captures and maintains the user's interest.\n3- Evaluate the response based on the engagement scale from 1 to 5.\n4- Provide a brief justification for the rating given."
+    },
+    {
+        "name": "Empathy",
+        "description": "Assesses the ability of the response to demonstrate understanding and sensitivity to the user's feelings or frustrations.",
+        "scale": "Scale from 1 to 5, where 1 = Not Empathetic, 5 = Very Empathetic.",
+        "instruction": "\n1- Read the user's prompt or instruction carefully to understand their emotional state or needs.\n2- Analyze the response provided by the contestant for signs of empathy, such as acknowledgment of feelings, supportive language, and sensitivity to the user's situation.\n3- Rate the response on a scale from 1 to 5 based on how well it demonstrates empathy, with 1 being not empathetic and 5 being very empathetic.\n4- Provide constructive feedback or comments on the response, highlighting areas where empathy was effectively communicated or where it could be improved."
+    },
+    {
+        "name": "Resourcefulness",
+        "description": "Evaluates the inclusion of additional resources or suggestions that enhance the user's understanding or provide further help.",
+        "scale": "Scale from 1 to 5, where 1 = Not Resourceful, 5 = Very Resourceful.",
+        "instruction": "\n1- Read the contestant's response carefully.\n2- Determine if the response includes any additional resources or suggestions.\n3- Evaluate the quality and relevance of the additional resources or suggestions provided.\n4- Assign a score from 1 to 5 based on the resourcefulness of the response.\n5- Provide a brief justification for the score assigned."
+    }
+]

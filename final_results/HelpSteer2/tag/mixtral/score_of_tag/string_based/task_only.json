@@ -1,0 +1,30 @@
+{
+  "dataset": "HelpSteer2",
+  "setting_name": "model_name=mixtral-use_system=False-use_sample=False-use_response=False-number_of_shots=3-use_temperature=False-use_restriction=False.json",
+  "model_name": "mixtral",
+  "use_system": "False",
+  "use_sample": "False",
+  "use_response": "False",
+  "number_of_shots": "3",
+  "use_temperature": "False",
+  "use_restriction": "False",
+  "generated": 6,
+  "unique": 6,
+  "unseen": 0,
+  "unseen_over_generated": 0.0,
+  "unseen_over_unique": 0.0,
+  "teacher_coverage": 0.5,
+  "diversity": 0.4,
+  "teacher_hit_count": 3,
+  "teacher_total": 6,
+  "new_aspect_count": 2,
+  "new_aspects": [
+    "Other: Language Conventions",
+    "Other: User Engagement"
+  ],
+  "use_similarity": false,
+  "similarity_threshold": 0.82,
+  "meaningfulness_threshold": 1,
+  "device": "cpu",
+  "timestamp": "2025-09-20T18:30:09.946046Z"
+}

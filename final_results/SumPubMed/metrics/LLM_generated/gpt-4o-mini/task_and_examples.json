@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Content Coverage",
+        "description": "Measures how well the summary captures the main points and findings of the original research paper.",
+        "scale": "0-5, where 0 means no relevant content is covered and 5 means all key points are accurately summarized.",
+        "instruction": "\n1- Read the provided summary carefully.\n2- Identify the main points and findings of the original research paper.\n3- Compare the summary against the identified main points and findings.\n4- Rate the summary based on how well it captures the relevant content, using the 0-5 scale.\n5- Provide justification for the assigned rating, citing specific examples from both the summary and the original paper."
+    },
+    {
+        "name": "Clarity and Coherence",
+        "description": "Assesses the clarity and logical flow of the summary, ensuring that it is easily understandable and maintains a coherent structure.",
+        "scale": "0-5, where 0 means very unclear and incoherent and 5 means very clear and well-structured.",
+        "instruction": "\n1- Read the provided summary carefully to understand its content.\n2- Evaluate the clarity of the summary. Is the language used straightforward and easy to understand?\n3- Assess the logical flow of ideas in the summary. Do the points connect well, and is there a clear progression of thought?\n4- Determine if the summary maintains a coherent structure. Are there clear sections or transitions that help guide the reader?\n5- Assign a score from 0 to 5 based on the clarity and coherence of the summary, ensuring to justify the score based on the observations made in the previous steps."
+    },
+    {
+        "name": "Conciseness",
+        "description": "Evaluates whether the summary is succinct while still providing all necessary information, avoiding unnecessary details.",
+        "scale": "0-5, where 0 means excessively verbose and 5 means perfectly concise.",
+        "instruction": "\n1- Read the summary provided by the contestant carefully.\n2- Identify the key points and crucial information from the original biomedical research paper that are necessary for understanding the study.\n3- Compare the summary against the identified key points to evaluate the inclusion of all necessary information.\n4- Assess the length of the summary relative to the amount of information it conveys, looking for any unnecessary details or verbosity.\n5- Rate the summary on a scale from 0 to 5 based on the criteria of conciseness, where 0 is excessively verbose and 5 is perfectly concise."
+    },
+    {
+        "name": "Technical Accuracy",
+        "description": "Checks for the accuracy of scientific terminology and concepts used in the summary, ensuring that it correctly reflects the research findings.",
+        "scale": "0-5, where 0 means significant inaccuracies and 5 means all technical terms are used correctly.",
+        "instruction": "\n1- Read the provided summary carefully, ensuring you understand the content and context of the original biomedical research paper.\n2- Identify key scientific terminology and concepts from the original research paper.\n3- Compare the identified terminology and concepts with those used in the summary.\n4- Assess whether the terminology used in the summary accurately reflects the findings of the research paper.\n5- Rate the summary on a scale from 0 to 5 based on the accuracy of the scientific terminology and concepts used."
+    },
+    {
+        "name": "Engagement and Readability",
+        "description": "Measures how engaging the summary is for the target audience, including aspects such as tone and style that enhance readability.",
+        "scale": "0-5, where 0 means very dull and unengaging and 5 means very engaging and enjoyable to read.",
+        "instruction": "\n1- Read the provided summary carefully to understand its content.\n2- Evaluate the tone of the summary. Consider if it is appropriate for the target audience and if it maintains a level of professionalism while being engaging.\n3- Assess the writing style of the summary. Look for clarity, flow, and the use of language that captures the reader's interest.\n4- Determine the overall engagement of the summary. Consider how likely it is to hold the reader's attention and encourage further reading.\n5- Assign a score from 0 to 5 based on your evaluation, where 0 is very dull and unengaging, and 5 is very engaging and enjoyable to read."
+    },
+    {
+        "name": "Originality",
+        "description": "Assesses the level of original interpretation or insight provided in the summary, distinguishing it from mere paraphrasing of the original text.",
+        "scale": "0-5, where 0 means no original insights and 5 means highly original interpretations or insights.",
+        "instruction": "\n1- Read the provided summary carefully.\n2- Compare the summary with the original biomedical research paper.\n3- Assess whether the summary includes original interpretations or insights that are not found in the original text.\n4- Evaluate the originality of the content on a scale from 0 to 5, based on the defined metric.\n5- Record your score and any comments that support your evaluation."
+    }
+]

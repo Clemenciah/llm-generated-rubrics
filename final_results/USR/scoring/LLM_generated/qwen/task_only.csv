@@ -1,0 +1,711 @@
+context,fact,annotators,response,model,Understandable,Natural,Maintains Context,Engaging,Uses Knowledge,Overall,Relevance_score,Relevance_reasoning,Engagement_score,Engagement_reasoning,Coherence_score,Coherence_reasoning,Creativity_score,Creativity_reasoning,Empathy_score,Empathy_reasoning,Knowledge_score,Knowledge_reasoning
+"are you a game of thrones fan ? 
+ no not really . i do nt have hbo so i do nt watch , you ? 
+ i think i have only watch about a few minutes of it ; i do n't get it or like the genre 
+ i tried to read one of the books and it was crazy to follow , i m more likely to watch documentaries or movies 
+ same here . i like hbo for some of the other things they air but not got . 
+
+","_nofact
+","['sm', 'fl', 'yf']",what else do you watch on hbo ? i need some good reccomendations .,New Human Generated,1,3,3,3,1,5,5,"The response is directly related to the context and the previous message, as it follows up on the discussion about HBO and seeks recommendations for other shows, which is relevant to the ongoing conversation.",4,"The response asks for recommendations, which is likely to elicit a detailed response and continue the conversation.",4,"The response logically follows the conversation by asking for recommendations, which is relevant to the previous mention of liking other HBO content. It maintains the flow and adds value by showing interest in the other person's preferences.",1,"The response does not incorporate any interesting fact and does not add a unique perspective to the conversation. It is a straightforward request for recommendations, which is not particularly creative.",3,"The response shows a moderate level of empathy by engaging with the other person's interest in HBO and seeking recommendations, which can help build a connection. However, it does not directly acknowledge or address the other person's feelings about not liking Game of Thrones or the difficulty they had with the book.",1,The response does not provide any factual information or interesting facts to evaluate for accuracy or depth.
+"hi , how are you ? 
+ i am well . i am learning about animals and how many there are on our planet . do you know how many ? 
+ i have no idea but would love to know . 
+ there are over 7 million animal species on our planet , insects contribute 1 million to that number 
+ wow . that 's a lot . i thought there would be a lot less than that . is there anything else you were surprised to read about in the article ? 
+ the amount of living animals on the planet currently is 20 quintillion ! how fascinating ! 
+ you 're right , that is fascinating . i just found out that jupiter has radio storms so strong that they can be picked up and heard by an am radio . 
+ wow ! i am curious to try that and to see if it works . do you know of any other fun facts about jupiter ? 
+ yes , according to canadian law , all radios are required to have at least 40 % of the music played be canadian . 
+ interesting . i would not think that there was even that much music to play . do you know of any canadian musicians ? 
+ yes , nickleback and avril lavigne ... and sorry , that was not about jupiter ... 
+ it was about radios though which is very interesting . did you know that soldiers in world war ii made radios from razorblades and pencils ? 
+ i did not . i thought it would have been more sophisticated than that . there is a website where you can listen to thousands of episodes of classic radio dramas for free 
+ wow . i hope no one hiccups on the radio . do you know why we hiccup ? 
+ i do not , why do we hiccup ? 
+
+","- hiccups are a holdover from early evolution when early land animals had both gills and lungs .
+","['sm', 'me', 'yf']","i do n't know . i know that hiccups are a holdover from early evolution when land animals had both gills and lungs .
+",Argmax Decoding,1,2,2,3,1,4,5,The response directly addresses the question about why we hiccup and provides a relevant and interesting fact that is directly related to the conversation.,4,"The response introduces a unique and intriguing fact about the evolutionary origins of hiccups, which is likely to pique the interest of the other person and encourage further discussion.",5,"The response logically follows the conversation and provides a relevant and interesting fact about hiccups, which is directly related to the previous question. The fact adds value to the conversation and maintains the flow.",2,"The response directly incorporates the interesting fact in a straightforward manner, but it does not add a unique perspective or creative twist to the conversation.",2,The response provides the interesting fact but does not show any empathy or understanding towards the other person's curiosity or the experience of learning about hiccups.,4,"The response accurately mentions the evolutionary origin of hiccups, which is a scientifically supported fact. The depth of information is moderate, as it provides a specific evolutionary context but does not elaborate further."
+"good evening . how are you ?
+","your persona: my brother is older than me.
+your persona: i hate math class.
+your persona: i ride the bus to school.
+your persona: i'm on the soccer team.
+your persona: i am 13 years old.
+","['shikib', 'maxine', 'yulan']","i'm 13 with an older brother .
+",Original Ground Truth,1,3,2,3,1,4,3,"The response is somewhat relevant as it introduces personal information, but it does not directly address the greeting or the context of the conversation.",4,"The response shares personal information that can lead to follow-up questions or comments, such as asking about the older brother or discussing experiences at that age.",4,The response is coherent as it logically follows the greeting and introduces a personal detail that could naturally lead to further conversation.,2,"The response is straightforward and does not incorporate the interesting fact in a particularly creative or unique way. It simply states the age and mentions having an older brother, which is a direct and literal use of the provided persona facts.",2,"The response does not directly address the other person's feelings or experiences, but it does share a personal detail which could be seen as an attempt to relate. However, it lacks a clear empathetic connection to the other person's current state.",2,The response is accurate but lacks depth as it only provides a basic fact without elaboration.
+"the telephone is a great invention , 
+ absolutely ! love the telephone ! 
+ it makes life a lot more easier , i can check the mail , call and even watch funny videos just by using my phone 
+ an iphone has more computing power than the entire us nuclear icbm deterrent . 
+ that is kind of scary i own an iphone , did nt know i was packing so much power in my front pocket 
+ yeah , better be careful ! people use phones for eveything now , i ve seen in movies they attach it to bombs and stuff . 
+ powerful weapons if used in the wrong hands , scary since everyone has access to them 
+ yeah , seriously . i hear there 's a company that will donate a day of clean water for every minute you do n't use your phone ! 
+ that is really admirable , donating water to children in need , an awesome campaign 
+ yeah great thing to do , water is essential . 
+ it is , just like phones have also become essential in our lives , interesting fact about phonebooks , its impossible to separate two of them with their pages fully overlapped 
+ lol i never tried but i believe you . do you like clothing ? did you know polo shirts were actually meant for tennis players ? 
+ i did nt know that , always thought it was meant for the polo sport or maybe that the polo brand created them 
+ same here , yeah a tennis player created them 
+ i looks like polo player took the credit then , did you hear about the cultural revolution in china ? 
+ no i have nt what s that about ? 
+
+","at billy mays ' funeral the pallbearers wore blue shirts and khaki pants
+","['sm', 'fl', 'yf']","basically the more clothes you wore the better you looked to others . 
+",Original Ground Truth,1,3,3,2,0,4,1,"The response does not relate to the context or the previous message. The conversation is about the history and uses of polo shirts, and the response introduces an unrelated topic about the quantity of clothes worn.",2,"The response does not relate to the fact provided and does not encourage further conversation on the topic of Billy Mays' funeral or the cultural revolution in China. It introduces a new topic that is not directly connected to the previous conversation, which may not engage the other person effectively.",1,"The response does not logically follow the conversation. The conversation was about the history and design of polo shirts, and the response introduces an unrelated topic about the quantity of clothing and social perception, which does not maintain the flow or add value to the conversation.",1,The response does not incorporate the provided interesting fact about Billy Mays' funeral. It also does not add a unique perspective to the conversation about clothing or the cultural revolution in China.,1,The response does not show any understanding or empathy towards the other person's feelings or the context of the conversation. It introduces a new topic that is not relevant to the previous discussion about the cultural revolution in China.,1,The response does not provide accurate or relevant information related to the interesting fact about Billy Mays' funeral. The response is off-topic and does not contribute to the conversation in a meaningful way.
+"hello , how are you doing today ?
+i am okay . i wish my children would visit more , though .
+i am sorry to hear that . i turn to my spouse in times like that .
+i do , as well . though my husband liked me more when i was younger and prettier .
+that's unfortunate . have you talked to anyone about this ?
+","your persona: i have two grown children who never visit.
+your persona: i used to be pretty but time has not been kind.
+your persona: i'm a 56 year old woman.
+your persona: i used to be a painter but now i'm a housekeeper.
+","['shikib', 'maxine', 'mckenna']","no , i keep to myself . my housekeeping job isn't exactly a social one .
+",Original Ground Truth,1,3,3,2,1,5,3,"The response is somewhat relevant as it continues the conversation about the speaker's personal life and touches on their current job, which is a logical follow-up to the previous message. However, it does not directly address the issue of talking to someone about the problem, which was the last question asked.",3,"The response provides a personal detail about the speaker's job, which could lead to further questions or discussion about their work life or social interactions.",4,"The response logically follows the conversation by continuing the theme of social isolation and lack of social interaction, which is consistent with the persona and the previous statements.",2,The response does not incorporate the interesting fact in a creative or unique way. It simply states a fact about the job without adding any original perspective or engaging with the conversation in a creative manner.,3,"The response shows a moderate level of empathy by acknowledging the isolation implied in the previous statement. However, it does not deeply engage with the emotional aspects of the situation or offer further support or understanding.",2,"The response does not provide any new or interesting fact, and it does not relate to the provided interesting fact. It is accurate in the context of the persona but lacks depth in terms of information."
+"do you like football ? 
+
+","the university of iowa 's locker room for visiting football teams is completely painted pink
+","['sm', 'er', 'yf']","i love it . do you know what color is the u of iowa visitor locker room ? 
+",Original Ground Truth,1,3,3,3,1,4,4,"The response is directly related to the context of football and introduces an interesting fact about a football team's locker room, which is relevant to the conversation.",4,"The response introduces an interesting and unusual fact about the University of Iowa's visitor locker room, which is likely to pique curiosity and encourage the other person to ask more questions or share their thoughts.",4,The response is coherent as it logically follows the previous question about football and introduces the interesting fact about the University of Iowa's locker room in a relevant manner.,4,The response creatively introduces the interesting fact about the University of Iowa's locker room in a way that engages the conversation partner and adds a unique perspective.,1,The response does not show any empathy or understanding towards the other person's feelings or experiences. It simply shifts the conversation to an unrelated fact.,3,"The response accurately mentions the interesting fact about the University of Iowa's visitor locker room being painted pink, but it does not provide additional depth or context about why this is the case or any related information."
+"so , i 'm reading the latest film from studio ghibli is out the tale of princess kaguya . dunno if you 're familiar with them , but studio ghibli has made a lot of great animated films , like spirited away , and princess mononoke 
+ i do n't think i have heard of them . i have heard that one of the directors recently passed away , and his last film was nominated for an academy award 
+ yeah , sadly , disney ( which owns the american rights to the films ) does n't tend to promote them very much . i think they 're worried they 'll cut into their "" home grown "" market . anyway , dunno if you even like animated movies , but they 're worth checking out . 
+ i do n't watch them very often . apparently there was a showing of the recent film in a park in d.c . that 's one u.s . city i have n't been to 
+ sadly , i have n't been to dc either , although i 've always wanted to visit there . apparently there 's a lot of interesting going down this summer . they 're having a crab feast at the navy - marine corps stadium . they 'll have 100 gallons of crab soup ! can you imagine that much soup ? 
+
+","from left , emma baker , daniel saperstein and taylor mulitz of flasher will perform this summer 's final fort reno concert . ( jared soares for the washington post ) monday , july 30 25th birthday celebration at national postal museum : celebrate 25 years of this institution devoted to the long history of the u.s . postal service with daytime festivities that include cupcakes , birthday postcards , a photo booth and a special scavenger hunt with prizes . 11 a.m. to 2 p.m. free . tuesday , july 31 "" the color purple "" at kennedy center : the tony award - winning musical revival , based on the pulitzer prize - winning alice walker novel of the same name , features jazz , ragtime , gospel and blues with a story about an african american woman named celie surviving poverty in the south during the 1930s . through aug . 26 . $ 69-$149 . ask a harry potter scholar at southeast neighborhood library : come to this talk from tolanda henderson , a librarian from george washington university , who has used the j.k . rowling book series as a text in academia . commune with other muggles who prove that it 's not just kids and young adults who obsess about the boy who lived . 7 p.m. free . wednesday , aug . 1 rico nasty at the fillmore silver spring : two summers ago , rico nasty was a teenage loudmouth from the maryland suburbs , generating buzz on youtube for spitting surly , rainbow - tinted rhymes . now , after signing a deal with atlantic records , the 21-year - old singer is on her way to becoming one of the brightest voices in rap music .
+","['sm', 'me', 'er']","yes , i think it was a great show , you should check it out and get it up . have you ever listened to ella fitzgerald ?
+",Nucleus Decoding (p = 0.7),0,3,1,2,0,3,1,"The response is not directly related to the context and the previous message. The conversation was about events in D.C., and the response shifts to a question about Ella Fitzgerald, which is not relevant to the ongoing discussion.",2,"The response introduces a new topic (Ella Fitzgerald) without directly connecting it to the previous discussion about events in D.C., which may not encourage further interaction on the current topic of interest.",1,"The response does not logically follow the conversation. It abruptly shifts to a new topic without any clear connection to the previous discussion about Studio Ghibli films, DC events, or the crab feast. The mention of Ella Fitzgerald is also out of context.",1,The response does not incorporate the provided interesting fact and does not add a unique perspective to the conversation. It is a generic suggestion that does not demonstrate creativity.,1,The response does not show understanding or empathy towards the other person's feelings or experiences. It abruptly changes the subject to a different artist without acknowledging the previous discussion about Studio Ghibli or the shared interest in visiting DC.,1,"The response does not provide any accurate or relevant information related to the interesting fact provided. It shifts the topic to Ella Fitzgerald, which is unrelated to the context of the conversation and the provided fact."
+"hi , how is it going . my name is michelle .
+hi . i'm justin . i just got done relaxing in the tub .
+that sounds great . i love to tan . what sort of music do you listen to ?
+i listen to a bit of everything . it helps me focus for my chess tournaments
+britney spears is my favorite ! who is yours ?
+right now i listen to a lot of mumford and sons .
+do you have a weight problem like me ?
+i am a little self conscious . thirty is not as easy as i remember twenty being .
+what do you like to eat ? i diet all the time .
+i tend to stay in and cook for myself since i quit drinking a few years ago .
+that is probably a lot healthier and saves you money . i eat out all the time .
+my dad had me hooked on high protein foods like fish and chicken when i was training .
+what are you training for ?
+","your persona: i'm in my thirties.
+your persona: i love taking bubble baths.
+your persona: i like to play chess.
+your persona: i do not drink alcohol.
+","['shikib', 'mckenna', 'yulan']","i am competing for a national chess tournament . it helps me keep focus
+",Original Ground Truth,1,3,3,3,1,5,5,"The response is highly relevant as it directly addresses the previous question about what the person is training for, and it ties back to the earlier mention of chess tournaments.",4,"The response introduces a specific and interesting fact about competing in a national chess tournament, which can naturally lead to further questions or comments about the tournament, chess strategies, or the preparation process.",4,"The response logically follows the conversation by maintaining the context of personal interests and activities. It also ties back to the earlier mention of chess, which adds consistency and relevance.",4,"The response creatively ties the interesting fact about chess into the conversation by linking it to a national chess tournament, which adds a unique perspective and personal goal.",2,The response focuses on the speaker's own interests and activities without acknowledging or showing understanding of the other person's feelings or experiences.,3,"The response accurately mentions the individual's involvement in chess, which is consistent with the persona. However, it does not provide much depth beyond stating the competition, which could have been elaborated on."
+"my name is joan , and i live in illinois . i'm a kindergarten teacher .
+hello joan ! i'm chrissy from minnesota . i'm building a robot for my work .
+that sounds exciting ! i'm clumsy with electronics .
+","your persona: i helped design the game starcraft.
+your persona: i'm working on a building a robot to be my body double.
+your persona: i have an allergy to water.
+your persona: i am a famous twitch streamer.
+your persona: i am a recluse.
+","['shikib', 'maxine', 'mckenna']","i am a huge sports fan . i am a huge fan of gaming .
+",Seq2Seq,1,3,1,3,1,3,2,The response introduces new topics (sports and gaming) that are not directly related to the context or the previous message about building a robot and being clumsy with electronics.,2,"The response does not directly relate to the previous conversation or the provided interesting facts, and it does not encourage further interaction or conversation.",2,The response does not logically follow the conversation. It introduces a new topic (sports and gaming) that is not related to the previous exchange about building a robot and being clumsy with electronics.,1,The response does not incorporate any of the provided interesting facts and lacks originality or a unique perspective.,1,"The response does not show any understanding or empathy towards the speaker's feelings or experiences. It introduces unrelated personal information about being a sports fan and a fan of gaming, which does not connect with the speaker's comment about being clumsy with electronics.",1,The response does not provide any accurate or in-depth information related to the interesting facts provided. It is a general statement that does not contribute to the knowledge aspect of the conversation.
+"d.c . area and all of its attractive locations , sure would be nice to visit it 
+ i totally agree with you . i would love to go to the national museum of natural history . 
+ i would love to go there too , i hear the building is just awesome 
+ they say there are some great coffee shops in the area too . some politicians have been seen at them . 
+ yeah around the capitol hill area there is a great coffee store called port city java 
+ i bet there are some great restaurants too . 
+ yeah there is this great thai place over on takoma park , really good , 
+ i imagine that one is great for if you want to eat healthy . they probably have lots of vegetables and tofu . 
+ yeah i hear they have one of the best tofus in the country , so it would be nice to eat there specially if you have food allergies 
+ do you know if the area has any great theaters for movies and plays ? 
+ thare are , some of them are the kennedy center , imagination stage , adventure theater and ipic theatre , a lot of choices there 
+ i bet the ipic theater would be great to see incredibles 2 on . 
+ i bet it was , its a nice stage , did you watch that movie by the way ? 
+ i have n't seen it yet . i have seen the original though . have you seen either or both of them ? 
+ i have seen both and i must say i liked the first one better althought the cast of the 2nd part got an upgrade 
+ i 'm not familiar with the cast of the second one . are they big name actors / actresses ? 
+ yeah have you watched breaking bad ? well the actor that played saul is one of the new voices 
+ oh okay ! say , i heard that the director did one of the voices too . i think he did edna mode . 
+ yeah he did , its interesting how he picked the cast for the movie 
+
+","13 years before the movie "" incredibles ii "" came out , there was a sequel to the first incredibles that exists in a video game form , and is called "" the incredibles : rise of the underminer "" .
+","['sm', 'me', 'er']","yeah , he was the perfect director for the movie . i guess he was in the movie as a kid
+",Nucleus Decoding (p = 0.7),1,3,3,2,0,3,2,"The response does not mention the interesting fact about the video game sequel and instead provides a comment on the director's role, which is not directly related to the previous message about the director's casting choices.",2,The response does not introduce the interesting fact and does not encourage further conversation about the topic. It is a brief and somewhat disconnected statement that does not build on the previous discussion about the director's involvement.,2,"The response does not maintain the logical flow of the conversation. It introduces a new fact about the director being in the movie as a kid, which is not directly related to the previous discussion about the cast and the director's role in the movie. The provided fact about the video game sequel is not used, which could have added more value to the conversation.",1,The response does not incorporate the provided interesting fact and does not add a unique perspective to the conversation.,2,"The response does not acknowledge or show understanding of the other person's interest in the movie or the director's involvement. It also does not connect to the interesting fact provided, which could have been an opportunity to show empathy and shared interest.",1,"The response does not provide accurate or relevant information about the fact mentioned. It does not address the video game sequel and instead makes an unrelated comment about the director being in the movie as a kid, which is not accurate or relevant to the provided fact."
+"hi , how are you doing ?
+hi , i am doing well , how are you ?
+can't complain . i had a wonderful afternoon in the park .
+oh , that is nice . i like being in parks especially in nice weather
+yes . the weather is perfect here now . what do you like to do ?
+i like to watch nascar racing and sometimes ufc
+that sounds fun ! i've time to do that since i'm out of work right now .
+","your persona: i have been working since i was sixteen years old.
+your persona: in my free time i like to watch nascar racing and ufc.
+your persona: my favorite band is aerosmith.
+your persona: my favorite food is mexican food.
+","['shikib', 'maxine', 'yulan']","how long have you been working at your current place ?
+",Original Ground Truth,1,3,2,2,0,3,3,"The response is somewhat relevant as it follows up on the previous mention of having time due to being out of work, but it does not directly connect to the immediate context of discussing hobbies and activities.",4,The response is specific and directly related to the previous statement about working. It shows interest in the other person's life and can lead to a more detailed conversation about their work history and experiences.,1,The response 'how long have you been working at your current place?' does not logically follow the previous statement about being out of work. It introduces a topic that contradicts the previous context.,1,The response does not incorporate the interesting fact or add a unique perspective to the conversation. It is a straightforward question that does not demonstrate creativity.,2,The response does not directly acknowledge or show empathy towards the other person's current situation of being out of work. It also does not relate to the shared interests in NASCAR and UFC.,1,The response does not provide any factual information or interesting fact. It is a follow-up question that does not contribute to the knowledge metric.
+"hello , how are you ? where abouts are you ?
+i'm in chicago . where are you ?
+in scotland . is chicago as cold and wet as it is here ?
+yes , but i am allergic to water . this is very unfortunate .
+it is . how do you keep clean ?
+i don't go outside much . i stay clean this way .
+i want to go outside . i managed to break my arm skateboarding so i m stuck indoors .
+i only stream to my 100 , 000 subscribers on twitch . i do not play real sports
+100k is very impressive . how long did it take to get that many ?
+since i helped make starcraft , my name was already out there . 6 months .
+made as in developed ? that s very cool .
+","your persona: i helped design the game starcraft.
+your persona: i've an allergy to water.
+your persona: i am a recluse.
+your persona: i'm a famous twitch streamer.
+your persona: i am working on a building a robot to be my body double.
+","['shikib', 'maxine', 'mckenna']","just give me a couple fish and some cheeseburgers to grill and i am happy
+",KV-MemNN,1,3,1,3,0,3,1,"The response does not relate to the context of the conversation, which is about the individual's achievements and background, including their involvement in game development and streaming. The response about fish and cheeseburgers is not relevant to the ongoing discussion.",2,"The response does not directly engage with the interesting facts provided or the previous conversation about the individual's background and achievements. It introduces a new topic (food preferences) that does not naturally follow the flow of the conversation, potentially reducing engagement.",1,"The response does not logically follow the conversation. The previous context was about the individual's achievements and background, particularly related to gaming and streaming. The response about fish and cheeseburgers is a non sequitur and does not add value to the conversation.",1,The response does not incorporate any of the provided interesting facts and does not add a unique perspective to the conversation.,1,The response does not address the other person's feelings or situation. It focuses on the speaker's own preferences without showing any understanding or empathy towards the other person's frustration about being stuck indoors due to a broken arm.,1,"The response does not provide any factual information or interesting facts related to the conversation. It simply states a preference for food, which does not contribute to the depth or accuracy of knowledge."
+"did you see crazy rich asians ? 
+ no i have n't . i heard it was good . 
+ i have not yet either but i am aware of it 's cultural impact . it was made from a novel . apparently it is a very good romantic comedy . 
+ my mother like it . i think it stars michelle yeoh , henry golding and constance wu , right ? 
+ it does . apparently the basic premise is that a woman is engaged to a man and when she goes to meet his family discovers that he is insanely wealthy . his mother rejects her due to her less affluent background . 
+ if i remember correctly , jon m chu is the director . 
+ yes he is . it was also the first movie to feature an all - asian cast in hollywood in more than 20 years which is quite the accomplishment and i 'm glad that it did well . asians seem very underrepresented in film . 
+ the movie is 121 minutes long , which is just right and is pg-13 . 
+ that makes it accessible to a bigger audience which is good because then more asian - americans can see themselves represented on screen . 
+ well , lets switch topics . are you a science person . , earth is the 3rd planet from the sun . it is also the only astronomical object known to harbor life . 
+ i am a little . i enjoy learning about it . i was aware of those facts . i also know that if we viewed the entire earth 's history as a 24 hour period , humans would only represent 1 minute and 17 seconds of that day . that is a mind blowing stat . 
+ this is mind blowing . thank god for jupiter . it saves earth from a lot of asteroids heading toward us . 
+ that is really surprising since that planet is mostly compromised of gas . we do not even know if there is any solid land there . i wonder how it takes the impact first in this case ? 
+ it 's very interesting . so is the fact that the sun is 4x less dense than earth . 
+ i know it is much larger but i do n't think it has any solidity to it so that 's interesting . another science fact is that when earth was formed a day was only 5.5 hours long . 
+ i did n't know that . i wonder why . there is a place on earth where there is less gravity than the rest of the planet . it is the hudson bay region of canada . 
+ i wonder how much affect that has ? is it enough to change weights in any way ? i wonder . i do also know that we are running out of helium and will essentially be out of the gas by the end of the 21st century . 
+
+","new google employees are called ' nooglers ' and are given a propeller beanie cap to wear on their first friday .
+","['sm', 'me', 'fl']","yeah , and what 's funny is that new employees employees are called "" nooglers "" on their basketball field .
+",Nucleus Decoding (p = 0.7),0,1,1,2,1,1,1,The response introduces a new topic (Google employees) that is not related to the previous conversation about science and facts about the Earth. The fact about 'nooglers' is interesting but does not fit the context of the ongoing discussion.,3,"The response introduces an interesting fact about Google's culture, which could be engaging for tech enthusiasts or those interested in company cultures. However, the mention of 'basketball field' seems out of place and might confuse the conversation flow.",1,"The response introduces a new topic (Google employees) that is not related to the ongoing conversation about science and facts about the Earth. The fact about 'nooglers' is not relevant to the previous discussion, disrupting the logical flow and consistency of the conversation.",2,"The response attempts to incorporate the interesting fact but does so in a way that is not entirely accurate or creative. The mention of 'nooglers' is relevant, but the context of the basketball field is not a creative or original addition and seems out of place.",1,"The response does not show any empathy or understanding towards the other person's feelings or experiences. It introduces a new fact but in a context that is not relevant to the ongoing conversation about science and space, and it misrepresents the fact about 'nooglers'.",2,"The response contains an inaccurate fact. New Google employees are indeed called 'nooglers,' but the statement about wearing a propeller beanie cap on their first Friday is not mentioned in the provided fact and is likely incorrect. The response also incorrectly states that they are called 'nooglers' on their basketball field, which is not part of the provided fact."
+"good morning how old are you i am 34
+i am much older than that . my grandchildren are in their thirties
+do you have any pets ? my two dogs are my everything .
+","your persona: i have amazing children and grandchildren.
+your persona: i had cancer but its gone now.
+your persona: i do not have a smartphone.
+your persona: i am retired and living the great life.
+","['shikib', 'mckenna', 'yulan']","sounds good ! i have also 6 cats .
+",KV-MemNN,1,3,3,3,0,3,2,The response introduces a new topic (having cats) which is not directly related to the previous message about grandchildren or the context of the conversation.,4,"The response introduces a new topic (having pets) and shares a personal detail (having 6 cats), which can lead to further questions or sharing of similar experiences.",2,"The response introduces a new topic (having cats) which is not directly related to the previous conversation about age and grandchildren. While it is a friendly response, it does not maintain the logical flow and consistency of the conversation.",3,The response introduces a new element (6 cats) which is somewhat creative but does not directly relate to the interesting fact provided. It adds a unique perspective but does not fully utilize the potential of the fact.,2,"The response does not acknowledge the other person's statement about their dogs being their everything, and instead shifts the focus to the responder's own pets. This shows a lack of empathy and understanding of the other person's feelings.",3,"The response introduces a new fact (having 6 cats) that is not directly related to the conversation but is accurate and adds a personal detail. However, it does not provide deep information or context about the cats or how they relate to the speaker's life."
+"every us president with a beard has been a republican , that 's odd . 
+ that is odd . so what do you think of trump . 
+ i like trump 
+ me too . i think he needs to calm down a little bit sometimes but he is a smart dude . 
+ yeah i never liked trump before he was president . i think he 's doing a great job with all that he 's been dealt . 
+
+","there has n't been a us president who was n't a republican or a democrat since 1853
+","['sm', 'er', 'fl']","yes i think he should have switched to what they were doing in 1995 .
+",Nucleus Decoding (p = 0.7),0,3,2,2,0,3,1,"The response does not directly relate to the context or the previous message. It introduces a new idea about switching to a practice from 1995, which is not clearly connected to the discussion about Trump or the relevance of the fact about US presidents.",2,The response does not directly engage with the previous statements about Trump and introduces a vague and unrelated suggestion that does not clearly connect to the interesting fact provided. It does not encourage further conversation or interaction.,1,The response does not logically follow the conversation. The fact about presidents not being from a third party since 1853 is not relevant to the discussion about Trump's behavior and performance. The suggestion that Trump should have switched to what they were doing in 1995 is unclear and does not add value to the conversation.,1,The response does not effectively incorporate the provided fact and lacks a unique perspective or creative use of the information.,1,The response does not show any understanding or empathy towards the other person's feelings and experiences. It introduces a new and unrelated idea that does not connect with the previous statements or the emotions expressed.,1,The response does not provide any factual information related to the interesting fact about US presidents. It fails to address the depth or accuracy of the provided fact.
+"hi there , do you watch the nfl ? 
+ i sure do . do you have a favorite team or player ? 
+ i sure do . i love the patriot and tom is amazing . do you have one ? 
+ the guys is awesome and now also a book author . did you hear about that ? 
+ oh yeah i heard he wrote that book the tb12 method , the athelete 's bible but have not read it yet 
+ he is everywhere . i want to read that book but i also want to watch the documentary too 
+ same here . do you know he has a favorite ice cream flavor ? 
+ oh sure it is avocado and i am not surprised he eats very healthy all the time 
+ yup pretty much . did you know women are allowed to play in the nfl ? 
+ that is pretty cool that there is no written rule against them and hope to see them in the field soon 
+ yeah i hope so too . did you know engineers make more int heir lifetime ? 
+ yeah and i wonder if that fact that they have longer careers has anything to do with that 
+ that makes sense . the nfl is using tracking chips on the players now . 
+ yes they are and they are collecting many stats such as velocity and rotation and others 
+
+","former partiots rb benjarvus green - ellis has never fumbled the football in his nfl career .
+","['sm', 'er', 'yf']","i know . do you know who benjarvus green - ellis is ?
+",Nucleus Decoding (p = 0.5),1,3,2,2,0,3,3,"The response introduces a new topic (BenJarvus Green-Ellis) which is not directly related to the previous conversation about women playing in the NFL and engineers' salaries. However, it is somewhat relevant as it pertains to the NFL, which is a recurring theme in the conversation.",3,"The response introduces a new player, BenJarvus Green-Ellis, which can lead to further discussion about his career and achievements. However, it does not directly build on the previous conversation about women in the NFL or player tracking, which might limit immediate engagement.",3,"The response introduces a new topic (BenJarvus Green-Ellis) which is not directly related to the previous conversation about women in the NFL and player tracking technology. However, it does maintain a connection to the NFL, which is the overarching theme of the conversation.",1,"The response does not effectively incorporate the interesting fact about BenJarvus Green-Ellis. It merely asks if the other person knows who he is, without adding any unique perspective or creative element.",1,The response does not show understanding or empathy towards the other person's feelings or experiences. It simply asks a question that may not be relevant to the current emotional context of the conversation.,1,"The response does not provide any new or deep information about BenJarvus Green-Ellis, only asking if the other person knows who he is. The interesting fact provided is not utilized in the response."
+"hello i am 60 years old
+hi ! i just sat down to listen to some classical music .
+i love classical music as a librarian its my favorite
+being a christian i also like christian rock . do you like to read ?
+i love to read , i have been to spain and while there i read more than ever
+never been there . i love to ride on my tractor . i love the outdoors .
+i'll be retiring in a few years , do you like camping ?
+i do ! i am very different from my sister . she is a pole dancer in a club .
+that is a big difference . when you camp , how do you cook ?
+with a campfire and cast iron pans .
+i will love relaxing in nature .
+i just purchased a beautiful red sweater . red is my absolute favorite color .
+that's perfect for the holidays . i love to sew sweaters and hoodies .
+i love to crochet ! it is time to start thinking about the holidays !
+yes , i sometimes use a loom for crochet too .
+","your persona: i can drive a tractor.
+your persona: i enjoy listening to classical music.
+your persona: my favorite color is red.
+your persona: i'm a christian.
+your persona: my sister is a pole dancer.
+","['shikib', 'maxine', 'mckenna']","cool ! do you celebrate christmas ? as a christian , it's one of my favorite times of the year !
+",New Human Generated,1,3,2,3,1,4,5,"The response is highly relevant as it directly follows up on the previous mention of the holidays and ties in the speaker's Christian faith, which is a significant part of the conversation context.",4,"The response introduces a personal aspect (being Christian) and asks a question that can lead to further discussion about holiday celebrations, which is likely to engage the other person in the conversation.",4,"The response logically follows the conversation by continuing the discussion about the holidays and ties in the speaker's Christian faith, which is relevant to the context.",3,"The response incorporates the persona's Christian faith and links it to the holiday season, which is relevant and adds a personal touch. However, it does not introduce a new or unique perspective beyond stating a personal preference.",4,"The response shows a genuine interest in the other person's experiences and aligns with their shared values, such as being Christian. It also opens up a new topic that can be explored further, which is a good way to show empathy and connection.",3,"The response accurately reflects the persona's Christian faith and the significance of Christmas, but does not provide any new or deep information."
+"good morning how old are you i am 34
+i am much older than that . my grandchildren are in their thirties
+do you have any pets ? my two dogs are my everything .
+","your persona: i have amazing children and grandchildren.
+your persona: i had cancer but its gone now.
+your persona: i do not have a smartphone.
+your persona: i am retired and living the great life.
+","['shikib', 'mckenna', 'yulan']","no pets . i am retired so i love to travel . pets would slow me down
+",Original Ground Truth,1,3,3,3,1,5,4,"The response is relevant as it continues the conversation about personal life and interests, and it logically follows the previous message by addressing the question about pets. The fact about being retired is also relevant as it provides context for not having pets.",4,"The response introduces a new topic (travel) that can lead to further conversation, and it provides personal information that can encourage the other person to ask more questions or share their own experiences.",4,"The response logically follows the conversation by addressing the question about pets and provides a relevant reason for not having pets, which is consistent with the persona of being retired and enjoying travel.",4,"The response creatively integrates the fact about being retired and living a great life, while also providing a unique perspective on why not having pets suits the speaker's lifestyle.",2,"The response does not directly address the other person's feelings or experiences related to their pets. It shifts the focus to the responder's own situation, which may not be empathetic in this context.",2,"The response does not provide any new or interesting facts, and it does not align with the provided interesting fact about having amazing children and grandchildren. The information is accurate but lacks depth."
+"i just got back from my salsa dance lessons
+that sounds like a really fun time . i was just meditating
+that is so relaxing . my lite brite patterns are relaxing too
+","your persona: i quit my job to pursue my spirituality full time.
+your persona: i'm a buddhist.
+your persona: i have not spoken in three months.
+your persona: i like meditation.
+your persona: i live in alaska.
+","['shikib', 'mckenna', 'yulan']","it really is . i quit my job to pursue my buddhist spirituality full time .
+",New Human Generated,1,3,3,3,1,5,3,"The response is somewhat relevant as it continues the discussion on relaxation and personal practices, but it introduces a significant personal detail that shifts the focus away from the shared experience of the previous messages.",4,The response shares a significant personal decision that is likely to pique interest and encourage further questions or discussion about the individual's experience and journey.,4,"The response is coherent with the conversation as it follows the theme of relaxation and personal practices. The fact about quitting a job to pursue spirituality is relevant and adds a personal touch, enhancing the conversation.",4,"The response creatively integrates the interesting fact about quitting a job to pursue spirituality, adding a unique and personal perspective to the conversation.",3,"The response shares a personal and significant life decision, which can be seen as an attempt to connect on a deeper level. However, it does not directly acknowledge or respond to the other person's experience of salsa dancing, which might make the conversation feel one-sided.",4,"The response accurately reflects the persona's facts, such as quitting the job to pursue spirituality and being a Buddhist. The depth of the information is moderate, as it ties the personal action to the spiritual belief."
+"hi there how are you ?
+","your persona: my family has raised horses for a generations.
+your persona: i want to be a lawyer.
+your persona: i was raised on a horse farm.
+your persona: i am from a small town.
+","['shikib', 'mckenna', 'yulan']","good i am studying to be a lawyer right now
+",Original Ground Truth,1,3,3,3,1,5,3,"The response is somewhat relevant as it connects to the persona's goal of becoming a lawyer, but it does not directly address the greeting or the context of the conversation.",4,The response provides a personal detail that aligns with the persona and can lead to further questions or discussion about the individual's aspirations and experiences.,4,The response is coherent as it logically follows the greeting and introduces a personal detail that is relevant and adds value to the conversation.,1,The response does not incorporate the interesting fact or add a unique perspective to the conversation. It simply states a fact about the persona without creativity.,1,The response does not show any understanding or empathy towards the other person's feelings or experiences. It is focused on the responder's own goals without acknowledging the other person.,1,"The response does not provide any new or interesting fact, and it only restates the persona information. The depth of information is lacking."
+"hello , do you like music ? i play the miano and guitar ! also i sing !
+that is nice i wish i played an instrument
+i can teach you , i am a musician and a music teacher !
+that's cool i do not like my job
+i work as a custodian , helping to pay the bills . what is your job ?
+i've a job in a nursing home
+ah yeah my parents are not supporting my dream to become a musician
+maybe if you build up a following you'll be able to do that full time
+i really wish they would accept it , but they keep telling me to get a real job .
+yeah its hard when you aren't making money
+i hope i'll make it big one day then i'll show them they are wrong
+that's a good goal do you have a family
+yeah i got my mother and father and a boyfriend .
+is your boyfriend supportive of your music
+yes he's supportive ! do you have any dreams ?
+","your persona: i work at a nursing home.
+your persona: i am overweight and unhappy.
+your persona: my wife left me and took my children.
+your persona: i spend most of my time on facebook when i am not working.
+your persona: i don't believe in god.
+","['shikib', 'mckenna', 'yulan']","i do not , i am a nurse
+",Seq2Seq,1,3,3,2,1,3,2,"The response 'i do not , i am a nurse' is not relevant to the context and the previous message. The previous message asked about the person's dreams, and the response does not address this question. Instead, it provides a statement about the person's job, which is not directly related to the topic of dreams or aspirations.",1,The response is brief and does not encourage further conversation or interaction. It does not build on the previous statements or introduce new topics for discussion.,2,"The response 'i do not , i am a nurse' does not logically follow the previous question about having dreams. It also introduces a new piece of information (being a nurse) that is not consistent with the previously provided persona (working at a nursing home, but not specified as a nurse).",1,The response does not incorporate the interesting fact or add a unique perspective. It is a simple and straightforward answer that lacks creativity.,1,The response does not show any empathy or understanding towards the other person's feelings or experiences. It simply states a fact about the responder's job without acknowledging or relating to the other person's situation.,1,The response does not provide any interesting fact or additional information. It simply states a job role without any depth or accuracy assessment needed.
+"morning ! are you a comedy fan ? 
+ morning ! yes , some of it . have you watched anything good recently ? 
+ kung fu hustle . ever seen it ? it 's hilarious . 
+ i have n't ! what is it about ? does it have bruce lee in it ? 
+ no , it 's much more recent . steven chow directed it . bill murray loved it too . 
+
+","bill murray thinks kung fu hustle is "" the supreme achievement of the modern age in terms of comedy "" .
+","['sm', 'me', 'yf']","huh , i 'm not into bill murray . so i wonder why he likes it . 
+",Original Ground Truth,1,2,3,2,0,3,3,"The response is somewhat relevant as it acknowledges the fact about Bill Murray's opinion, but it shifts the focus to the speaker's personal dislike of Bill Murray, which is not directly related to the discussion about 'Kung Fu Hustle'.",3,"The response introduces a personal opinion that could lead to further discussion about Bill Murray's taste or the respondent's preferences, but it does not directly engage with the interesting fact provided.",2,"The response introduces a personal opinion about Bill Murray, which shifts the focus away from the movie and its qualities. It does not build on the previous statement about Bill Murray's appreciation of the film, thus disrupting the flow of the conversation.",1,The response does not effectively incorporate the interesting fact about Bill Murray's opinion. It dismisses the fact and does not add a unique perspective to the conversation.,1,"The response shows a lack of empathy by dismissing the other person's interest and the positive opinion of Bill Murray, without attempting to connect or understand the other person's enthusiasm.",1,"The response does not provide any new or deep information about the fact mentioned. It only expresses a personal opinion about Bill Murray, which does not contribute to the knowledge about 'Kung Fu Hustle' or Bill Murray's opinion of the film."
+"every us president with a beard has been a republican , that 's odd . 
+ that is odd . so what do you think of trump . 
+ i like trump 
+ me too . i think he needs to calm down a little bit sometimes but he is a smart dude . 
+ yeah i never liked trump before he was president . i think he 's doing a great job with all that he 's been dealt . 
+
+","there has n't been a us president who was n't a republican or a democrat since 1853
+","['sm', 'er', 'fl']","i think that would be a good idea . there has n't been a president who was n't a republican or democrat since 1853 .
+",Nucleus Decoding (p = 0.3),0,2,3,2,1,3,3,"The response introduces a new fact that is related to the political context of the conversation but does not directly connect to the immediate discussion about Trump. The fact is relevant to the broader topic of US presidents and their political affiliations, but it does not directly address the previous comments about Trump's behavior or performance.",3,"The response introduces an interesting historical fact that could lead to further discussion about the political landscape and the reasons behind this trend. However, it does not directly build on the previous comments about Trump, which might limit its engagement potential.",2,"The response introduces a new fact that is not directly related to the current flow of the conversation, which is focused on opinions about Trump. While the fact is interesting, it does not maintain the logical flow and consistency of the conversation.",2,The response incorporates the interesting fact but does not add a unique perspective or creative element to the conversation. It simply states the fact without integrating it into the discussion about Trump or the current political climate.,2,The response does not directly address the emotional or personal aspects of the conversation. It introduces a fact but does not show understanding or empathy towards the other person's feelings or experiences.,5,"The response accurately states the fact that there hasn't been a president who was not a Republican or Democrat since 1853. The information is both accurate and provides a specific historical context, which adds depth to the conversation."
+"hello do you enjoy sports ?
+yes . baseball , tennis and the olympics are my favorite sports . how about you ?
+i really enjoy golf and combat fighting , what occupation do you currently have ?
+i'm an author , blogger and freelancer . what is your occupation ?
+i am a it i've been working there for a very long time !
+do you have an information technology degree ?
+yes did you attend college at all ?
+i earned an undergraduate degree in communications but have not found related work .
+where are you currently located ? i live in florida .
+i live in st . louis , missouri . are there any interesting landmarks near you ?
+not really but i do enjoy to travel ! have you ever traveled anywhere ?
+i have traveled to cleveland , cincinnati , miami , niagara falls and the bahamas .
+are you a male or female ? i am a 20 year old male
+","your persona: my boyfriend and i are moving into an apartment together next week.
+your persona: i'm interested in photography and like taking pictures.
+your persona: i am an elementary school teacher.
+your persona: i am fluent in english spanish and french.
+","['shikib', 'mckenna', 'yulan']","i'm female . i love photography and i'm always taking pictures .
+",New Human Generated,1,3,3,3,1,5,4,"The response is relevant as it answers the previous question about gender and introduces a personal interest in photography, which is a natural continuation of the conversation.",4,"The response introduces a personal interest (photography) which can lead to further discussion about the hobby, equipment, favorite subjects, or even sharing photos. This opens up multiple avenues for continued interaction.",4,The response logically follows the conversation by answering the previous question about gender and introduces a relevant personal interest that adds to the conversation.,2,The response incorporates the interesting fact about photography in a straightforward manner but does not add a unique perspective or additional creative elements.,2,The response does not show much empathy or understanding towards the other person's feelings and experiences. It simply states a fact about the responder without connecting to the other person's interests or experiences.,2,"The response accurately reflects the persona's interest in photography, but does not provide any additional depth or information beyond the basic fact."
+"did you know that facebook and twitter work together on some issues ? they are actually competitors . 
+ no , i did n't know that . what kind of issues do they work together on ? 
+ the baby sitter - rating system broke the social networks ' rules . 
+
+","facebook and twitter are taking action against an automated babysitter - rating system reported on last week by the washington post , saying the service broke the social networks ' rules on user surveillance and data privacy.predictim , a california - based start - up , analyzes babysitters ' online histories , including on facebook and twitter , and offers ratings of whether they are at risk of drug abuse , bullying or having a & ldquo;bad attitude.&rdquo ; facebook said it dramatically limited predictim&rsquo;s access to users ' information on instagram and facebook a few weeks ago for violating a ban on developers ' use of personal data to evaluate a person for decisions on hiring or eligibility.facebook spokeswoman katy dormer said the company also launched an investigation earlier this week into predictim&rsquo;s extraction , or & ldquo;scraping,&rdquo ; of personal data . that investigation is ongoing and could include further penalties.twitter spokesman nick pacilio said the site conducted its own investigation earlier this week and revoked predictim&rsquo;s access to important site tools & mdash ; known as application programming interfaces , or apis & mdash ; that would allow the start - up to review and analyze babysitters ' tweets on a massive scale . "" we strictly prohibit the use of twitter data and apis for surveillance purposes , including performing background checks,&rdquo ; pacilio said.the crackdown , which was first reported by bbc news , could restrict predictim&rsquo;s ability to analyze babysitters with what it called & ldquo;advanced artificial intelligence&rdquo ; and sell parents the results . the service was heavily criticized for offering unproven and potentially inaccurate results that could affect a babysitter&rsquo;s life.but predictim&rsquo;s executives said tuesday they were undeterred and intend to continue pulling publicly available data from facebook , twitter and instagram . predictim chief executive and co - founder sal parsa said he also believed the social media giants ' reaction was at least partially rooted in a competitive rivalry over personal data use.&ldquo;twitter and facebook are already mining our data .
+","['sm', 'fl', 'yf']","i think that is a good thing . i think it 's a good thing they do n't like the concept of a person and a neutral person .
+",Argmax Decoding,0,2,2,1,0,2,2,"The response does not directly address the context of the conversation, which is about social networks taking action against a babysitter-rating system. The response is vague and does not clearly relate to the specific issues discussed, such as data privacy and user surveillance.",1,The response does not effectively engage with the interesting fact provided and does not encourage further conversation. It is vague and does not add value to the discussion.,2,The response does not clearly relate to the context of the conversation about social networks and the babysitter-rating system. It is vague and does not maintain the logical flow of the discussion.,1,The response does not effectively incorporate the interesting fact about Facebook and Twitter's actions against the babysitter-rating system. It fails to add a unique perspective or creative insight to the conversation.,2,The response does not show a clear understanding or empathy towards the potential impact of the babysitter-rating system on individuals. It is vague and does not address the concerns or the implications of the situation.,1,"The response does not accurately reflect the depth or accuracy of the provided fact. It fails to address the specific actions taken by Facebook and Twitter against Predictim, and the reasoning behind these actions, which involve user surveillance and data privacy violations."
+"so , i 'm reading the latest film from studio ghibli is out the tale of princess kaguya . dunno if you 're familiar with them , but studio ghibli has made a lot of great animated films , like spirited away , and princess mononoke 
+ i do n't think i have heard of them . i have heard that one of the directors recently passed away , and his last film was nominated for an academy award 
+ yeah , sadly , disney ( which owns the american rights to the films ) does n't tend to promote them very much . i think they 're worried they 'll cut into their "" home grown "" market . anyway , dunno if you even like animated movies , but they 're worth checking out . 
+ i do n't watch them very often . apparently there was a showing of the recent film in a park in d.c . that 's one u.s . city i have n't been to 
+ sadly , i have n't been to dc either , although i 've always wanted to visit there . apparently there 's a lot of interesting going down this summer . they 're having a crab feast at the navy - marine corps stadium . they 'll have 100 gallons of crab soup ! can you imagine that much soup ? 
+ i recently met a girl who lives in that area , and she said the nightlife is worth visiting for . it sounds like many of the events feature jazz music . do you listen to jazz very often ? 
+ a little bit , i 'm not too familiar with it . i know is originated in new orleans and a little bit about the history , but that 's about it . heard clint eastwood is a big jazz fan , thought that was pretty interesting .. 
+ there 's many different styles , probably derived from the various regions in the us where it has taken root . kansas city is another place where it has prominence 
+ you know there 's a programming language in which programs are written in musical composition , and so the programs have jazz - like harmonies . as a computer guy , i find that pretty fascinating . so , you ever been to a live concert ? ( jazz or otherwise ? ) 
+ that is interesting . i have n't been to a live concert recently , but i want to many when i was younger . most of them were in smaller venues though . 
+ it 's been awhile since i 've been to any as well . got a friend of mine he 's big into the ramones and seen them in concert a few times . get this , they 've played a total of 2,263 concerts , touring almost non - stop for over twenty years . now that 's dedication to your music ! 
+ i can only imagine how exhausting that must be as well . sometimes i think it would be cool to travel to some of the ancient amphitheaters to see what they 're like . pink floyd once recorded a live concert with no audience in a roman one in pompeii 
+ wonder why the did it without an audience ? pretty sure people would have shown if they 're heard about it . must be one of those "" eccentric rock and roll musician "" things . wonder how a concert would sound held in an old amphitheater ... 
+ it might be because an audience would affect the sound and acoustics in the theater . there 's another ancient amphitheater in croatia that 's used for concerts . those romans really liked their theaters 
+ well , theaters were a big event at the time , plays , gladiator events , concerts .. you got ta remember , they did n't have the internet back then , so they had to do something for entertainment . :) so , what was the last concert you ever attended ? 
+ now that i think about it , i went to one a little over a year ago around christmastime , so most of the songs were christmas songs . the venue was fairly big , but not as big as ones like where the big name artists perform . it was good still , unlike the 2002 creed concert that was bad enough for concert goers to file a lawsuit 
+
+","in 2002 a creed concert was so bad that four concert goers filed a lawsuit against the band
+","['sm', 'me', 'fl']",yeah i heard about that ! i wonder how bad that concert must have been .,New Human Generated,1,3,3,2,0,4,5,"The response directly addresses the fact mentioned in the previous message, showing awareness and interest in the specific incident. It also continues the conversation by expressing curiosity about the severity of the situation, which is relevant to the context.",4,"The response acknowledges the fact and expresses curiosity, which can lead to further discussion about the concert, the band, or similar experiences.",5,"The response logically follows the conversation and directly addresses the fact mentioned. It shows engagement and curiosity, maintaining the flow of the conversation.",2,The response directly references the interesting fact but does not add a unique perspective or creative element to the conversation.,3,The response shows a moderate level of empathy by acknowledging the poor experience of the other person and expressing curiosity about the extent of the issue.,2,"The response acknowledges the fact about the Creed concert lawsuit, but does not provide any additional depth or detail about the incident."
+"did you know that there was a moral panic in the 1700 's because everyone was reading books ? haha 
+ i did nt know that lol . we sure are close to a moral panic with all the tablets and social media kids and adults are using . 
+ haha ya , if people started reading a lot in this day and age society would think that was a wonderful thing ! haha 
+ yeah , that would be great , literature is getting lost and great authors like cs lewis and tolkien are getting forgotten . 
+ right , i think it 's funny though that they used to read off bad poetry and whoever laughed first would lose , that s hilarious 
+ that is hilarious i wonder who is the champion among them lol , do you personally like to read ? 
+ i ca n't say that i do no , i do like audiobooks , i did try to speed read once but i found i did n't retain any information from it , that 's why i do n't know what to make of the speed reading champion with 4,700 words per minute 
+ i wonder how they measure that , i can just skip pages and tell everybody that i read the content , i bet i could read 6000 words per minute that way 
+ ya exactly , if i could just flip through pages i could speed read too , what is weird is starship troopers is on the military 's reading list , idk about the book but the movie is definitely not pro military 
+ i guess that s because movies are nt as good as movies , a lot of info is missing , the enders game book is also another recommendation for armed forces around the globe 
+ ya , did you ever see that movie ? i saw it and i like harrison ford who is in it , but it was pretty bad in my opinion 
+ i did see the movie , i thought it was bad as well , i liked the book better , i like reading you can learn many interesting facts , like why the area code of new york is 212 . 
+ ya i think it was because that was the fastest number that you could dial with a rotary phone ? crazy how that stuff carries over until even today ! ! 
+ it is ! there s a lot things we need to discover still though , i 'm kind of worried the cables carrying phone and internet are underwater , at least some of them . 
+ ya it 's only about 3 inches thick , i wonder how it is protected ? is it just a cable or are there safeguards in place in case like a ship sinks and crushes it , etc 
+
+","[ # 26 score:167 comments:24 ] - til - the trunk of your car is called that because old cars used to have wooden trunks on the back .
+","['sm', 'me', 'yf']","i think that is a good idea , i think it would be a great idea to put flamethrowers on the back of cars in south africa
+",Argmax Decoding,0,2,1,2,0,1,1,"The response introduces a new and unrelated topic (flamethrowers on cars in South Africa) that does not connect to the ongoing discussion about underwater cables, area codes, or the history of car trunks.",2,"The response introduces a new and somewhat unrelated idea (flamethrowers on cars) which, while potentially intriguing, does not directly build on the interesting fact about car trunks. It may not encourage a natural continuation of the conversation.",1,"The response about flamethrowers on the back of cars in South Africa is completely unrelated to the conversation about the origins of area codes, the thickness of underwater cables, and the historical context of car trunks. It disrupts the logical flow and consistency of the conversation.",2,"The response does not incorporate the provided fact about car trunks and instead introduces an unrelated and unconventional idea about flamethrowers on cars. While the idea is original, it does not connect to the conversation or the interesting fact provided.",1,The response does not show any understanding or empathy towards the other person's feelings or the context of the conversation. It introduces an unrelated and potentially controversial idea that could be seen as insensitive or inappropriate.,1,"The response does not provide any factual information related to the conversation or the provided fact. It introduces an unrelated and impractical idea, which does not contribute to the depth or accuracy of the conversation."
+"hello , tell me about yourself while i take a break from my programming studies .
+no kidding ! i am in it ! same gig for 15 years !
+nice ! right now i coach swimming while i finish up school . do you like music ?
+i enjoy country like any real man .
+i not invite you to see blood spot with me then . where are you from ?
+","your persona: i own a house in florida.
+your persona: i work in it and have been at the same company for 15 years.
+your persona: i have a children and a dogs.
+your persona: i'm a male.
+","['shikib', 'maxine', 'yulan']","i live in florida ! how about you ?
+",New Human Generated,1,3,3,3,1,5,3,"The response is somewhat relevant as it continues the exchange of personal information, but it does not directly address the previous message about music preferences or the invitation to see a band.",4,"The response introduces a new piece of information (living in Florida) and asks a follow-up question, which can encourage further conversation.",4,The response logically follows the conversation by continuing the exchange of personal information. It is relevant and maintains the flow by asking a reciprocal question about the other person's location.,2,The response is straightforward and does not incorporate the interesting fact in a creative or unique way. It simply states a fact about the speaker's location without adding any additional context or perspective.,2,"The response does not directly address the other person's interests or feelings, but it does share a personal detail which can be seen as an attempt to connect. However, it lacks a deeper level of empathy or understanding of the other person's experiences.",1,"The response does not provide any new or interesting fact, and it only restates a basic piece of information from the persona. The depth of information is minimal."
+"i think that jon gruden is a sensible loss for the team , 
+ what do you mean by sensible loss ? i think john gruden is a huge mistake for the team . 
+ well i think his a good player , hard to replace , that s what i meant or at least in the raiders team his become an important piece for the coach 
+ john gruden is an nfl head coach . he 's not a player . the 33 - 13 loss to the rams was just the beginning of a miserable season . are you familiar with the nfl ? 
+ oh i see , i guess i m confusing him with a player of the team , what was his name i think it was khalil mack , and i do follow some games what about you ? 
+ football is one of my favorite sports and i follow all 32 teams . khalil mack was traded to the bears by john gruden for some picks . they definitely felt his absence . i do n't know why they did n't just resign him . 
+ maybe he demanded a high salary ? what is your favorite nfl team ? 
+
+","the raiders sacked goff only once , on a play during which bruce irvin forced a fumble . other than that , the oakland defense could put almost no pressure on goff . the absence of mack , the former nfl defensive player of the year , was glaring . in the first half sunday night , mack had a sack , a forced fumble , a fumble recovery , an interception and a touchdown on defense . he and the bears could not sustain that , and they succumbed to the second - half exploits of packers quarterback aaron rodgers . but mack reinforced what a game - changing , difference - making player he is . he left little doubt that he is worth the six - year , $ 141 million contract given to him by the bears , making him the league 's highest - paid defensive player . [ the nfl teams that have serious reasons to worry , versus the ones that do n't ] mack , while still with the raiders , had been holding out , seeking such a deal . the raiders did n't want to give it to him . they have a $ 125 million quarterback in carr . they have a $ 100 million coach in gruden . they drew the line at handing out another mammoth deal , not wanting to further strain their budget or push the boundaries of the salary cap . they regarded the king 's ransom of draft picks put forth by the bears , including a pair of first - rounders , as an offer they could n't refuse . in truth , they could have refused it .
+","['sm', 'me', 'fl']",it 's hard to pick a specific team . i guess i would have to say the raiders .,New Human Generated,1,3,3,3,0,4,3,"The response is somewhat relevant as it answers the question about the favorite NFL team, but it does not incorporate the interesting fact provided, which is highly relevant to the conversation about Khalil Mack and the Raiders.",2,The response is brief and does not provide much information or an interesting fact to encourage further conversation. It simply states a preference without elaboration.,4,"The response is coherent as it directly answers the question about the favorite NFL team, which is a natural progression from the previous discussion about the Raiders and Khalil Mack.",1,The response does not incorporate the interesting fact provided and lacks creativity or a unique perspective.,2,The response does not show much empathy or understanding of the other person's feelings or experiences. It simply states a preference for a team without acknowledging or relating to the previous discussion about Khalil Mack and the Raiders' decision to trade him.,1,The response does not provide any factual information or depth related to the interesting fact provided. It simply states a preference for a team without any supporting details.
+"hello did you know that 80 percent of the earths natural forests have already been destroyed ? 
+ i heard it but i 'm skeptical . that sounds far too high and what 's the definition of "" natural . 
+ not sure in this case . when the earth was formed the days were only 5.5 hours long ! 
+ that was 5.5 hours of sunlit hell in magma and lava . bummer , they are saying we will be out of helium by the end of the century . 
+
+","if earth ’s entire history was viewed as a 24 hour period , humans would only represent 1 minute and 17 seconds .
+","['sm', 'me', 'yf']","wow , i ca n't believe we 're destroying the world . if we viewed the earth 's history as a 24 hour period , humans would only have existed for 1 minute and 17 seconds . and in that time , we 've managed to completely destroy the planet .",New Human Generated,1,3,3,3,1,5,5,"The response ties back to the previous discussion about the destruction of natural forests and adds a perspective on human impact over a short period of Earth's history, making it highly relevant.",4,"The response ties the interesting fact about human history to the ongoing discussion about environmental destruction, which can provoke further discussion and reflection on human impact on the planet.",4,The response logically follows the conversation by connecting the destruction of natural forests with the brief existence of humans on Earth. The fact is relevant and adds a poignant perspective to the conversation.,4,"The response creatively integrates the interesting fact about human existence in the context of Earth's history, emphasizing the short span of human impact. It adds a unique perspective by contrasting the brief human presence with the significant environmental damage caused.",5,"The response shows a high level of empathy by acknowledging the impact of human actions on the environment and expressing concern. It also ties the interesting fact to the conversation, highlighting the disproportionate effect humans have had in a very short time.",4,"The response accurately mentions the fact that if Earth's history were compressed into a 24-hour period, humans would only represent 1 minute and 17 seconds. This is a well-known and scientifically accurate analogy used to illustrate the relatively short time humans have existed compared to the age of the Earth. The depth of the information is good, as it provides a clear and relatable context for understanding human history in the broader timeline of Earth."
+"hello , how are you doing tonight ?
+doing great . watched nhl hockey and walked my german shepherd dog .
+what do you do for work ?
+i live on a farm and work here too . what do you do ?
+i'm a local musician , but i've been studying different languages recently .
+wow , great . my artistic ability is limited to coloring books . lol
+my favorite word in spanish is trabajo . i plan to study french next .
+neat . my husband was adopted and he's spanish .
+does he speak spanish fluently ?
+yes , but i do not . i am limited to spanish food names like taco . lol
+are tacos your favorite food ?
+yes , i eat them while i watch hockey . do you like hockey ?
+i like baseball better . go yankees !
+what instrument do you play ?
+i play the piano and the violin .
+","your persona: i like to watch nhl hockey.
+your persona: i live is a rural farming community.
+your persona: my husband is adopted.
+your persona: i enjoy coloring books.
+your persona: i've a german shepherd dog.
+","['shikib', 'maxine', 'yulan']","i like to play soccer , but i like to play soccer .
+",Language Model,1,2,1,2,0,3,1,"The response is not relevant to the context of the conversation. The conversation is about the individuals' hobbies, jobs, and interests, and the response about playing soccer is repetitive and does not connect to the previous messages.",1,"The response is repetitive and does not introduce a new interesting fact or encourage further conversation. It does not relate to the previous conversation about sports, and it does not build on the shared interest in hockey.",1,"The response introduces a new topic (soccer) that is not related to the current conversation flow, and the repetition of 'i like to play soccer' is redundant and does not add value to the conversation.",1,The response is repetitive and does not incorporate the interesting fact or add a unique perspective to the conversation.,1,The response does not show any understanding or empathy towards the other person's feelings and experiences. It is repetitive and does not relate to the conversation.,1,The response does not provide any new or interesting fact and repeats the same statement without adding depth or accuracy.
+"every us president with a beard has been a republican , that 's odd . 
+ that is odd . so what do you think of trump . 
+ i like trump 
+ me too . i think he needs to calm down a little bit sometimes but he is a smart dude . 
+ yeah i never liked trump before he was president . i think he 's doing a great job with all that he 's been dealt . 
+
+","there has n't been a us president who was n't a republican or a democrat since 1853
+","['sm', 'er', 'fl']","yeah , i think it would be like the politicians .
+",Nucleus Decoding (p = 0.5),0,1,1,1,0,1,1,The response does not directly relate to the context or the previous message. It does not address the conversation about Trump or the interesting fact about US presidents.,2,The response does not effectively use the interesting fact to encourage further conversation. It is vague and does not add value to the discussion.,1,The response does not logically follow the conversation. It is vague and does not address the previous statements or the interesting fact provided.,1,The response does not effectively incorporate the interesting fact and lacks creativity. It fails to add a unique perspective to the conversation.,1,The response does not show any clear understanding or empathy towards the other person's feelings or experiences. It is vague and does not connect with the emotional content of the conversation.,1,The response does not provide any factual information related to the interesting fact about US presidents. It fails to address the depth or accuracy of the statement.
+"do you still use a landline ? 
+ no . in my opinion , the landline is going extinct . growing up my grandparents had a multi - party line . my parents had a landline . i killed the landline once cellular was cost effective . now cellphones are small computers that do so much more than landlines . 
+ yeah , an iphone has more computing power than a mainframe of the 60s . but data still travels best in cables . 
+ even on cellular networks , it still travels via cable , except for the last leg . could you imagine the atmospheric distortion of the signal if data was transmitted from the east to west coast solely via the airways ? 
+ we would be still at the era of ham radios and telegram . there would be less pictures . 
+ less pictures and more garbled messages . imagine how youtube videos would look with atmospheric distortion ; probably like the picture on old time tvs with rabbit ear antennas ? 
+ youtube would be like a tv station , showing only clip to everyone at the same time . i think it would be less popular . 
+ true . do you subscribe to any youtube channels or follow any youtube celebrities ? 
+ i subscribe to some educational channels . but i do n't follow any celebrities , but i hear of them often . 
+ i use to subscribe to certain hunting / fishing equipment youtube channels , but found temptation to buy the latest thing to be unproductive . i do like "" how to "" videos on youtube . given that youtube is accessible to anyone with a computer , being a star has nothing to do with how good your hollywood agent is and more with establishing a populist following . 
+ it is more diverse but celebrities still have an advantage on youtube , being a search engine , popular results get more visibility . 
+ agreed . it is a bit art / a bit science in figuring out how to get your videos promoted in the search results . or , hire an expert who will flood your videos with fictional views to promote its popularity . but established names also help . judge judy makes $ 123k per tv episode ; with that amount of draw , her youtube channel ca n't help but be a success . 
+ do you think 123 000 $ per episode is too much for her ? 
+ i do not watch her , so i can not judge . it is one of the few areas where free market economics still reigns . so , if they feel she 's worth it , then it 's not my place to judge . but that type of draw opens up other markets . for example , carol burnett was the first celeb on sesame street . 
+ it was the 70s , she was the star at that time , it makes sense . i wonder if youtube will have a lasting impact on the star system or this youtubers thing is just a phase . 
+ it is definitely here to stay if not expanding . in the early days , you needed a good freestanding camera to make a good video . today , most cell phones have a good enough camera to make a youtube videos . some high end phones can shoot videos almost indistinguishable from freestanding cameras . 
+
+","pixar studio has a secret room that is visited often by celebrities
+","['sm', 'er', 'yf']","i think it 's a great idea . i think it 's a great idea . i think it 's cool that pixar has a secret room that is visited often by celebrities .
+",Argmax Decoding,1,2,2,3,1,3,2,"The response introduces a new topic (Pixar's secret room) that is not directly related to the ongoing discussion about YouTube, its impact on the star system, and the evolution of media. The interesting fact, while intriguing, does not connect to the current context of the conversation.",4,"The response introduces an interesting fact about Pixar having a secret room visited by celebrities, which could spark curiosity and lead to further discussion about the entertainment industry or Pixar itself.",2,"The response introduces a new topic (Pixar's secret room) that is not directly related to the ongoing discussion about the impact of YouTube on the star system and the evolution of video technology. While the fact is interesting, it does not maintain the logical flow of the conversation.",1,The response is repetitive and does not effectively incorporate the interesting fact in a creative or unique way. It merely states the fact without adding any new perspective or engaging with the conversation.,1,"The response does not show any understanding or empathy towards the other person's feelings or experiences. It simply repeats 'i think it 's a great idea' and then mentions the fact about Pixar, which is not relevant to the ongoing conversation about YouTube and its impact on the star system.",2,"The response mentions an interesting fact about Pixar having a secret room visited often by celebrities. However, the accuracy of this fact is not verifiable from reliable sources, and the depth of information provided is minimal, merely stating the existence of the room without any additional details."
+"hello . my softball game was canceled due to the hurricane .
+oh how are you doing ? i'm sorry to hear that .
+doing great . daddy was in the army , he taught me things .
+i once lived in my moms house .
+mine passed when i was eight .
+","your persona: i don't drink soda.
+your persona: i've a boyfriend.
+your persona: i live in a house.
+your persona: i like to eat hamburgers and french fries.
+","['shikib', 'maxine', 'yulan']","sorry to hear that ! my boyfriend lost his mom at a young age too !
+",New Human Generated,1,3,3,3,1,5,3,"The response is somewhat relevant as it shows empathy and relates to the previous message about losing a parent at a young age. However, it introduces a new topic (the boyfriend) which is not directly connected to the current conversation.",4,"The response shows empathy and relates a personal experience, which can encourage further sharing and interaction.",2,"The response introduces a new topic (the boyfriend's loss) that is not directly related to the current conversation flow, which is about the individual's experience with their father and the loss of their mother. While it attempts to show empathy, it disrupts the logical flow.",1,The response does not incorporate the provided interesting fact and does not add a unique perspective to the conversation.,4,The response shows empathy by acknowledging the other person's loss and relating it to a similar experience with the boyfriend. This helps in building a connection and understanding.,1,The response does not provide any factual information or interesting fact to evaluate for accuracy or depth.
+"hi , i am taking a break from studying my computer programming
+what is computer programming , i am new to the united states .
+i'm from india so i understand . it is telling computers how to run programs
+cool , i was born in somalia , but my aunt helped me escape .
+that was nice of her ! my aunt taught me how to swim
+i had to get away , i was forced to marry young , but now i am happy
+did you take your spouse with you ?
+no , i had to escape him . it was not fun times .
+i am sorry . i am glad you are safe now
+thank you , do you do anything in your free time ?
+i love death metal music . i listen and write some too .
+death metal , is that the music you get whip lash from ?
+yeah ! i also coach competitive swimming .
+","your persona: i was forced to marry when i was a.
+your persona: my aunt helped me escape when i was of.
+your persona: i was born in somalia.
+your persona: now i live in the united states.
+","['shikib', 'maxine', 'mckenna']","really ? i have quite the vast collection of purple swimming suits
+",KV-MemNN,1,3,3,3,0,4,2,"The response about purple swimming suits is not directly related to the context of the conversation, which has been discussing personal backgrounds, escape from forced marriage, and interests in music and swimming. The mention of swimming suits is tangentially related to the topic of swimming but does not connect well with the current flow of the conversation.",3,"The response introduces a new topic (purple swimming suits) that is not directly related to the previous conversation, which may not encourage further interaction. However, it could potentially lead to a new line of discussion if the other person is interested in swimming or fashion.",1,The response about having a vast collection of purple swimming suits is not relevant to the conversation about death metal music and coaching competitive swimming. It disrupts the logical flow and consistency of the conversation.,3,The response introduces a new and unexpected element (purple swimming suits) that is not directly related to the conversation but adds a unique and quirky perspective.,1,The response does not show any understanding or empathy towards the person's experience of forced marriage and the trauma of escaping. It is off-topic and does not address the emotional content of the previous message.,1,The response does not provide any accurate or relevant information related to the conversation or the interesting fact provided. It introduces a new topic (purple swimming suits) without any depth or context.
+"hey are you aware of banned books week ? 
+ i did n't know it was a thing because i did n't realize that there are any books that are banned . what do you know about it ? 
+ i think that it is a reminder of books that have been banned in the past for their controversial content , i remember it during my childhood 
+ are n't most of those books now bestsellers ? i see the point of the event , but maybe it should be renamed to better reflect their current status 
+ yes i think you 're right , how often do you go to the library btw ? 
+ not very often since most of what i borrow through my library are ebooks and audiobooks . i love that i can access things right on my phone , though i do miss the feel of paper books 
+ well i do wish that my library were more like the sacramento public library , you can read things like sewing machines from there which seems very useful to me 
+ true ! it would be nice just to be able to borrow something like that that i would n't need to own . hopefully that idea becomes more popular in the coming years 
+ i hope so . what do you think about william gladstone ? he took a wheelbarrow full of books at the age of 85 and random all the way to donate to his local library lol 
+ considering he donated 32,000 books , i 'm going off the assumption that the venture took him several trips 
+ i think so . what do you think about the norway government though ? if you publish a book you are guaranteed to get at least 1000 sales because they will buy your books and put them in libraries all over the country 
+ i think it encourages writers in their country , that 's for sure ! i would love to have that incentive to write and publish a book 
+ well you should do a children 's book then , because they will buy 1,500 of them instead of just the 1,000 lol 
+ children 's books require less writing and more illustrations . it would be worth it for the extra 500 copies though 
+ haha i agree with you . do you ever buy stuff from amazon ? do you know why jeff bezos put a clock into a mountain lol 
+
+","amazon ceo jeff bezos built a clock into a mountain that should run for 10,000 years .
+","['sm', 'me', 'yf']","i do buy a lot from amazon . jeff bezos probably built a clock into a mountain to make sure that we would be able to tell time for 10,000 years .",New Human Generated,1,3,3,3,1,5,5,"The response is directly related to the context and the previous message, as it continues the discussion about Amazon and Jeff Bezos. The interesting fact about the clock is also relevant and adds to the conversation.",4,"The response introduces an interesting fact about Jeff Bezos and the 10,000-year clock, which is likely to pique curiosity and encourage further discussion. The playful tone and the relevance to the previous conversation about Amazon and Jeff Bezos contribute to the engagement.",4,"The response logically follows the conversation and the fact is relevant. It adds a humorous and interesting element to the conversation, maintaining the flow and engaging the other participant.",3,"The response incorporates the interesting fact about Jeff Bezos' clock in a straightforward manner, but it lacks a unique perspective or deeper insight that would make it more creative.",3,"The response acknowledges the user's question and provides a light-hearted, albeit somewhat literal, interpretation of the fact. However, it does not show deep empathy or understanding of the user's potential feelings or experiences related to the topic.",3,"The response accurately mentions Jeff Bezos building a clock into a mountain, and it provides a reasonable, though simplified, explanation for the purpose of the clock. However, it lacks depth by not mentioning the broader context or the specific goals of the project, such as long-term thinking and cultural preservation."
+"do you know much about the presidents ? 
+ some stuff . do you know who the three wealthiest ones in the us are ? 
+ yes that us jfk , washington and jefferson 
+ yeah . do you know what the first president of zimbabwe was called ? 
+ he was called president banana 
+ did you know the white house is smaller than the guest house ? 
+ wow cool . do you know how the vp used to be elected ? 
+ yes that was the runner up during elections 
+
+","the president of indonesia has released 3 pop albums while in office
+","['sm', 'er', 'fl']","yeah . the president of indonesia is a pop star
+",Argmax Decoding,1,3,2,2,1,3,1,"The response introduces a new and unrelated fact about the president of Indonesia, which does not connect to the previous discussion about U.S. presidents and the VP election process.",4,"The response introduces an unexpected and intriguing fact about the president of Indonesia, which is likely to pique interest and encourage further discussion.",2,"The response introduces a new and unrelated fact about the president of Indonesia, which does not logically follow the previous conversation about U.S. presidents and the White House. The fact, while interesting, does not add value to the current flow of the conversation.",4,The response creatively incorporates the interesting fact about the president of Indonesia releasing pop albums. It adds a unique perspective by highlighting an unexpected dual role of a political leader as a musician.,1,The response does not show any understanding or empathy towards the other person's feelings or experiences. It simply states a fact without connecting it to the conversation or the other person's interests.,3,"The response is accurate in stating that the President of Indonesia has a background in music, but it lacks depth and does not mention the specific fact that he has released 3 pop albums while in office."
+"hello , how are you tonight ?
+ok . since alabama , my home team , won saturday night .
+i'm an ohio state fan . do you skate ?
+no . too busy with all of my 19 dogs and 3 sisters .
+oh wow . that is a lot of dogs .
+yes love them almost as my tacos . no i love my dogs more .
+my fiance makes a killer fish taco with cilantro lime slaw .
+wow . my sisters and i love chicken tacos .
+those are good too , i live in cali . along the ocean .
+i live in middle of alabama . do not get to ocean much .
+i could not stand to live inland , the ocean runs through my veins .
+","your persona: i love dogs.
+your persona: i live in alabama.
+your persona: i have three sisters.
+your persona: i like tacos.
+","['shikib', 'mckenna', 'yulan']","lucky you ! i love the ocean , can't wait to visit it again !
+",New Human Generated,1,3,3,3,0,4,5,"The response is directly related to the previous message about living by the ocean and expresses enthusiasm about the ocean, which is a relevant continuation of the conversation.",4,"The response shows enthusiasm and a desire to share a personal interest, which can encourage the other person to respond and continue the conversation.",4,"The response is coherent as it logically follows the previous statement about living by the ocean and expresses enthusiasm for the ocean, which is relevant to the conversation.",2,"The response is positive and enthusiastic, but it does not incorporate the interesting facts or add a unique perspective to the conversation. It is a standard reaction to the statement about the ocean.",3,"The response shows enthusiasm and a positive reaction to the other person's love for the ocean, but it does not directly acknowledge or reflect on the other person's experience of living inland in Alabama. It could be more empathetic by acknowledging the contrast in their living situations.",1,"The response does not provide any new or factual information related to the conversation. It simply expresses a sentiment about the ocean, which is not an interesting fact and does not add depth to the conversation."
+"hi ! how are you ? i just moved from germany to usa , nice place so far !
+that's great , i am a grad student
+do you have any hobbies ? i really love sky diving , rollercoasters and cooking shows !
+","your persona: i enjoy reading journals and guides related to psychology.
+your persona: my parents taught me survival skills.
+your persona: i am also a graduate student.
+your persona: i walk dogs for a living.
+your persona: i'm an avid kayaker.
+","['shikib', 'maxine', 'mckenna']","kayaking and reading psychology books
+",Original Ground Truth,1,3,3,3,1,4,2,"The response introduces kayaking, which is not directly related to the previous message about hobbies and interests, and it does not connect with the context of moving from Germany to the USA or the shared interest in extreme activities and cooking shows. The mention of reading psychology books is also not directly relevant to the conversation.",3,"The response introduces two new topics (kayaking and reading psychology books) which can lead to further discussion, but it lacks a direct connection to the previous conversation about hobbies and exciting activities.",3,"The response introduces kayaking, which is not directly related to the previous conversation about hobbies, but it does connect with the interesting fact provided. However, it abruptly shifts the focus without acknowledging the previous speaker's hobbies, which disrupts the flow.",2,The response is brief and does not fully incorporate the interesting fact in a creative or unique way. It simply lists two activities without adding any original perspective or engaging with the conversation.,1,The response does not show any empathy or understanding towards the other person's experiences and interests. It simply states the responder's hobbies without acknowledging the other person's hobbies or the excitement of moving to a new country.,3,"The response mentions kayaking and reading psychology books, which are both accurate based on the provided persona facts. However, the depth of information is minimal, as it does not elaborate on either activity."
+"my sister and i love classical music and we pole dance . call me dirty red .
+hello dirty red , i am a high school student . i just won homecoming queen !
+great ! i love anything red especially tractors . wink wink !
+i enjoy running do you ? i hope to run a 5k this year .
+i had to run for my life one time . you ever danced to bach ?
+i listen to classical music , when i do my homework . i am currently a straight a student !
+wow ! i get paid to pole dance . do you get paid to run ?
+no i do track and field in school and i want to start racing for charity .
+i see . you own a tractor ? i like driving tractors . wink wink .
+","your persona: my current goal is to run a k.
+your persona: i make straight as in school.
+your persona: i won homecoming queen this year.
+your persona: when i grow up i want to be a physical therapist.
+your persona: i am currently in high school.
+","['shikib', 'maxine', 'yulan']","nope no tractor , i want save my money for college .
+",Original Ground Truth,1,3,3,3,0,5,4,"The response is relevant as it directly addresses the previous message about owning a tractor and provides a reason for not having one, which is saving money for college. This ties back to the persona of being a high school student with academic goals.",3,"The response is somewhat engaging as it provides a clear goal (saving for college) which can lead to further discussion about future plans and aspirations. However, it does not directly build on the previous conversation about tractors or pole dancing, which might have been more engaging.",4,The response logically follows the conversation by addressing the previous question about owning a tractor and aligns with the persona of being a high school student focused on education.,2,"The response does not incorporate the interesting fact in a creative or unique way. It simply states a fact about saving money for college, which is a common and straightforward response.",2,The response does not directly address the previous statement and lacks an empathetic connection to the other person's experiences or feelings. It shifts the focus to the speaker's personal goal without acknowledging the other person's interests or achievements.,1,The response does not contain any factual information or interesting facts to evaluate for accuracy or depth.
+"good afternoon , hope your day is going well ! 
+ i hope yours is going well , too . baseball is generally played with a bat and ball . 
+ baseball is my favorite sport out of the big four - az diamondbacks are my team 
+
+","baseball managers wear uniforms because they are technically able to play for their teams if the need arises
+","['sm', 'me', 'fl']","i like the red sox . i was a big fan of the philadelphia phillies .
+",Argmax Decoding,1,3,3,2,0,4,3,"The response mentions baseball teams, which is relevant to the previous message. However, it does not directly address the interesting fact about baseball managers wearing uniforms, making it less relevant to the specific context provided.",2,"The response does not introduce the interesting fact about baseball managers wearing uniforms, and it does not directly engage with the previous statement about the Arizona Diamondbacks. It introduces new information about the Red Sox and Phillies, which might not be as relevant or engaging in this context.",2,The response does not maintain the logical flow of the conversation. It introduces new teams without relating to the previous context or the interesting fact provided.,1,"The response does not incorporate the provided interesting fact about baseball managers wearing uniforms, and it does not add a unique perspective to the conversation.",1,The response does not show any empathy or understanding towards the other person's feelings or experiences. It simply states the responder's own preferences without acknowledging the other person's team loyalty or interest in baseball.,1,"The response does not provide any factual information related to the interesting fact about baseball managers wearing uniforms. It only mentions personal preferences for teams, which is not relevant to the knowledge metric."
+"i got a big house with 7 rooms
+nice , majority of my time i am on facebook
+one time i saw a man fly to the moon
+like on tv ? i'm obese and unhappy
+when i worked in the cia i used facebook to spy on people , handy tool
+i'd love to hear more i work at a retirement home
+obesity is a state of mind , not of body
+thank you for that , you are what you believe ?
+look energy isn't physical , only spiritual
+","your persona: my wife left me and took my children.
+your persona: i don't believe in god.
+your persona: i'm overweight and unhappy.
+your persona: i work at a nursing home.
+your persona: i spend most of my time on facebook when i'm not working.
+","['shikib', 'mckenna', 'yulan']","i am not sure what that means
+",Seq2Seq,1,3,3,2,0,3,1,"The response does not address the previous message about energy being spiritual and does not incorporate any of the provided facts, making it irrelevant to the ongoing conversation.",1,"The response does not engage with the interesting fact or the conversation, and it does not encourage further interaction.",2,"The response 'i am not sure what that means' does not add to the conversation and fails to engage with the previous statement about energy. It also does not incorporate the provided interesting fact, which could have been relevant.",1,The response does not incorporate the interesting fact or add any unique perspective to the conversation. It is a very basic and unoriginal reply.,1,"The response does not show any understanding or empathy towards the person's feelings or experiences. It fails to acknowledge or address the emotional state of the speaker, who has mentioned being obese and unhappy.",1,"The response does not provide any factual information or interesting fact, and it does not engage with the previous statement in a meaningful way."
+"hey . where are you from ? i'm from a farm in wisconsin
+i love ice cream what is your favorite ? mine is chocolate
+mine is mint chocolate chip
+","your persona: my wife and kids are the best.
+your persona: my favorite ice cream flavor is chocolate.
+your persona: i've three children.
+your persona: i'm a plumber.
+your persona: i love going to the park with my three children and my wife.
+","['shikib', 'maxine', 'mckenna']","i get up early everyday and eat ice cream
+",KV-MemNN,1,3,3,3,1,4,3,"The response is somewhat related to the context as it mentions ice cream, which was the topic of the previous messages. However, it does not directly engage with the specific flavors mentioned or continue the conversation in a meaningful way.",2,The response does not introduce a new interesting fact or encourage further interaction. It simply states a personal habit without adding depth or inviting the other person to engage further.,2,"The response does not logically follow the conversation. While it mentions ice cream, which is relevant to the previous exchange, it introduces a new and unrelated behavior (getting up early to eat ice cream) without context or connection to the previous statements.",1,The response does not incorporate the interesting fact or add a unique perspective to the conversation. It is a simple statement that does not show creativity.,1,The response does not show any understanding or empathy towards the other person's feelings or experiences. It is a statement about the responder's routine without acknowledging the other person's preference or engaging with their interests.,1,The response does not provide any accurate or in-depth information related to the interesting fact. It only mentions a personal habit without adding any relevant details.
+"hi there , how 's it going ? 
+ it 's going great ! which do you prefer , football or baseball ? 
+ oh i guess baseball . although i do n't have time to see many games anymore . 
+ baseball is the american pastime . japanese are surprised to discover this fact . 
+ yeah , i guess they see it as being their own . they have their own fan culture around it . what is your favorite sport ? 
+ i like both baseball and football , but i usually follow them around playoff time . do n't have much time for games . 
+ yeah the seasons are so long that it 's tough to get really immersed . especially baseball . it 's what , 162 games ? 
+ 162 , plus playoffs . soon they 'll be playing until christmas . until 2005 , a married couple scheduled all the games for the mlb . they must have had special software or something . 
+ yeah . although i think they had done it since the 80s . maybe they did the first few seasons on a commodore 64 lol ? 
+ the old c64 ! classic . i do n't remember any good sports games on that though . football , baseball , soccer . probably not easy to do on a c64 . 
+ yeah . i know they had accounting software lol , my dad used it . we had the minnesota fats pool game and i think one soccer one . but it was such a different era . no madden style graphics 
+ i wonder whether they had a version of kickball on the c64 . the canadians call the game soccer - baseball . 
+ yeah i 've read that somewhere . when i was a kid , we played a kind of kickball called rounders at camp . our counselor was english . he kept telling us "" run to fourth ! "" and we were like , "" you mean home ? run home ? "" 
+ baseball is american ! i do n't know the english would want with it . i bet the english do n't collect "" rounders "" cards the way we collect baseball cards . 
+ right ? i wonder if they have cricket cards lol ? i think they have stickers for soccer . 
+ some guy found $ 3 million dollars of baseball cards from the 1900s . i wonder what he did with the money . 
+ yeah . that 's an amazing find . i heard they had been hidden since the 40s . 
+ thanks , grandpa ! i bet grandpa wishes he had cashed them in before he cashed out . 
+
+","_nofact
+","['sm', 'me', 'er']","i bet he was a great player . nice chat
+",Argmax Decoding,0,2,1,1,1,2,3,"The response is somewhat relevant as it continues the conversation, but it does not directly address the previous message about the value of the baseball cards. It also introduces a new, unrelated assumption about the player's skill.",2,The response does not introduce a new interesting fact and does not encourage further conversation. It is a simple conclusion that does not build on the previous discussion about the value of the baseball cards.,2,"The response 'i bet he was a great player. nice chat' does not logically follow the previous statement about the discovery of valuable baseball cards. It shifts the topic without addressing the previous comment, and the transition is abrupt.",1,The response does not incorporate any interesting fact or unique perspective. It is a simple and generic comment that does not add creativity to the conversation.,2,"The response does not directly acknowledge or empathize with the sentiment expressed about the grandfather. It briefly acknowledges the grandfather but quickly shifts to ending the conversation, missing an opportunity to show deeper understanding or connection.",1,"The response does not provide any new or interesting fact, nor does it build upon the previous conversation about the $3 million worth of baseball cards. It lacks depth and accuracy in terms of the knowledge metric."
+"hi , do you like music ? 
+ hi , yes i do . do you like music ? 
+ very much , i was so excited to learn that "" /hybrid theory""from linkin park has been the best selling album in the 21st century ! ! 
+ did you ever have any cassette tapes ? 
+ yes , i had many and also vinyls and the cd 's 
+ what di you do with all of those items ? i just threw away my cds about a month ago , at least the crappy ones . 
+ i even remember the 78 rpm records , and i loved the books they cam in , they were sort of phtograph albums , with artist 's pictures , it was really cool ! 
+ i wish the music had that today . i remember reading the cd jackets as soon as i got them . i can remember checking out artists mentioned in my favorite ablums . 
+ that was a beautiful part of it . also really beautiful are soundtracks ! ! 
+ spielberg played the clarinet on the jaws soundtrack ? ? ? ? how did i not know that ? 
+ i did not know that either ! ! that is really neat . remember tarzan , i really loved phill collins performances for that movie ! ! 
+ yeah . i think phil collins is seriously under rated . i think he is really talented . 
+ yes i admire him a lot , and it is so cool that he recorded in 5 languages ! 
+ batman begins must have been fun to record . the title of each track was the name of a genus of bat . 
+ that is so neat ! those are details that make you enjoy the movies even more . did you watch tron , ? it has a unique soundtrack ! 
+ i have not seen it . tell me about the soundtrack . 
+ it is very sci fi , and super inspiring . it is made by daft punk , i love that duo ! 
+ i love that they negotiated with their robot helmets on . seems like something they would do . 
+ incognito style ! ! and very simple , they just needed a good breakfast with pancakes to say yes 
+
+","_nofact
+","['sm', 'me', 'fl']",maybe some syrup for the pancakes and the negotiation is finished .,New Human Generated,1,3,3,3,1,5,5,"The response continues the playful tone of the conversation and directly relates to the previous message about Daft Punk negotiating with their robot helmets on and needing a good breakfast with pancakes to say yes. It adds a natural and relevant continuation by suggesting an additional element (syrup) to the breakfast, which fits well within the context.",4,"The response continues the playful and light-hearted tone of the conversation, maintaining engagement by adding a humorous detail that is relevant to the previous statement about pancakes. It encourages further interaction by keeping the conversation flowing in a fun direction.",4,"The response maintains the light-hearted and casual tone of the conversation, and the addition of syrup to the pancakes is a natural and coherent continuation of the previous statement.",4,"The response creatively extends the idea of the negotiation with a humorous and relatable addition, making it original and engaging.",3,"The response continues the playful tone of the conversation and shows a light-hearted understanding of the previous comment about the breakfast with pancakes. However, it does not deeply address or acknowledge any specific feelings or experiences of the other person.",1,"The response does not provide any factual information or interesting fact, and thus cannot be evaluated for accuracy or depth of information."
+"hi , i am taking a break from studying my computer programming
+what is computer programming , i am new to the united states .
+i'm from india so i understand . it is telling computers how to run programs
+cool , i was born in somalia , but my aunt helped me escape .
+that was nice of her ! my aunt taught me how to swim
+i had to get away , i was forced to marry young , but now i am happy
+did you take your spouse with you ?
+no , i had to escape him . it was not fun times .
+i am sorry . i am glad you are safe now
+thank you , do you do anything in your free time ?
+i love death metal music . i listen and write some too .
+death metal , is that the music you get whip lash from ?
+yeah ! i also coach competitive swimming .
+","your persona: i was forced to marry when i was a.
+your persona: my aunt helped me escape when i was of.
+your persona: i was born in somalia.
+your persona: now i live in the united states.
+","['shikib', 'maxine', 'mckenna']","i like to go to the gym and listen to music .
+",Language Model,1,3,2,3,0,3,3,"The response is somewhat relevant as it continues the discussion about free time activities, but it does not directly address the previous message about death metal music or the context of the conversation.",3,"The response is relevant and could lead to further conversation, but it does not directly engage with the interesting fact or the depth of the previous conversation. It is a neutral statement that does not add much to the emotional or personal connection.",3,"The response is coherent with the conversation as it continues the discussion about free time activities. However, it does not directly relate to the specific interests mentioned previously (death metal and swimming).",1,The response does not incorporate the interesting fact or add a unique perspective to the conversation. It is a generic statement that does not show creativity.,2,"The response does not address the emotional weight of the previous statements, such as the forced marriage and the escape. It shifts the conversation to a neutral topic without acknowledging the speaker's experiences.",1,"The response does not provide any new or interesting facts, and it does not build upon the conversation in a meaningful way in terms of knowledge."
+"good afternoon , hope your day is going well ! 
+ i hope yours is going well , too . baseball is generally played with a bat and ball . 
+ baseball is my favorite sport out of the big four - az diamondbacks are my team 
+
+","baseball managers wear uniforms because they are technically able to play for their teams if the need arises
+","['sm', 'me', 'fl']","i am a fan of the cincinnati bengals .
+",Nucleus Decoding (p = 0.5),1,3,3,2,0,4,1,"The response is not relevant to the context. The previous message discusses baseball and the speaker's favorite team, while the response mentions a different sport and team.",1,"The response does not relate to the context or the interesting fact provided, and it does not encourage further conversation about baseball or the fact about managers wearing uniforms.",1,The response introduces a new sports team (Cincinnati Bengals) which is not related to the ongoing conversation about baseball. This breaks the logical flow and consistency of the conversation.,1,"The response does not incorporate the provided interesting fact about baseball managers wearing uniforms, nor does it add a unique perspective to the conversation. It is unrelated to the context and the fact provided.",1,The response does not show any understanding or empathy towards the other person's feelings or experiences. It introduces a new topic (Cincinnati Bengals) which is unrelated to the context of the conversation (baseball and the Arizona Diamondbacks).,1,The response does not provide any factual information related to the interesting fact about baseball managers wearing uniforms. It is off-topic and does not contribute to the conversation in a knowledgeable manner.
+"hi . how is everything going ?
+hi . everything is going well on this end .
+where are you from ? i am originally from somalia .
+i am from detroit , mi . what do you like to do for fun ?
+i love dancing and singing .
+that is interesting . i'd consider myself a gamer .
+i like gaming now that i am in the us .
+","your persona: my favorite band is the insane clown posse.
+your persona: i like donuts.
+your persona: i play a lot of call of duty.
+your persona: on weekends i do live action roleplaying events.
+","['shikib', 'maxine', 'yulan']","oh really ? what kind ? i love fps . my fav is cod .
+",Original Ground Truth,1,3,3,3,1,5,5,"The response is highly relevant as it directly follows up on the previous message about gaming, specifically mentioning a preference for first-person shooter (FPS) games and a favorite game, Call of Duty (COD), which aligns with the context.",4,"The response directly engages with the previous statement about gaming, shows interest, and introduces a specific game preference, which can lead to further discussion.",4,"The response logically follows the conversation by continuing the topic of gaming and specifically mentioning a favorite game, which is relevant to the previous statement about being a gamer.",2,"The response is straightforward and does not incorporate the interesting facts provided in a creative way. It simply mentions a preference for a specific game, which is a common topic and does not add a unique perspective.",3,The response shows interest in the other person's hobby but does not directly acknowledge or show empathy towards the person's experiences or feelings.,3,"The response accurately mentions a first-person shooter (FPS) game and specifically Call of Duty (CoD), which is a well-known game in the genre. The depth of information is moderate, as it specifies the type of game and a specific title."
+"i there i'm from pennsylvania . how about you ?
+i'm in ohio . we are almost neighbors .
+i know . do you have any kids ? i am expecting my first child soon .
+congratulations ! i do not have any kids . the musician lifestyle is too hard for that .
+oh that sounds exciting . i just became a pa 3 months ago . my job is boring .
+i'm sorry to hear that . is there something you would rather be doing ?
+making documentaries because i love them .
+wow . that sounds pretty interesting . what subjects would you focus on ?
+my husband and his job
+wow . he must be a pretty interesting guy if you are going to do a documentary .
+he is the best that's why i let him impregnate me
+","your persona: my favorite spanish word is trabajo.
+your persona: i also study languages.
+your persona: my next language to study is french.
+your persona: i am a musician.
+your persona: one of the languages that i am currently studying is spanish.
+","['shikib', 'maxine', 'mckenna']","so what else do you like to do besides make documentaries ?
+",Original Ground Truth,1,3,3,2,0,4,4,"The response is relevant as it continues the conversation by asking about the other person's interests, which is a natural follow-up to the previous exchange about making documentaries.",4,"The response is open-ended and invites the other person to share more about their interests, which can lead to further conversation.",4,"The response logically follows the conversation by continuing the dialogue about the person's interests. It maintains the flow by showing interest in the other person's hobbies and activities, which is consistent with the previous exchanges.",1,The response does not incorporate the provided interesting facts or add a unique perspective to the conversation. It is a generic follow-up question that does not demonstrate creativity.,3,"The response shows a moderate level of empathy by attempting to engage further with the person's interests, but it does not directly acknowledge or reflect on the personal and potentially sensitive information shared about her husband and the reason for her pregnancy.",1,"The response does not provide any new or interesting fact, nor does it build on the previous conversation in a way that demonstrates knowledge."
+"hello , do you like music ? i play the miano and guitar ! also i sing !
+that is nice i wish i played an instrument
+i can teach you , i am a musician and a music teacher !
+that's cool i do not like my job
+i work as a custodian , helping to pay the bills . what is your job ?
+i've a job in a nursing home
+ah yeah my parents are not supporting my dream to become a musician
+maybe if you build up a following you'll be able to do that full time
+i really wish they would accept it , but they keep telling me to get a real job .
+yeah its hard when you aren't making money
+i hope i'll make it big one day then i'll show them they are wrong
+that's a good goal do you have a family
+yeah i got my mother and father and a boyfriend .
+is your boyfriend supportive of your music
+yes he's supportive ! do you have any dreams ?
+","your persona: i work at a nursing home.
+your persona: i am overweight and unhappy.
+your persona: my wife left me and took my children.
+your persona: i spend most of my time on facebook when i am not working.
+your persona: i don't believe in god.
+","['shikib', 'mckenna', 'yulan']","i do not really have a favorite . i like to go fishing .
+",Language Model,1,3,1,3,0,3,1,"The response about fishing is not directly related to the context of the conversation, which is focused on music, career aspirations, and personal support systems. The interesting fact provided does not align with the response given.",2,"The response does not align with the previous conversation about dreams and aspirations, and it introduces a new topic (fishing) that is not directly related to the ongoing discussion, potentially reducing engagement.",2,"The response does not logically follow the conversation. The previous turn was about dreams and aspirations, and the response shifts to a topic (fishing) that is not relevant to the ongoing discussion.",1,The response does not incorporate the provided interesting fact and does not add a unique perspective to the conversation. It is a simple and straightforward answer that does not demonstrate creativity.,1,The response does not show any understanding or empathy towards the other person's feelings and experiences. It shifts the topic to a personal interest without addressing the speaker's situation or emotions.,1,"The response does not provide any factual information related to the interesting fact provided. The response is about personal preferences and activities, which do not contribute to the depth or accuracy of knowledge."

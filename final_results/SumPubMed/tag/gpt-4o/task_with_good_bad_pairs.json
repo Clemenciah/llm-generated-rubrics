@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Relevance",
+        "tags": [
+            "Coherence"
+        ]
+    },
+    {
+        "name": "Comprehensiveness",
+        "tags": [
+            "Informativeness, Overlap and Focus"
+        ]
+    },
+    {
+        "name": "Clarity",
+        "tags": [
+            "Readability"
+        ]
+    },
+    {
+        "name": "Conciseness",
+        "tags": [
+            "Non-Repetition and no factual Redundancy"
+        ]
+    },
+    {
+        "name": "Scientific Accuracy",
+        "tags": [
+            "Scientific Accuracy"
+        ]
+    },
+    {
+        "name": "Insightfulness",
+        "tags": [
+            "Insightfulness"
+        ]
+    },
+    {
+        "name": "Consistency",
+        "tags": [
+            "Consistency"
+        ]
+    }
+]

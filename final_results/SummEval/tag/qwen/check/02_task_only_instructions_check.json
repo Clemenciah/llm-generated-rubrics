@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how closely the summary captures the main points of the article.",
+        "scale": "1-5, with 1 being not relevant and 5 being highly relevant",
+        "instruction": "1. steps"
+    },
+    {
+        "name": "Completeness", "-"
+        "description": "Evaluates if the summary includes all the key information from the article.",
+        "scale": "1-5, with 1 being incomplete and 5 being complete",
+        "instruction": "1. Read the original news article to understand the key information.\n2. Review the contestant's summary to identify if all key information is included.\n3. Assess if any critical details are missing or misrepresented.\n4. Rate the summary on a scale of 1 to 5 based on the completeness of the information, where 1 is incomplete and 5 is complete."
+    },
+    {
+        "name": "Conciseness",
+        "description": "Assesses how well the summary is concise and to the point.",
+        "scale": "1-5, with 1 being very wordy and 5 being very concise",
+        "instruction": "1. Read the summary provided by the contestant.\n2. Assess the summary based on the metric 'Conciseness'.\n3. Rate the summary on a scale of 1 to 5, where 1 is very wordy and 5 is very concise.\n4. Provide feedback if the summary can be improved in terms of conciseness."
+    },
+    {
+        "name": "Clarity",
+        "description": "Measures the clarity and readability of the summary.",
+        "scale": "1-5, with 1 being very unclear and 5 being very clear",
+        "instruction": "1. steps"
+    },
+    {
+        "name": "Engagement",
+        "description": "Evaluates how engaging and interesting the summary is to the reader.",
+        "scale": "1-5, with 1 being boring and 5 being highly engaging",
+        "instruction": "1. steps"
+    }
+]

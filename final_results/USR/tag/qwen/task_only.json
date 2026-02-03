@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Relevance",
+        "tags": [
+            "Maintains Context",
+            "Uses Knowledge"
+        ]
+    },
+    {
+        "name": "Creativity",
+        "tags": [
+            "Interesting",
+            "Creativity"
+        ]
+    },
+    {
+        "name": "Clarity",
+        "tags": [
+            "Understandable",
+            "Clarity"
+        ]
+    },
+    {
+        "name": "Engagement",
+        "tags": [
+            "Interesting",
+            "Engagement"
+        ]
+    },
+    {
+        "name": "Consistency",
+        "tags": [
+            "Maintains Context",
+            "Consistency"
+        ]
+    }
+]

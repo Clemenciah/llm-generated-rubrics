@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "tags": [
+            "Informativeness, Overlap and Focus"
+        ]
+    },
+    {
+        "name": "Completeness",
+        "tags": [
+            "Informativeness, Overlap and Focus"
+        ]
+    },
+    {
+        "name": "Coherence",
+        "tags": [
+            "Coherence"
+        ]
+    },
+    {
+        "name": "Conciseness",
+        "tags": [
+            "Non-Repetition and no factual Redundancy"
+        ]
+    },
+    {
+        "name": "Clarity",
+        "tags": [
+            "Readability"
+        ]
+    },
+    {
+        "name": "Objectivity",
+        "tags": [
+            "Objectivity"
+        ]
+    }
+]

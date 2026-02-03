@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Relevance",
+        "description": "The degree to which the contestant's response is directly related to the user's prompt or instruction, and provides a meaningful and helpful continuation.",
+        "scale": "Binary (Relevant/Irrelevant)",
+        "instruction": "\n1- Read the user's prompt or instruction carefully and understand its context and requirements.\n2- Read the contestant's response and determine if it is directly related to the user's prompt or instruction.\n3- Evaluate if the contestant's response provides a meaningful and helpful continuation to the user's prompt or instruction.\n4- Based on the evaluation in steps 2 and 3, rate the relevance of the contestant's response as either Relevant or Irrelevant according to the provided scale."
+    },
+    {
+        "name": "Accuracy",
+        "description": "The correctness of the information provided in the contestant's response, including technical details, instructions, and explanations. This can be evaluated by comparing the response to reliable sources or expert knowledge.",
+        "scale": "Binary (Correct/Incorrect)",
+        "instruction": "\n1- Read the contestant's response thoroughly and understand the information provided.\n2- Research and gather information from reliable sources or use expert knowledge to verify the accuracy of the information provided in the contestant's response.\n3- Compare the information in the contestant's response with the gathered information to determine if the response is accurate or not.\n4- Rate the contestant's response as 'Correct' if the information provided is accurate and 'Incorrect' if it is not."
+    },
+    {
+        "name": "Completeness",
+        "description": "The extent to which the contestant's response provides a comprehensive and thorough continuation, answering all aspects of the user's prompt or instruction, and providing all necessary details and explanations.",
+        "scale": "Continuous (0-100%, where 0% is completely incomplete and 100% is fully complete)",
+        "instruction": "\n1- Read the contestant's response and the user's prompt or instruction carefully.\n2- Consider the extent to which the response provides a comprehensive and thorough continuation, answering all aspects of the user's prompt or instruction.\n3- Evaluate if the response provides all necessary details and explanations.\n4- Rate the response on a continuous scale from 0-100%, where 0% is completely incomplete and 100% is fully complete, based on the Completeness metric."
+    },
+    {
+        "name": "Coherence",
+        "description": "The logical consistency and clarity of the contestant's response, including the organization of ideas, the flow of information, and the use of language.",
+        "scale": "Continuous (1-5, where 1 is incoherent and 5 is highly coherent)",
+        "instruction": "\n1- Read the contestant's response carefully and thoroughly to understand the main ideas and arguments presented.\n2- Evaluate the logical consistency of the response. Check if the response follows a logical order, and if the ideas presented are connected and build upon each other.\n3- Evaluate the clarity of the response. Check if the response is clear and easy to understand, and if the language used is appropriate and effective.\n4- Evaluate the organization of ideas in the response. Check if the response has a clear structure and if the ideas are presented in a logical and coherent manner.\n5- Evaluate the flow of information in the response. Check if the response flows smoothly from one idea to the next, and if the information is presented in a coherent and organized way.\n6- Assign a score on a scale of 1-5 based on the evaluation. A score of 1 indicates that the response is incoherent, while a score of 5 indicates that the response is highly coherent."
+    },
+    {
+        "name": "Conciseness",
+        "description": "The efficiency of the contestant's response, in terms of using the least amount of words possible to convey the necessary information and ideas.",
+        "scale": "Continuous (1-5, where 1 is verbose and 5 is concise)",
+        "instruction": "\n1- Read the contestant's response carefully, making sure to understand the main ideas and information conveyed.\n2- Evaluate the response based on the 'Conciseness' metric, considering the efficiency of the contestant's response in terms of using the least amount of words possible to convey the necessary information and ideas.\n3- Rate the response on a continuous scale of 1-5, where 1 is verbose and 5 is concise. This means if the contestant used more words than necessary, rate them closer to 1, and if they used the least amount of words possible to convey the necessary information, rate them closer to 5."
+    },
+    {
+        "name": "Engagement",
+        "description": "The degree to which the contestant's response is engaging and interesting, encouraging the user to continue the conversation or follow the instructions.",
+        "scale": "Continuous (1-5, where 1 is dull and 5 is highly engaging)",
+        "instruction": "\n1- Read the contestant's response carefully and thoroughly.\n2- Consider the level of engagement and interest the response provides, taking into account factors such as creativity, relevance to the prompt, and potential to encourage further conversation or action.\n3- Rate the response on the Engagement metric using the continuous scale of 1-5, where 1 indicates a dull response and 5 indicates a highly engaging response."
+    },
+    {
+        "name": "Originality",
+        "description": "The degree to which the contestant's response is unique and creative, providing new and interesting ideas or perspectives, rather than simply repeating or rephrasing common or generic information.",
+        "scale": "Continuous (1-5, where 1 is unoriginal and 5 is highly original)",
+        "instruction": "\n1- Read the contestant's response carefully and thoroughly to understand the content and its context.\n2- Evaluate the degree of originality in the contestant's response. Consider if the response provides new and interesting ideas or perspectives, rather than simply repeating or rephrasing common or generic information.\n3- Rate the response on the scale of 1-5, where 1 indicates the response is unoriginal and 5 indicates the response is highly original."
+    }
+]

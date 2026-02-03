@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how well the response addresses the specific user prompt or context.",
+        "scale": "1 to 5 (1 being irrelevant and 5 being highly relevant)",
+        "instruction": "\n1- Read the user prompt or instruction carefully to understand what is being asked.\n2- Read the contestant's response thoroughly.\n3- Assess how directly and effectively the response addresses the specific prompt or context provided by the user.\n4- Consider whether the response includes necessary details and stays on topic.\n5- Rate the response on a scale from 1 to 5 based on its relevance to the user prompt or context, where 1 is irrelevant and 5 is highly relevant.\n6- Document the rating and provide a brief justification for the score, highlighting key points that influenced the decision."
+    },
+    {
+        "name": "Accuracy",
+        "description": "Assesses the factual correctness of the information provided in the response.",
+        "scale": "1 to 5 (1 being inaccurate and 5 being completely accurate)",
+        "instruction": "\n1- Read the user's prompt or instruction carefully to understand the context and what is being asked.\n2- Read the contestant's response thoroughly to understand the information provided.\n3- Compare the information provided in the contestant's response against reliable sources, if necessary, to verify its factual accuracy.\n4- Consider whether the response directly answers the prompt or instruction and addresses all aspects of the query.\n5- Evaluate the response on a scale from 1 to 5 based on its factual accuracy, where 1 indicates the information is inaccurate or misleading, and 5 indicates that all information is factually correct and complete.\n6- Provide a brief rationale for your rating, mentioning any specific inaccuracies or the completeness of the response."
+    },
+    {
+        "name": "Clarity",
+        "description": "Evaluates how clearly and understandably the response is communicated.",
+        "scale": "1 to 5 (1 being unclear and 5 being very clear)",
+        "instruction": "\n1- Read the user prompt/instruction carefully to understand what is being asked.\n2- Read the contestant's response thoroughly to evaluate how clearly the information is communicated.\n3- Consider whether the response is easy to understand and whether it communicates ideas in a logical and straightforward manner.\n4- Determine if there are any ambiguities or confusing parts in the response that might hinder understanding.\n5- Rate the response on a scale from 1 to 5, where 1 indicates the response is very unclear and 5 indicates the response is very clear.\n6- Provide a brief explanation for the rating, highlighting any strengths or weaknesses in clarity."
+    },
+    {
+        "name": "Detail",
+        "description": "Assesses the level of detail and thoroughness in the response.",
+        "scale": "1 to 5 (1 being very superficial and 5 being very detailed)",
+        "instruction": "\n1- Read the user's prompt or instruction carefully to understand what is being asked or required.\n2- Examine the contestant's response to the prompt or instruction.\n3- Determine the level of detail provided in the response. Consider whether the response covers all aspects of the prompt, and whether it provides comprehensive information.\n4- Rate the response on a scale from 1 to 5 based on the level of detail. A rating of 1 indicates a very superficial response that lacks detail, while a rating of 5 indicates a highly detailed and thorough response.\n5- Provide a justification for the rating, explaining why the response was rated at that level of detail."
+    },
+    {
+        "name": "Engagement",
+        "description": "Measures how engaging or interesting the response is to the user.",
+        "scale": "1 to 5 (1 being not engaging and 5 being highly engaging)",
+        "instruction": "\n1- Read the user's prompt and the contestant's response carefully.\n2- Consider how engaging or interesting the response is to the user. This includes assessing elements such as creativity, relevance, informativeness, and ability to capture and maintain the user's attention.\n3- Rate the response on a scale from 1 to 5 based on its engagement level, where 1 is not engaging and 5 is highly engaging.\n4- Provide any additional comments or justification for the given rating to support your evaluation decision."
+    },
+    {
+        "name": "Politeness",
+        "description": "Evaluates the tone and politeness of the response.",
+        "scale": "1 to 5 (1 being rude and 5 being very polite)",
+        "instruction": "\n1- Read the user's prompt and the contestant's response carefully to understand the context and content of the interaction.\n2- Assess the tone of the response. Consider the language used, the structure of sentences, and the overall demeanor conveyed by the response.\n3- Determine if the response is polite. Look for positive language, respectful addressing of the user's questions or concerns, and the absence of rude or dismissive language.\n4- Assign a politeness score from 1 to 5, where 1 indicates a rude response, 3 indicates a neutral or adequately polite response, and 5 indicates a very polite and courteous response.\n5- Document the score and any relevant observations or notes that justify the given score, providing examples from the response if necessary."
+    },
+    {
+        "name": "Consistency",
+        "description": "Assesses whether the response is consistent with the information provided in the conversation context.",
+        "scale": "1 to 5 (1 being inconsistent and 5 being completely consistent)",
+        "instruction": "\n1- Read the entire conversation context provided prior to the response. Ensure you understand the information conveyed.\n2- Read the contestant's response carefully. Pay attention to details and how they relate to the conversation context.\n3- Determine if the response aligns with the facts, details, and tone presented in the conversation context.\n4- Assign a consistency score to the response based on how well it aligns with the conversation context, using the scale: 1 = inconsistent, 2 = mostly inconsistent, 3 = neutral, 4 = mostly consistent, 5 = completely consistent.\n5- Provide a brief justification for the score, highlighting any specific elements of the response that influenced your decision."
+    },
+    {
+        "name": "Creativity",
+        "description": "Measures the level of creativity or originality in the response.",
+        "scale": "1 to 5 (1 being not creative and 5 being highly creative)",
+        "instruction": "\n1- Read the user's prompt or instruction carefully to understand what is being asked.\n2- Read the contestant's response fully to understand how they addressed the prompt or instruction.\n3- Evaluate the originality of the response. Consider if the response provides a unique perspective, or if it presents information or ideas in an innovative way.\n4- Consider the use of language and expression. A creative response might use language in a novel or imaginative way.\n5- Assign a score from 1 to 5 based on the level of creativity, using the following guide:\n- 1: Not creative; response is generic or directly copied from common knowledge.\n- 2: Slightly creative; response shows minimal originality.\n- 3: Moderately creative; response has some unique elements but relies on common ideas.\n- 4: Very creative; response is original and shows innovative thinking.\n- 5: Highly creative; response is exceptionally original and imaginative.\n6- Document the score and provide a brief justification for the rating based on the criteria."
+    }
+]

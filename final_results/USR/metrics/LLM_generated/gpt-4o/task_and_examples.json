@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how relevant the continuation is to the given context and interesting fact.",
+        "scale": "High, Medium, Low",
+        "instruction": "\n1- Read the given conversation between the two individuals.\n2- Read the provided potential response for the next turn in the conversation.\n3- Read and understand the interesting fact associated with the response.\n4- Evaluate the relevance of the response to both the preceding conversation and the interesting fact. Consider how well the response fits into the ongoing dialogue and how well it incorporates or relates to the interesting fact.\n5- Rate the relevance of the response based on the criteria provided: High, Medium, or Low."
+    },
+    {
+        "name": "Engagement",
+        "description": "Assesses how engaging the continuation is, considering factors like curiosity, interest, and conversational hooks.",
+        "scale": "High, Medium, Low",
+        "instruction": "\n1- Read the provided conversation between two individuals thoroughly to understand the context and flow.\n2- Analyze the potential response in terms of its ability to capture interest and provoke curiosity.\n3- Consider the engagement level of the response based on whether it introduces new, intriguing information or poses a question that encourages further dialogue.\n4- Rate the response on the engagement scale: High, Medium, or Low, depending on how well it maintains or enhances the interest in the conversation."
+    },
+    {
+        "name": "Coherence",
+        "description": "Evaluates the logical and grammatical consistency of the continuation, ensuring it flows naturally from the context.",
+        "scale": "High, Medium, Low",
+        "instruction": "\n1- Read the conversation provided, paying close attention to the flow of dialogue and context.\n2- Read the potential response for the next turn in the conversation, noting the interesting fact included.\n3- Evaluate the coherence of the response based on its logical consistency with the preceding conversation. Consider whether it naturally follows from the previous dialogue.\n4- Assess the grammatical structure of the response, ensuring it adheres to standard grammatical rules and is easily understandable.\n5- Determine the overall coherence of the response by considering both its logical flow and grammatical correctness.\n6- Assign a coherence rating to the response based on the assessment: High if it is logically consistent and grammatically correct, Medium if it has minor inconsistencies or grammatical issues, or Low if it lacks logical flow or has significant grammatical errors."
+    },
+    {
+        "name": "Creativity",
+        "description": "Measures the originality and inventiveness of the continuation.",
+        "scale": "High, Medium, Low",
+        "instruction": "\n1- Read the last exchange in the conversation to understand the context and flow.\n2- Examine the provided response and the interesting fact it contains.\n3- Determine how original and inventive the response is in the context of the conversation. Consider whether the fact is presented in a novel way or if it adds an unexpected twist to the dialogue.\n4- Rate the creativity of the response as High if it introduces the fact in an unexpected and engaging manner, Medium if it presents the fact in a straightforward but relevant way, and Low if the fact is presented in a predictable or unoriginal manner.\n5- Document the rating and provide a brief justification based on the criteria mentioned."
+    },
+    {
+        "name": "Depth",
+        "description": "Assesses the thoughtfulness and insightfulness of the continuation, including the depth of understanding and exploration of the topic.",
+        "scale": "High, Medium, Low",
+        "instruction": "\n1- Read the provided conversation carefully and understand the context.\n2- Read the proposed response that will be evaluated.\n3- Consider how well the response adds depth to the conversation by providing thoughtful insights or exploring the topic in a meaningful way.\n4- Based on your assessment of the previous step, rate the response as High, Medium, or Low for Depth.\n5- Provide a brief explanation for your rating, citing specific aspects of the response that influenced your decision."
+    },
+    {
+        "name": "Politeness",
+        "description": "Evaluates the tone of the continuation to ensure it is respectful and polite.",
+        "scale": "High, Medium, Low",
+        "instruction": "\n1- Read the conversation provided thoroughly to understand the context.\n2- Examine the given response that is to be evaluated for politeness.\n3- Consider the tone of the response and whether it is respectful and polite.\n4- Rate the response according to the politeness scale: High, Medium, or Low."
+    },
+    {
+        "name": "Humor",
+        "description": "Assesses the use of humor in the continuation, if appropriate, to enhance the conversation.",
+        "scale": "High, Medium, Low",
+        "instruction": "\n1- Read the conversation provided to understand the context.\n2- Read the potential response that is provided as the next turn in the conversation.\n3- Evaluate the use of humor in the response. Consider if humor is appropriate and if it enhances the conversation.\n4- Rate the response based on the humor metric using the scale: High, Medium, Low.\n5- Provide a justification for your rating, explaining why the humor was effective or not, and how it contributes to the conversation."
+    }
+]

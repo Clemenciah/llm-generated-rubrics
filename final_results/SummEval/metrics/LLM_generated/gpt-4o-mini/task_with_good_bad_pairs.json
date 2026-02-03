@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how well the summary captures the main points of the original article.",
+        "scale": "Scale of 0 to 5, where 0 indicates no relevance and 5 indicates full relevance to the main points.",
+        "instruction": "\n1- Read the original news article carefully to understand its main points.\n2- Read the summary provided by the contestant.\n3- Compare the summary against the main points of the original article.\n4- Rate the relevance of the summary on a scale of 0 to 5 based on how well it captures the main points.\n5- Provide feedback or justification for the relevance score given."
+    },
+    {
+        "name": "Conciseness",
+        "description": "Assesses the brevity of the summary while maintaining essential information.",
+        "scale": "Scale of 0 to 5, where 0 indicates excessive length and 5 indicates the summary is succinct.",
+        "instruction": "\n1- Read the summary provided by the contestant.\n2- Identify the key information contained in the summary.\n3- Assess the length of the summary in relation to the key information.\n4- Rate the summary on a scale from 0 to 5 based on its conciseness.\n5- Provide feedback if necessary, explaining the rating related to the conciseness metric."
+    },
+    {
+        "name": "Clarity",
+        "description": "Evaluates how clear and understandable the summary is to the reader.",
+        "scale": "Scale of 0 to 5, where 0 indicates very unclear and 5 indicates perfectly clear.",
+        "instruction": "\n1- Read the summary provided by the contestant.\n2- Assess the overall clarity of the summary.\n3- Consider if the main points of the original news article are conveyed clearly.\n4- Evaluate the use of language, including grammar and vocabulary.\n5- Assign a clarity score on a scale from 0 to 5 based on your assessment."
+    },
+    {
+        "name": "Accuracy",
+        "description": "Checks the factual correctness of the information presented in the summary compared to the original article.",
+        "scale": "Scale of 0 to 5, where 0 indicates completely inaccurate and 5 indicates completely accurate.",
+        "instruction": "\n1- Read the original news article thoroughly to understand the key points and factual information presented.\n2- Read the contestant's summary carefully, noting the facts and claims made.\n3- Compare the facts in the summary against the original article to assess any discrepancies or inaccuracies.\n4- Assign a score from 0 to 5 based on the accuracy of the summary, where 0 is for completely inaccurate summaries and 5 is for summaries that accurately reflect all major points and facts from the original article.\n5- Provide feedback or notes explaining the score assigned, highlighting specific areas of accuracy or inaccuracy."
+    },
+    {
+        "name": "Grammar and Mechanics",
+        "description": "Reviews the grammatical correctness and overall writing mechanics of the summary.",
+        "scale": "Scale of 0 to 5, where 0 indicates numerous errors and 5 indicates no errors.",
+        "instruction": "\n1- Read the contestant's summary carefully.\n2- Identify any grammatical errors present in the summary.\n3- Evaluate the overall writing mechanics, including sentence structure and punctuation.\n4- Assign a score from 0 to 5 based on the number of errors identified and the overall quality of writing.\n5- Provide feedback on specific grammatical and mechanical issues to support the assigned score."
+    }
+]

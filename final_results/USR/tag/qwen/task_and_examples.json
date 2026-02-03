@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Relevance",
+        "tags": [
+            "Maintains Context",
+            "Understandable"
+        ]
+    },
+    {
+        "name": "Engagement",
+        "tags": [
+            "Interesting",
+            "Natural"
+        ]
+    },
+    {
+        "name": "Coherence",
+        "tags": [
+            "Maintains Context",
+            "Understandable"
+        ]
+    },
+    {
+        "name": "Creativity",
+        "tags": [
+            "Interesting",
+            "Uses Knowledge"
+        ]
+    },
+    {
+        "name": "Empathy",
+        "tags": [
+            "Emotional Understanding"
+        ]
+    },
+    {
+        "name": "Knowledge",
+        "tags": [
+            "Uses Knowledge"
+        ]
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Content Accuracy",
+        "description": "Measures how accurately the summary reflects the key findings and conclusions of the original research paper.",
+        "scale": "Scale of 1-5, where 1 is 'very inaccurate' and 5 is 'very accurate'",
+        "instruction": "\n1- Read the provided summary carefully.\n2- Identify the key findings and conclusions of the original research paper.\n3- Compare the summary to the original research paper to assess how accurately it reflects the key findings and conclusions.\n4- Assign a score from 1 to 5 based on the accuracy of the summary: 1 for very inaccurate, 5 for very accurate.\n5- Provide a brief justification for the assigned score, highlighting specific aspects of the summary that contributed to your assessment."
+    },
+    {
+        "name": "Clarity and Coherence",
+        "description": "Evaluates how clear and coherent the summary is, including the logical flow and readability of the text.",
+        "scale": "Scale of 1-5, where 1 is 'very unclear' and 5 is 'very clear'",
+        "instruction": "\n1- Read the provided summary carefully.\n2- Evaluate the clarity of the summary. Determine if the main points are easy to understand.\n3- Assess the coherence of the summary. Check if the ideas are logically connected and flow well.\n4- Consider the readability of the text. Look for grammatical issues, sentence structure, and overall presentation.\n5- Assign a rating from 1 to 5 based on the clarity and coherence of the summary."
+    },
+    {
+        "name": "Relevance",
+        "description": "Assesses how well the summary captures the most important points relevant to the fields of medicine, pharmacy, and health care without extraneous information.",
+        "scale": "Scale of 1-5, where 1 is 'not relevant' and 5 is 'highly relevant'",
+        "instruction": "\n1- Read the provided summary carefully.\n2- Identify the key points of the original biomedical research paper.\n3- Compare the summary to the key points identified.\n4- Evaluate the relevance of the summary based on how well it captures the important points without adding extraneous information.\n5- Assign a score from 1 to 5 based on the evaluation of relevance."
+    },
+    {
+        "name": "Conciseness",
+        "description": "Measures the ability of the summary to convey necessary information without unnecessary verbosity.",
+        "scale": "Scale of 1-5, where 1 is 'very verbose' and 5 is 'very concise'",
+        "instruction": "\n1- Read the provided summary thoroughly to understand its content.\n2- Identify the key points and necessary information that should be conveyed in the summary.\n3- Evaluate the summary for verbosity. Check if there are any sections that contain unnecessary details or repetitive information.\n4- Rate the summary on a scale of 1 to 5 based on how concise it is, with 1 being very verbose and 5 being very concise.\n5- Provide feedback explaining the rating, highlighting specific examples of conciseness or verbosity in the summary."
+    },
+    {
+        "name": "Terminology Appropriateness",
+        "description": "Evaluates the use of appropriate scientific and medical terminology in the summary, ensuring it matches the context of the original document.",
+        "scale": "Scale of 1-5, where 1 is 'inappropriate terminology' and 5 is 'appropriate terminology'",
+        "instruction": "\n1- Read the provided summary carefully to understand its content and context.\n2- Identify and highlight key scientific and medical terms used in the summary.\n3- Compare the identified terminology with the original document to assess its relevance and appropriateness.\n4- Rate the summary on a scale of 1 to 5 based on the appropriateness of the terminology used.\n5- Provide a brief rationale for the assigned rating, explaining the strengths or weaknesses in the use of terminology."
+    },
+    {
+        "name": "Engagement",
+        "description": "Assesses how engaging the summary is for its intended audience, considering readability and interest level.",
+        "scale": "Scale of 1-5, where 1 is 'not engaging' and 5 is 'very engaging'",
+        "instruction": "\n1- Read the provided summary carefully to understand its content and context.\n2- Evaluate the summary's readability, considering factors like clarity, fluency, and structure.\n3- Assess the interest level of the summary. Determine if it captures attention and maintains interest for the intended audience.\n4- Rate the summary on a scale of 1-5 based on the engagement criteria, where 1 is 'not engaging' and 5 is 'very engaging'.\n5- Provide constructive feedback on how the summary could be improved to enhance engagement."
+    },
+    {
+        "name": "Completeness",
+        "description": "Evaluates whether the summary covers all critical aspects of the research paper, including objectives, methods, results, and conclusions.",
+        "scale": "Scale of 1-5, where 1 is 'incomplete' and 5 is 'fully complete'",
+        "instruction": "\n1- Read the provided summary carefully.\n2- Identify the objectives of the research paper in the summary.\n3- Check if the methods used in the research are described in the summary.\n4- Look for the results of the research as presented in the summary.\n5- Determine if the conclusions drawn from the research are included in the summary.\n6- Evaluate the summary on a scale of 1-5 based on the completeness of the aforementioned aspects."
+    }
+]

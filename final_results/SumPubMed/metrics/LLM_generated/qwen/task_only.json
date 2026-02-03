@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how well the summary captures the main points and key findings of the original document.",
+        "scale": "1-5, where 1 is not relevant and 5 is highly relevant",
+        "instruction": "1. Read the original document carefully to understand its main points and key findings.\n2. Read the summary provided by the contestant.\n3. Evaluate how well the summary captures the main points and key findings of the original document.\n4. Rate the summary on a scale of 1 to 5, where 1 is not relevant and 5 is highly relevant.\n5. Record the score and provide a brief justification for the rating."
+    },
+    {
+        "name": "Accuracy",
+        "description": "Evaluates the factual correctness and precision of the information presented in the summary.",
+        "scale": "1-5, where 1 is highly inaccurate and 5 is highly accurate",
+        "instruction": "1. Read the summary carefully.\n2. Identify the key points and claims made in the summary.\n3. Cross-reference these key points with the original document to verify factual correctness.\n4. Assess the precision and completeness of the information presented in the summary.\n5. Rate the summary on a scale of 1 to 5, where 1 is highly inaccurate and 5 is highly accurate."
+    },
+    {
+        "name": "Clarity",
+        "description": "Assesses the clarity and readability of the summary.",
+        "scale": "1-5, where 1 is very unclear and 5 is very clear",
+        "instruction": "1. Read the summary carefully.\n2. Assess how clearly and concisely the main points of the paper are conveyed.\n3. Evaluate if the summary is free from jargon and technical terms that are not explained.\n4. Check if the summary is logically structured and easy to follow.\n5. Rate the clarity of the summary on a scale of 1 to 5, where 1 is very unclear and 5 is very clear."
+    },
+    {
+        "name": "Conciseness",
+        "description": "Measures how succinctly the summary conveys the necessary information without omitting critical details.",
+        "scale": "1-5, where 1 is very wordy and 5 is very concise",
+        "instruction": "1. Read the original research paper to understand the core content and key details.\n2. Read the summary provided by the contestant.\n3. Assess if the summary conveys the necessary information without being overly verbose.\n4. Determine if any critical details are omitted from the summary.\n5. Rate the summary on a scale of 1 to 5, where 1 is very wordy and 5 is very concise.\n6. Provide feedback if the summary can be improved in terms of conciseness."
+    },
+    {
+        "name": "Coherence",
+        "description": "Evaluates the logical flow and coherence of the summary.",
+        "scale": "1-5, where 1 is incoherent and 5 is highly coherent",
+        "instruction": "1. Read the summary carefully.\n2. Evaluate the logical flow and coherence of the summary.\n3. Assign a score from 1 to 5 based on the coherence, where 1 is incoherent and 5 is highly coherent."
+    },
+    {
+        "name": "Comprehensiveness",
+        "description": "Measures the extent to which the summary covers all the important aspects of the original document.",
+        "scale": "1-5, where 1 is incomplete and 5 is comprehensive",
+        "instruction": "1. Read the original document thoroughly to understand its content and key points.\n2. Read the provided summary to understand its content and key points.\n3. Compare the summary to the original document to ensure all important aspects are covered.\n4. Rate the summary on a scale of 1 to 5, where 1 is incomplete and 5 is comprehensive, based on the extent to which the summary covers the important aspects of the original document.\n5. Provide feedback on specific areas where the summary could be improved, if necessary."
+    }
+]

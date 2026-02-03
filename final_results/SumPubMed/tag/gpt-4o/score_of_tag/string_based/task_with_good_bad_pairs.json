@@ -1,0 +1,31 @@
+{
+  "dataset": "SumPubMed",
+  "setting_name": "model_name=gpt-4o-use_system=False-use_sample=True-use_response=True-number_of_shots=3-use_temperature=False-use_restriction=False.json",
+  "model_name": "gpt-4o",
+  "use_system": "False",
+  "use_sample": "True",
+  "use_response": "True",
+  "number_of_shots": "3",
+  "use_temperature": "False",
+  "use_restriction": "False",
+  "generated": 7,
+  "unique": 7,
+  "unseen": 3,
+  "unseen_over_generated": 0.42857142857142855,
+  "unseen_over_unique": 0.42857142857142855,
+  "teacher_coverage": 1.0,
+  "diversity": 0.4285714285714286,
+  "teacher_hit_count": 4,
+  "teacher_total": 4,
+  "new_aspect_count": 3,
+  "new_aspects": [
+    "Consistency",
+    "Insightfulness",
+    "Scientific Accuracy"
+  ],
+  "use_similarity": false,
+  "similarity_threshold": 0.82,
+  "meaningfulness_threshold": 1,
+  "device": "cpu",
+  "timestamp": "2025-09-20T18:53:11.909083Z"
+}

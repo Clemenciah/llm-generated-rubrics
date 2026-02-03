@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Relevance",
+        "description": "The answer's relevance to the context",
+        "scale": "0-1",
+        "instruction": "1. Read the biomedical research paper summary carefully\n2. Assess the summary's relevance to the context of the original document\n3. Evaluate if the summary accurately captures the main points and key information of the original document\n4. Assign a score between 0 and 1 based on the summary's relevance, where 1 is highly relevant and 0 is not relevant at all"
+    },
+    {
+        "name": "Accuracy",
+        "description": "The answer's accuracy",
+        "scale": "0-1",
+        "instruction": "1. Read and understand the task instructions carefully\n2. Keep the task document open while reviewing and refer to it as needed\n3. Assess the provided summaries based on the evaluation criteria\n4. Rate the responses on the Accuracy metric, with a scale of 0-1"
+    },
+    {
+        "name": "Completeness",
+        "description": "The answer's completeness",
+        "scale": "0-1",
+        "instruction": "1. Read the biomedical research paper summary provided by the contestant.\n2. Check if the summary covers all the main points of the original document, including the research question, methodology, results, and conclusions.\n3. Assess if the summary provides sufficient information to understand the research and its findings.\n4. Evaluate if the summary is well-structured and easy to follow.\n5. Assign a score between 0 and 1 based on the completeness of the summary, where 1 is a complete and comprehensive summary and 0 is an incomplete or missing summary."
+    },
+    {
+        "name": "Consistency",
+        "description": "The answer's consistency with the context",
+        "scale": "0-1",
+        "instruction": "1. Read the provided summaries carefully\n2. Assess the consistency of each summary with its context\n3. Rate the consistency on a scale of 0-1\n4. Record the ratings for further evaluation"
+    }
+]

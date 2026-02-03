@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how closely the summary aligns with the main points and themes of the original news article.",
+        "scale": "Scale from 1 to 5, where 1 is not relevant and 5 is highly relevant.",
+        "instruction": "\n1- Read the original news article carefully to understand its main points and themes.\n2- Read the contestant's summary of the news article.\n3- Compare the summary to the original article to evaluate how well it captures the main points and themes.\n4- Assign a relevance score from 1 to 5 based on the alignment of the summary with the original article.\n5- Provide feedback on the summary, highlighting strengths and areas for improvement if applicable."
+    },
+    {
+        "name": "Clarity",
+        "description": "Assesses how clearly the information is presented in the summary, including the use of proper grammar and sentence structure.",
+        "scale": "Scale from 1 to 5, where 1 is very unclear and 5 is very clear.",
+        "instruction": "\n1- Read the summary provided by the contestant carefully.\n2- Evaluate the clarity of the information presented in the summary.\n3- Consider the use of grammar and sentence structure in your evaluation.\n4- Assign a score from 1 to 5 based on your assessment of clarity.\n5- Provide feedback to the contestant if necessary, explaining your score."
+    },
+    {
+        "name": "Conciseness",
+        "description": "Evaluates the summary's ability to convey the essential information without unnecessary detail or filler content.",
+        "scale": "Scale from 1 to 5, where 1 is overly verbose and 5 is perfectly concise.",
+        "instruction": "\n1- Read the summary provided by the contestant.\n2- Identify the key information that the summary is meant to convey.\n3- Evaluate the summary based on the presence of unnecessary details or filler content.\n4- Assign a score from 1 to 5 based on how concise the summary is, with 1 being overly verbose and 5 being perfectly concise.\n5- Provide feedback on the score to explain the reasoning for the score given."
+    },
+    {
+        "name": "Completeness",
+        "description": "Determines whether the summary includes all critical elements of the original article, such as key facts and figures.",
+        "scale": "Scale from 1 to 5, where 1 is incomplete and 5 is fully complete.",
+        "instruction": "\n1- Read the original news article thoroughly to understand its key facts, figures, and main points.\n2- Read the contestant's summary carefully and note the presence or absence of critical elements from the original article.\n3- Evaluate the completeness of the summary based on the identified critical elements, using the provided scale from 1 to 5.\n4- Provide a brief rationale for the assigned score, explaining which key elements were included or missing."
+    },
+    {
+        "name": "Engagement",
+        "description": "Measures how engaging and interesting the summary is to the reader, encouraging further reading or interest in the topic.",
+        "scale": "Scale from 1 to 5, where 1 is not engaging and 5 is highly engaging.",
+        "instruction": "\n1- Read each summary carefully to understand its content and style.\n2- Evaluate the summary based on how engaging it is to the reader.\n3- Consider factors such as clarity, interest, and whether it piques curiosity about the topic.\n4- Assign a score from 1 to 5 based on the defined criteria for engagement.\n5- Provide a brief justification for the score given to each summary."
+    },
+    {
+        "name": "Originality",
+        "description": "Assesses the uniqueness of the summary, ensuring it is not a mere copy of the article but rather a rephrased and interpreted version.",
+        "scale": "Scale from 1 to 5, where 1 is plagiarized and 5 is highly original.",
+        "instruction": "\n1- Read the summary provided by the contestant carefully.\n2- Compare the summary to the original news article to identify similarities and differences.\n3- Assess the degree of rephrasing and interpretation present in the summary.\n4- Assign a score from 1 to 5 based on the originality of the summary, where 1 indicates it is plagiarized and 5 indicates it is highly original.\n5- Provide feedback on your scoring to justify the originality assessment."
+    }
+]

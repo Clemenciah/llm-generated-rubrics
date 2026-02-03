@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Contextual Relevance",
+        "description": "Measures how well the generated continuation aligns with the provided context. This evaluates whether the response is coherent, logical, and relevant to the conversation.",
+        "scale": "0 (irrelevant) to 5 (highly relevant)",
+        "instruction": "\n1- Read the conversation between the two individuals and the potential response.\n2- Read and understand the interesting fact provided.\n3- Evaluate the potential response based on the provided context and the interesting fact, considering the relevance, coherence, and logic.\n4- Rate the response on a scale of 0 (irrelevant) to 5 (highly relevant) for Contextual Relevance."
+    },
+    {
+        "name": "Interesting Fact Integration",
+        "description": "Assesses the successful integration of the provided interesting fact into the generated continuation. This metric evaluates whether the fact is used appropriately and adds value to the response.",
+        "scale": "0 (not used) to 5 (expertly integrated)",
+        "instruction": "\n1- Read the conversation between the two individuals to understand the context.\n2- Read the provided interesting fact that should be integrated into the response.\n3- Read the given potential response for the next turn in the conversation.\n4- Evaluate the response based on the 'Interesting Fact Integration' metric. Assess whether the fact is used appropriately and adds value to the response, rating it on a scale from 0 (not used) to 5 (expertly integrated)."
+    },
+    {
+        "name": "Language Fluency",
+        "description": "Measures the grammatical correctness, vocabulary, and overall fluency of the generated continuation. This evaluates the contestant's ability to construct well-structured and coherent sentences.",
+        "scale": "0 (poor) to 5 (excellent)",
+        "instruction": "\n1- Read and understand the given conversation, potential response, and the interesting fact.\n2- Evaluate the potential response based on the Language Fluency metric, considering grammatical correctness, vocabulary, and overall fluency.\n3- Rate the response on a scale of 0 (poor) to 5 (excellent) based on the evaluation in Step 2.\n4- Provide the final rating for the response, following the specified format: [Metric] Rating: <score>"
+    },
+    {
+        "name": "Creativity",
+        "description": "Evaluates the originality, imaginative use of language, and unique perspectives in the generated continuation. This metric assesses the contestant's ability to create engaging, fresh, and novel responses.",
+        "scale": "0 (clich\u00e9) to 5 (highly creative)",
+        "instruction": "\n1- Read the conversation and the potential response carefully.\n2- Consider the given interesting fact and assess its relevance to the conversation.\n3- Evaluate the creativity of the potential response based on the given metric, considering factors such as originality, imaginative use of language, and unique perspectives.\n4- Rate the potential response on a scale of 0 (clich\u00e9) to 5 (highly creative) according to the evaluated creativity."
+    },
+    {
+        "name": "Engagement",
+        "description": "Measures the ability of the generated continuation to maintain the conversation's flow and encourage further interaction. This evaluates whether the response is engaging, inviting, and leaves room for further discussion.",
+        "scale": "0 (disengaging) to 5 (highly engaging)",
+        "instruction": "\n1- Read and understand the given conversation, the provided response, and the interesting fact.\n2- Evaluate the provided response based on the Engagement metric, considering whether the response is engaging, inviting, and leaves room for further discussion.\n3- Assign a score on the scale of 0 (disengaging) to 5 (highly engaging) based on the Engagement metric."
+    }
+]

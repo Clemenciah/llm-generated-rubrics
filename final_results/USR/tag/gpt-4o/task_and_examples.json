@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Relevance",
+        "tags": [
+            "Maintains Context",
+            "Uses Knowledge"
+        ]
+    },
+    {
+        "name": "Engagement",
+        "tags": [
+            "Interesting",
+            "Natural"
+        ]
+    },
+    {
+        "name": "Coherence",
+        "tags": [
+            "Understandable",
+            "Maintains Context"
+        ]
+    },
+    {
+        "name": "Creativity",
+        "tags": [
+            "Interesting",
+            "Creativity"
+        ]
+    },
+    {
+        "name": "Depth",
+        "tags": [
+            "Uses Knowledge",
+            "Depth"
+        ]
+    },
+    {
+        "name": "Politeness",
+        "tags": [
+            "Politeness"
+        ]
+    },
+    {
+        "name": "Humor",
+        "tags": [
+            "Interesting",
+            "Humor"
+        ]
+    }
+]

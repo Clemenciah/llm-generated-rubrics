@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Relevance",
+        "description": "How well the response answers the question or prompt",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the instructions carefully\n2. Keep the document open while reviewing\n3. Refer to it as needed\n4. Evaluate the response based on the Relevance metric\n5. Assess how well the response answers the question or prompt\n6. Assign a score on a scale of 1-5"
+    },
+    {
+        "name": "Accuracy",
+        "description": "How accurate the information in the response is",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the instructions carefully\n2. Keep the document open while reviewing and refer to it as needed\n3. Evaluate the response based on the Accuracy metric\n4. Assess the information in the response for accuracy\n5. Assign a score on the scale of 1-5 based on the accuracy of the information"
+    },
+    {
+        "name": "Completeness",
+        "description": "How complete the response is in addressing all aspects of the question or prompt",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the instructions carefully\n2. Keep the document open while reviewing and refer to it as needed\n3. Evaluate the response based on the Completeness metric\n4. Assess how complete the response is in addressing all aspects of the question or prompt\n5. Rate the response on a scale of 1-5 for Completeness"
+    },
+    {
+        "name": "Clarity",
+        "description": "How clear and easy to understand the response is",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the instructions carefully\n2. Keep the document open while reviewing and refer to it as needed\n3. Evaluate the response based on the Clarity metric\n4. Assess how clear and easy to understand the response is\n5. Rate the response on a scale of 1-5 for Clarity"
+    },
+    {
+        "name": "Coherence",
+        "description": "How well the response is organized and logically connected",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the instructions carefully\n2. Keep the document open while reviewing and refer to it as needed\n3. Evaluate the response based on the Coherence metric\n4. Assess how well the response is organized and logically connected\n5. Assign a score on the scale of 1-5 based on the evaluation"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Coherence",
+        "description": "How well the generated continuation fits with the context of the conversation",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the conversation between the two individuals.\n2. Identify the topic and context of the conversation.\n3. Analyze the given response and the interesting fact it contains.\n4. Evaluate how well the response fits with the conversation context, considering relevance, tone, and flow.\n5. Rate the response on the Coherence metric, using a scale of 1-5, where 1 is incoherent and 5 is highly coherent."
+    },
+    {
+        "name": "Relevance", "-"
+        "description": "How relevant the generated continuation is to the topic being discussed",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the conversation between the two individuals to identify the topic being discussed.\n2. Analyze the potential response to determine its relevance to the topic.\n3. Evaluate the response based on the Relevance metric, considering how well it relates to the topic and contributes to the conversation.\n4. Assign a score from 1 to 5, where 1 is the least relevant and 5 is the most relevant, based on the evaluation.\n5. Record the score and provide it as the rating for the response."
+    },
+    {
+        "name": "Engagement",
+        "description": "How engaging and interesting the generated continuation is",
+        "scale": "1-5",
+        "instruction": "1. Read the conversation between the two individuals carefully to understand the context.\n2. Analyze the potential response that concerns an interesting fact.\n3. Evaluate the response based on the Engagement metric, considering how engaging and interesting it is.\n4. Assign a rating from 1 to 5, with 1 being the least engaging and 5 being the most engaging.\n5. Provide the rating as the final evaluation result."
+    },
+    {
+        "name": "Contextual Understanding",
+        "description": "How well the generated continuation demonstrates understanding of the context and conversation history",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the conversation history between the two individuals.\n2. Identify the context and topic of discussion.\n3. Analyze the given response and the interesting fact it contains.\n4. Assess how well the response demonstrates understanding of the conversation history and context.\n5. Evaluate the response based on the Contextual Understanding metric, using a scale of 1-5.\n6. Consider factors such as relevance, coherence, and awareness of previous statements in the conversation."
+    },
+    {
+        "name": "Fluency",
+        "description": "How fluent and natural the generated continuation sounds",
+        "scale": "1-5",
+        "instruction": "1. Read the conversation between the two individuals carefully\n2. Understand the context and the topic being discussed\n3. Evaluate the given response for fluency and naturalness\n4. Assess how well the response flows from the previous turn in the conversation\n5. Rate the response on a scale of 1-5 based on its fluency and naturalness"
+    }
+]

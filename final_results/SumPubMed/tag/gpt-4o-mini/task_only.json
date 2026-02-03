@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Content Accuracy",
+        "tags": [
+            "Informativeness, Overlap and Focus",
+            "Completeness"
+        ]
+    },
+    {
+        "name": "Clarity and Coherence",
+        "tags": [
+            "Coherence",
+            "Readability"
+        ]
+    },
+    {
+        "name": "Relevance",
+        "tags": [
+            "Informativeness, Overlap and Focus"
+        ]
+    },
+    {
+        "name": "Conciseness",
+        "tags": [
+            "Readability"
+        ]
+    },
+    {
+        "name": "Terminology Appropriateness",
+        "tags": [
+            "Other: Scientific and Medical Terminology"
+        ]
+    },
+    {
+        "name": "Engagement",
+        "tags": [
+            "Readability",
+            "Other: Audience Engagement"
+        ]
+    },
+    {
+        "name": "Completeness",
+        "tags": [
+            "Informativeness, Overlap and Focus",
+            "Other: Coverage of Research Aspects"
+        ]
+    }
+]

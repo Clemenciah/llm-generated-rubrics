@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how closely the response relates to the context of the conversation and the preceding dialogue.",
+        "scale": "1 (not relevant) to 5 (highly relevant)",
+        "instruction": "\n1- Read the provided conversation to understand the context and topics discussed.\n2- Analyze the proposed response and the interesting fact provided.\n3- Evaluate the relevance of the response to the previous dialogue based on how well it connects to the themes and subjects already discussed.\n4- Rate the response on a scale from 1 to 5, where 1 is not relevant and 5 is highly relevant."
+    },
+    {
+        "name": "Engagement",
+        "description": "Assesses how engaging or interesting the response is, including the use of anecdotes or humor.",
+        "scale": "1 (not engaging) to 5 (highly engaging)",
+        "instruction": "\n1- Read the conversation to understand the context and tone.\n2- Analyze the potential response for its engagement level.\n3- Consider the interesting fact provided and how it contributes to the engagement.\n4- Rate the response on a scale of 1 to 5 based on the engagement metric."
+    },
+    {
+        "name": "Coherence",
+        "description": "Evaluates the logical flow and clarity of the response in relation to the context.",
+        "scale": "1 (not coherent) to 5 (very coherent)",
+        "instruction": "\n1- Read the conversation between the two individuals.\n2- Analyze the context of the conversation.\n3- Consider the provided response and the interesting fact.\n4- Evaluate the coherence of the response in relation to the conversation context.\n5- Assign a score from 1 to 5 based on the coherence evaluation."
+    },
+    {
+        "name": "Creativity",
+        "description": "Measures the originality and inventiveness of the response, particularly in providing new ideas or perspectives.",
+        "scale": "1 (not creative) to 5 (very creative)",
+        "instruction": "\n1- Read the conversation between the two individuals carefully.\n2- Consider the provided potential response.\n3- Evaluate the creativity of the response based on how original or inventive it is in the context of the conversation.\n4- Assign a score from 1 to 5 based on the creativity metric."
+    },
+    {
+        "name": "Personality",
+        "description": "Assesses the degree to which the response reflects a distinct personality or character, making the interaction feel more personalized.",
+        "scale": "1 (no personality) to 5 (very distinct personality)",
+        "instruction": "\n1- Read the conversation between the two individuals.\n2- Identify the tone and context of the conversation.\n3- Review the potential response and the interesting fact provided.\n4- Evaluate the response based on how much personality it conveys.\n5- Rate the response on the scale from 1 to 5, where 1 is no personality and 5 is very distinct personality."
+    },
+    {
+        "name": "Information Value",
+        "description": "Evaluates whether the response provides useful or interesting information that adds to the conversation.",
+        "scale": "1 (no information value) to 5 (high information value)",
+        "instruction": "\n1- Read the conversation between the two individuals.\n2- Review the potential response that provides an interesting fact.\n3- Evaluate the response based on the Information Value metric.\n4- Assign a score from 1 to 5 based on the criteria provided."
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how closely the generated response relates to the original conversation context and the interesting fact provided.",
+        "scale": "0 (not relevant) to 5 (highly relevant)",
+        "instruction": "\n1- Read the conversation between the two individuals to understand the context.\n2- Review the interesting fact that has been provided.\n3- Analyze the potential response to determine how closely it relates to both the conversation context and the interesting fact.\n4- Rate the response on a scale from 0 to 5 based on its relevance."
+    },
+    {
+        "name": "Creativity",
+        "description": "Assesses the originality and inventiveness of the response. Does it provide a unique perspective or idea?",
+        "scale": "0 (not creative) to 5 (highly creative)",
+        "instruction": "\n1- Read the conversation between the two individuals.\n2- Consider the potential response provided.\n3- Evaluate the creativity of the response based on the originality and inventiveness.\n4- Assign a score from 0 to 5 based on the creativity of the response."
+    },
+    {
+        "name": "Coherence",
+        "description": "Evaluates how logically consistent and understandable the response is within the flow of the conversation.",
+        "scale": "0 (not coherent) to 5 (highly coherent)",
+        "instruction": "\n1- Read the conversation carefully to understand the context and flow of the discussion.\n2- Analyze the potential response to see if it logically follows the conversation and fits the topic.\n3- Rate the coherence of the response on a scale from 0 to 5, based on how well it maintains consistency and clarity in the dialogue.\n4- Provide a brief justification for the coherence rating given."
+    },
+    {
+        "name": "Engagement",
+        "description": "Measures the ability of the response to capture interest and provoke further discussion or thought.",
+        "scale": "0 (not engaging) to 5 (highly engaging)",
+        "instruction": "\n1- Identify the core topic of the conversation to understand the context.\n2- Analyze the provided response for its relevance to the topic and its potential to engage the other person.\n3- Consider the interesting fact included in the response and how it might provoke further discussion.\n4- Rate the response on a scale of 0 to 5 based on the engagement it generates."
+    },
+    {
+        "name": "Tone Appropriateness",
+        "description": "Assesses whether the tone of the response matches the context of the conversation (e.g., formal, informal, humorous).",
+        "scale": "0 (not appropriate) to 5 (very appropriate)",
+        "instruction": "\n1- Read the provided conversation carefully to understand the tone and context.\n2- Analyze the given response for its tone.\n3- Determine if the tone of the response matches the tone of the conversation.\n4- Assign a score from 0 to 5 based on the appropriateness of the tone."
+    },
+    {
+        "name": "Clarity",
+        "description": "Evaluates how clearly the ideas are expressed in the response, making it easy to understand.",
+        "scale": "0 (not clear) to 5 (very clear)",
+        "instruction": "\n1- Read the conversation carefully to understand the context and flow.\n2- Analyze the potential response for clarity, ensuring that the ideas are expressed in a straightforward manner.\n3- Assign a clarity rating from 0 to 5 based on how clearly the response conveys the information.\n4- Justify the assigned rating by highlighting specific aspects of the response that contributed to the clarity score."
+    }
+]

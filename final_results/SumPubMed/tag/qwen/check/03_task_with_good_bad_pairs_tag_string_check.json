@@ -1,0 +1,31 @@
+{
+  "dataset": "SumPubMed",
+  "setting_name": "model_name=qwen-use_system=False-use_sample=True-use_response=True-number_of_shots=3-use_temperature=False-use_restriction=False.json",
+  "model_name": "qwen",
+  "use_system": "False",
+  "use_sample": "True",
+  "use_response": "True",
+  "number_of_shots": "3",
+  "use_temperature": "False",
+  "use_restriction": "False",
+  "generated": 5,
+  "unique": 5,
+  "unseen": 3,
+  "unseen_over_generated": 0.6,
+  "unseen_over_unique": 0.6,
+  "teacher_coverage": 0.75,
+  "diversity": 0.5,
+  "teacher_hit_count": 3,
+  "teacher_total": 4,
+  "new_aspect_count": 3,
+  "new_aspects": [
+    "Accuracy",
+    "Conciseness",
+    "Originality and Insight"
+  ],
+  "use_similarity": false,
+  "similarity_threshold": 0.82,
+  "meaningfulness_threshold": 1,
+  "device": "cpu",
+  "timestamp": "2025-09-20T18:54:28.189496Z"
+}

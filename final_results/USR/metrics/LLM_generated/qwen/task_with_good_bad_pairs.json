@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how relevant the response is to the context and the conversation flow.",
+        "scale": "1 to 5, where 1 is completely irrelevant and 5 is highly relevant",
+        "instruction": "1. Read the conversation between the two individuals.\n2. Understand the context and the flow of the conversation.\n3. Read the provided potential response and the interesting fact.\n4. Evaluate the relevance of the response to the conversation context and flow using the scale from 1 to 5.\n5. Provide the relevance score along with a brief explanation."
+    },
+    {
+        "name": "Engagement",
+        "description": "Assesses how well the response engages the other participant in the conversation.",
+        "scale": "1 to 5, where 1 is no engagement and 5 is highly engaging",
+        "instruction": "1. Receive the conversation and the potential response.\n2. Identify the interesting fact within the response.\n3. Evaluate the response based on the Engagement metric using the provided scale.\n4. Provide the rated score and a brief justification for the score."
+    },
+    {
+        "name": "Coherence",
+        "description": "Evaluates the logical flow and consistency of the response with the context.",
+        "scale": "1 to 5, where 1 is incoherent and 5 is highly coherent",
+        "instruction": "1. Review the conversation and the provided response.\n2. Identify the interesting fact mentioned in the response.\n3. Evaluate if the response maintains a logical flow and consistency with the context of the conversation.\n4. Rate the response on a scale of 1 to 5, where 1 is incoherent and 5 is highly coherent."
+    },
+    {
+        "name": "Creativity",
+        "description": "Measures the originality and creativity of the response.",
+        "scale": "1 to 5, where 1 is unoriginal and 5 is highly creative",
+        "instruction": "1. Receive the conversation and the potential response.\n2. Evaluate the response based on the Creativity metric.\n3. Provide a score from 1 to 5, where 1 is unoriginal and 5 is highly creative.\n4. Justify the score with a brief explanation."
+    },
+    {
+        "name": "Information Value",
+        "description": "Assesses the amount of useful or interesting information provided in the response.",
+        "scale": "1 to 5, where 1 is no new information and 5 is highly informative",
+        "instruction": "1. Receive the conversation and the potential response.\n2. Identify the interesting fact provided in the response.\n3. Evaluate the information value of the response based on the provided metric.\n4. Provide a score from 1 to 5 for the information value."
+    },
+    {
+        "name": "Naturalness",
+        "description": "Evaluates how natural and human-like the response sounds.",
+        "scale": "1 to 5, where 1 is unnatural and 5 is very natural",
+        "instruction": "1. Receive the conversation between two individuals.\n2. Receive the potential response and the interesting fact it contains.\n3. Evaluate the response based on the provided metric (Naturalness).\n4. Provide a score from 1 to 5, where 1 is unnatural and 5 is very natural."
+    }
+]

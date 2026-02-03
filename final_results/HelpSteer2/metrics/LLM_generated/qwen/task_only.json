@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how closely the response aligns with the user's prompt or instruction.",
+        "scale": "1-5",
+        "instruction": "1. Read the user's prompt or instruction carefully.\n2. Evaluate the response based on how closely it aligns with the user's prompt or instruction.\n3. Consider whether the response directly addresses the user's request or question.\n4. Assess if any part of the response is off-topic or irrelevant.\n5. Assign a score from 1 to 5, where 1 is completely irrelevant and 5 is perfectly relevant."
+    },
+    {
+        "name": "Accuracy",
+        "description": "Evaluates the factual correctness and precision of the information provided in the response.",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the prompt or instruction provided by the user.\n2. Evaluate the response based on the factual correctness and precision of the information provided.\n3. Assign a score from 1 to 5, where 1 is completely inaccurate and 5 is entirely accurate.\n4. Provide a brief justification for the score assigned."
+    },
+    {
+        "name": "Clarity",
+        "description": "Assesses how clear and understandable the response is to the user.",
+        "scale": "1-5",
+        "instruction": "1. Read the prompt or instruction given to the contestant.\n2. Read the contestant's response to the prompt.\n3. Evaluate the response based on the Clarity metric: How clear and understandable is the response? Rate on a scale of 1-5.\n4. Provide a brief explanation for the rating given."
+    },
+    {
+        "name": "Engagement",
+        "description": "Measures the level of engagement and interest the response generates in the user.",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the prompt or instruction provided by the user.\n2. Evaluate the response based on how well it captures and maintains the user's interest and engagement.\n3. Consider the relevance, creativity, and interactivity of the response.\n4. Rate the response on a scale of 1 to 5, where 1 is poor engagement and 5 is excellent engagement.\n5. Provide a brief justification for the rating given."
+    },
+    {
+        "name": "Creativity",
+        "description": "Evaluates the originality and creativity of the response.",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the user's prompt or instruction thoroughly.\n2. Assess the response for originality and creativity in addressing the user's request.\n3. Assign a score from 1 to 5 based on the level of creativity, where 1 is very uncreative and 5 is highly creative."
+    },
+    {
+        "name": "Brevity",
+        "description": "Assesses whether the response is concise and to the point, avoiding unnecessary verbosity.",
+        "scale": "1-5",
+        "instruction": "1. Read the response carefully to understand the content and context.\n2. Assess if the response is concise and avoids unnecessary details or verbosity.\n3. Determine if the response is directly relevant to the question or prompt without including extraneous information.\n4. Assign a score from 1 to 5 based on the level of brevity:\n5. 1 - The response is very verbose and includes a lot of unnecessary information.\n6. 2 - The response is somewhat verbose but still provides relevant information.\n7. 3 - The response is moderately concise but could be improved.\n8. 4 - The response is quite concise and to the point with minimal unnecessary information.\n9. 5 - The response is extremely concise and perfectly to the point, with no unnecessary information."
+    }
+]

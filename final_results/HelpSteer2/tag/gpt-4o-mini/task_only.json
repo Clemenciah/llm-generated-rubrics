@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "tags": [
+            "Correctness/Completeness"
+        ]
+    },
+    {
+        "name": "Coherence",
+        "tags": [
+            "Coherence/Clarity"
+        ]
+    },
+    {
+        "name": "Creativity",
+        "tags": [
+            "Creativity"
+        ]
+    },
+    {
+        "name": "Clarity",
+        "tags": [
+            "Coherence/Clarity"
+        ]
+    },
+    {
+        "name": "Engagement",
+        "tags": [
+            "Engagement"
+        ]
+    },
+    {
+        "name": "Completeness",
+        "tags": [
+            "Correctness/Completeness"
+        ]
+    }
+]

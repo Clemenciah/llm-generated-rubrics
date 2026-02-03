@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how well the summary captures the main ideas and findings of the original research paper. This metric assesses if the contestant has accurately identified and summarized the key points and conclusions of the paper.",
+        "scale": "A 5-point Likert scale: 1 (poor) - 5 (excellent)",
+        "instruction": "\n1- Read the original biomedical research paper thoroughly to understand its main ideas, findings, and conclusions.\n2- Read the provided summary to understand the contestant's interpretation of the research paper.\n3- Compare the summary with the original research paper to evaluate the relevance of the summary.\n4- Determine if the contestant accurately identified and summarized the key points and conclusions of the paper. Consider if the summary effectively captures the main ideas and findings of the original research paper.\n5- Rate the summary on a 5-point Likert scale, with 1 indicating 'poor' relevance and 5 indicating 'excellent' relevance. Provide a brief explanation of the rating."
+    },
+    {
+        "name": "Coherence",
+        "description": "Evaluates the logical flow and readability of the summary. This metric assesses if the contestant has organized the summary in a coherent and understandable manner, with proper use of language and grammar.",
+        "scale": "A 5-point Likert scale: 1 (poor) - 5 (excellent)",
+        "instruction": "\n1- Read and understand the provided biomedical research paper summary.\n2- Evaluate the logical flow of the summary by checking if the ideas and concepts are presented in a sequential and organized manner.\n3- Assess the readability of the summary by checking the clarity of language, grammar, and sentence structure.\n4- Rate the coherence of the summary on a 5-point Likert scale, where 1 indicates poor coherence and 5 indicates excellent coherence, based on the logical flow and readability."
+    },
+    {
+        "name": "Completeness", "-"
+        "description": "Measures the extent to which the summary covers all the important aspects of the research paper. This metric assesses if the contestant has included all the essential details while avoiding unnecessary information.",
+        "scale": "A 5-point Likert scale: 1 (poor) - 5 (excellent)",
+        "instruction": "\n1- Read the original research paper thoroughly to understand the context, objectives, methods, results, and conclusions.\n2- Read the provided summary and identify the key points mentioned in it.\n3- Compare the summary with the original research paper to assess if the important aspects mentioned in the paper are covered in the summary.\n4- Evaluate the completeness of the summary by checking if it includes all the essential details while avoiding unnecessary information.\n5- Rate the completeness of the summary using the 5-point Likert scale, where 1 is poor (lacks essential details or includes unnecessary information) and 5 is excellent (covers all the important aspects without unnecessary information)."
+    },
+    {
+        "name": "Brevity",
+        "description": "Evaluates the ability of the contestant to write a concise summary without losing the key information. This metric assesses if the contestant has maintained a balance between providing enough detail and keeping the summary succinct.",
+        "scale": "A 5-point Likert scale: 1 (poor) - 5 (excellent)",
+        "instruction": "\n1- Read and understand the provided summary carefully, focusing on the key information presented.\n2- Evaluate the length of the summary, making sure it is concise and to the point, without omitting any essential information.\n3- Determine if the summary maintains a balance between providing enough detail and keeping it succinct.\n4- Rate the summary on a 5-point Likert scale (1 - poor, 5 - excellent) based on the brevity metric."
+    },
+    {
+        "name": "Originality",
+        "description": "Measures the uniqueness of the summary in terms of the language and structure used by the contestant. This metric assesses if the contestant has paraphrased the original text effectively and avoided plagiarism.",
+        "scale": "A 5-point Likert scale: 1 (poor) - 5 (excellent)",
+        "instruction": "\n1- Read the original biomedical research paper and the contestant's summary carefully.\n2- Identify the language and structure used in the contestant's summary, noting any paraphrasing, rephrasing, or unique organization of the information.\n3- Determine if the contestant has effectively paraphrased the original text, avoiding plagiarism and demonstrating originality in their summary.\n4- Rate the contestant's summary on the 5-point Likert scale for the 'Originality' metric: 1 (poor) - 5 (excellent), based on the uniqueness of the language and structure used."
+    }
+]

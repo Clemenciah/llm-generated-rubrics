@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how relevant and on-topic the response is to the user's prompt or question.",
+        "scale": "1-5 (1: Not relevant, 5: Highly relevant)",
+        "instruction": "1. Read the user's prompt or question carefully.\n2. Evaluate the response based on how relevant and on-topic it is to the user's prompt or question.\n3. Assign a score from 1 to 5, where 1 is not relevant and 5 is highly relevant.\n4. Provide a brief explanation for the score assigned."
+    },
+    {
+        "name": "Clarity",
+        "description": "Evaluates the clarity and coherence of the response, ensuring it is easy to understand and logically structured.",
+        "scale": "1-5 (1: Very unclear, 5: Very clear)",
+        "instruction": "1. Read the provided response carefully.\n2. Assess the response based on the Clarity metric as described.\n3. Assign a score from 1 to 5, where 1 is very unclear and 5 is very clear.\n4. Provide a brief justification for the score assigned."
+    },
+    {
+        "name": "Depth",
+        "description": "Assesses the depth and detail of the response, including the level of information provided and the extent of analysis.",
+        "scale": "1-5 (1: Superficial, 5: In-depth)",
+        "instruction": "1. Read and understand the evaluation criteria provided.\n2. Review the responses given by the contestants to the prompts/instructions.\n3. Rate each response based on the depth and detail of the information and analysis provided.\n4. Ensure the rating is on a scale of 1-5, where 1 is superficial and 5 is in-depth.\n5. Provide clear and concise justifications for the ratings given."
+    },
+    {
+        "name": "Accuracy",
+        "description": "Measures the factual accuracy and correctness of the information provided in the response.",
+        "scale": "1-5 (1: Incorrect, 5: Correct)",
+        "instruction": "1. Read the provided response and the original user prompt or instruction.\n2. Evaluate the response based on the Accuracy metric, considering if the information provided is factually correct and aligns with the user's request.\n3. Assign a score from 1 to 5, where 1 is incorrect and 5 is correct.\n4. Provide a brief justification for the score given."
+    },
+    {
+        "name": "Engagement",
+        "description": "Evaluates how well the response engages the user, maintaining their interest and encouraging further interaction.",
+        "scale": "1-5 (1: Not engaging, 5: Highly engaging)",
+        "instruction": "1. Read and understand the evaluation criteria provided.\n2. Ensure the metric being used is 'Engagement'.\n3. Review the scale from 1 to 5, where 1 is 'Not engaging' and 5 is 'Highly engaging'.\n4. Evaluate the response based on how well it maintains user interest and encourages further interaction.\n5. Provide a score and a brief justification for the score."
+    },
+    {
+        "name": "Empathy",
+        "description": "Measures the level of empathy and understanding shown in the response, reflecting the AI's ability to connect with the user.",
+        "scale": "1-5 (1: No empathy, 5: High empathy)",
+        "instruction": "1. Read and understand the user's prompt or instruction thoroughly.\n2. Evaluate the response based on the Empathy metric: how well the response demonstrates understanding and connection with the user.\n3. Assign a score from 1 to 5, where 1 indicates no empathy and 5 indicates high empathy.\n4. Provide a brief justification for the score given."
+    },
+    {
+        "name": "Consistency",
+        "description": "Assesses the consistency of the response with the context and previous interactions, ensuring the AI maintains a coherent narrative.",
+        "scale": "1-5 (1: Inconsistent, 5: Consistent)",
+        "instruction": "1. Read the provided context and previous interactions thoroughly.\n2. Evaluate if the response aligns with the context and previous interactions.\n3. Check for any contradictions or inconsistencies in the response.\n4. Rate the response on a scale of 1 to 5 based on the consistency metric.\n5. Provide a brief explanation for the rating."
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Relevance",
+        "tags": [
+            "Relevance"
+        ]
+    },
+    {
+        "name": "Completeness",
+        "tags": [
+            "Relevance",
+            "Completeness"
+        ]
+    },
+    {
+        "name": "Conciseness",
+        "tags": [
+            "Conciseness"
+        ]
+    },
+    {
+        "name": "Clarity",
+        "tags": [
+            "Fluency",
+            "Clarity"
+        ]
+    },
+    {
+        "name": "Engagement",
+        "tags": [
+            "Engagement"
+        ]
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Completeness",
+        "description": "The extent to which the summary includes all important information from the provided document.",
+        "scale": "Binary (complete or incomplete)",
+        "instruction": "\n1- Read the biomedical research paper thoroughly to understand its content and context.\n2- Identify the main points, findings, and conclusions from the research paper.\n3- Read the provided summary carefully and compare it with the main points, findings, and conclusions identified in step 2.\n4- Assess whether the provided summary includes all important information from the research paper. Consider the following questions: Does the summary cover all the key findings? Does it accurately represent the main points and conclusions of the research paper? Is any crucial information missing?\n5- Based on the assessment in step 4, rate the completeness of the summary using the binary scale (complete or incomplete). If the summary includes all important information from the research paper, rate it as 'complete'. If any crucial information is missing, rate it as 'incomplete'."
+    },
+    {
+        "name": "Relevance",
+        "description": "The degree to which the summary is relevant to the topic and context of the provided document.",
+        "scale": "Likert scale (1-5)",
+        "instruction": "\n1- Read the provided summary and the source document to understand the context and the main ideas.\n2- Check if the summary accurately represents the main ideas, findings, and conclusions of the source document.\n3- Rate the 'Relevance' of the summary on a scale of 1-5, where 1 indicates that the summary is not relevant to the topic and context of the provided document, and 5 indicates that the summary is highly relevant and accurately represents the main ideas, findings, and conclusions of the source document."
+    },
+    {
+        "name": "Conciseness",
+        "description": "The extent to which the summary is written succinctly and without unnecessary information.",
+        "scale": "Likert scale (1-5)",
+        "instruction": "\n1- Read the provided summary and the original research paper to understand the main points of the research.\n2- Identify any unnecessary or redundant information in the summary that does not contribute to the overall understanding of the research paper.\n3- Assess the length of the summary and determine if it is written succinctly, without any unnecessary words or phrases.\n4- Rate the summary using the Likert scale (1-5) based on the extent to which it is written concisely and without unnecessary information. A score of 1 indicates that the summary is not concise and contains a lot of unnecessary information, while a score of 5 indicates that the summary is highly concise and contains only the most important information from the original research paper."
+    },
+    {
+        "name": "Coherence",
+        "description": "The degree to which the summary is logically connected and easy to understand.",
+        "scale": "Likert scale (1-5)",
+        "instruction": "\n1- Read the provided summary carefully, ensuring a thorough understanding of its content.\n2- Identify the main ideas presented in the summary and their relationships to each other.\n3- Assess the logical connection between the main ideas and the supporting details.\n4- Evaluate the ease of understanding the summary. Consider factors such as clarity, conciseness, and the use of appropriate language.\n5- Rate the summary on the Coherence metric using a Likert scale (1-5), where 1 represents a summary that is not coherent and 5 represents a summary that is highly coherent."
+    },
+    {
+        "name": "Grammaticality",
+        "description": "The extent to which the summary follows grammatical rules and is free of errors.",
+        "scale": "Binary (grammatical or ungrammatical)",
+        "instruction": "\n1- Read the provided summary carefully, paying close attention to the grammatical structure, punctuation, and sentence formation.\n2- Check for any grammatical errors, such as incorrect verb tenses, subject-verb agreement issues, improper use of articles, incorrect prepositions, and misplaced or dangling modifiers.\n3- Ensure that punctuation is used correctly, including commas, periods, semicolons, colons, and quotation marks.\n4- Evaluate the overall sentence structure and coherence of the summary, checking for any awkward phrasing, run-on sentences, or sentence fragments.\n5- After thoroughly reviewing the summary, assign it a binary rating for grammaticality: either 'grammatical' if it follows grammatical rules and is free of errors, or 'ungrammatical' if it contains grammatical errors or violates grammatical rules."
+    },
+    {
+        "name": "Factuality",
+        "description": "The extent to which the summary is factually accurate and does not contain misinformation.",
+        "scale": "Likert scale (1-5)",
+        "instruction": "\n1- Read and understand the provided summary carefully, focusing on factual accuracy.\n2- Compare the summary with the original research paper, making sure to check the accuracy of the facts presented in the summary.\n3- Evaluate if the summary contains any misinformation or inaccuracies, either by omission or commission.\n4- Rate the summary on the Factuality metric using the Likert scale (1-5), where 1 represents 'Very Inaccurate' and 5 represents 'Very Accurate'."
+    },
+    {
+        "name": "Non-Redundancy",
+        "description": "The extent to which the summary avoids repeating information that has already been mentioned.",
+        "scale": "Binary (redundant or non-redundant)",
+        "instruction": "\n1- Read the provided summary for the biomedical research paper carefully.\n2- Identify the main points, ideas, and findings presented in the summary.\n3- Check if any information is repeated within the summary. This includes identical sentences, synonymous phrases, or paraphrased sentences that convey the same information.\n4- If no repeated information is found, rate the summary as 'non-redundant'. If repeated information is found, rate the summary as 'redundant'."
+    }
+]

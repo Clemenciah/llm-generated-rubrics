@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "tags": [
+            "Relevance"
+        ]
+    },
+    {
+        "name": "Conciseness",
+        "tags": [
+            "Conciseness"
+        ]
+    },
+    {
+        "name": "Coherence",
+        "tags": [
+            "Coherence"
+        ]
+    },
+    {
+        "name": "Accuracy",
+        "tags": [
+            "Consistency"
+        ]
+    },
+    {
+        "name": "Grammaticality",
+        "tags": [
+            "Fluency"
+        ]
+    },
+    {
+        "name": "Coverage",
+        "tags": [
+            "Coverage"
+        ]
+    }
+]

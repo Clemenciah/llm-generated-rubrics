@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Relevance", "-"
+        "description": "Measures how well the summary captures the main points and key details of the article.",
+        "scale": "1-5, where 1 is not relevant at all and 5 is highly relevant",
+        "instruction": "1. Read the news article thoroughly to understand the main points and key details.\n2. Read the contestant's summary carefully.\n3. Compare the summary to the article to check if the main points and key details are accurately captured.\n4. Rate the summary on a scale of 1-5 based on how well it captures the main points and key details of the article.\n5. 1 - Not relevant at all, 5 - Highly relevant"
+    },
+    {
+        "name": "Clarity",
+        "description": "Evaluates the clarity and coherence of the summary, including the logical flow and ease of understanding.",
+        "scale": "1-5, where 1 is very unclear and 5 is very clear",
+        "instruction": "1. Read the summary provided by the contestant.\n2. Assess the clarity and coherence of the summary, focusing on logical flow and ease of understanding.\n3. Rate the summary on a scale of 1 to 5, where 1 is very unclear and 5 is very clear."
+    },
+    {
+        "name": "Conciseness",
+        "description": "Assesses how efficiently the summary conveys the information, avoiding unnecessary details or repetition.",
+        "scale": "1-5, where 1 is very wordy and 5 is very concise",
+        "instruction": "1. Read the summary provided by the contestant.\n2. Identify the main points and information conveyed in the summary.\n3. Assess whether the summary includes unnecessary details or repetitions that do not add value to the main points.\n4. Determine the level of conciseness based on the presence of unnecessary details or repetitions.\n5. Assign a score from 1 to 5, where 1 is very wordy and 5 is very concise."
+    },
+    {
+        "name": "Accuracy",
+        "description": "Measures the accuracy of the information presented in the summary, ensuring no factual errors.",
+        "scale": "1-5, where 1 is highly inaccurate and 5 is highly accurate",
+        "instruction": "1. Read the news article and the contestant's summary.\n2. Identify the key facts and figures in the news article.\n3. Compare the facts and figures in the contestant's summary to those in the original article.\n4. Check for any factual errors or inconsistencies in the contestant's summary.\n5. Rate the summary on a scale of 1-5 based on the accuracy of the information, where 1 is highly inaccurate and 5 is highly accurate."
+    },
+    {
+        "name": "Engagement",
+        "description": "Evaluates how engaging and interesting the summary is to the reader.",
+        "scale": "1-5, where 1 is not engaging at all and 5 is highly engaging",
+        "instruction": "1. Read the summary carefully.\n2. Assess the level of interest and engagement the summary would generate in a reader.\n3. Consider the use of language, relevance of information, and overall appeal.\n4. Rate the summary on a scale of 1 to 5, where 1 is not engaging at all and 5 is highly engaging."
+    }
+]

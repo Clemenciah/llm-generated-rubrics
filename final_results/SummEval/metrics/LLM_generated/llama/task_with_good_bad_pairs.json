@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Relevance",
+        "description": "How well does the summary relate to the original context?",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the evaluation criteria for the Relevance metric\n2. Assess how well each summary relates to the original context\n3. Assign a score from 1 to 5 based on the relevance of the summary"
+    },
+    {
+        "name": "Completeness",
+        "description": "How much of the important information from the context is included in the summary?",
+        "scale": "1-5",
+        "instruction": "1. Read the context carefully to identify important information.\n2. Analyze the summary to determine how much of the important information is included.\n3. Assign a score from 1-5 based on the Completeness metric, where 1 represents very little important information included and 5 represents all important information included."
+    },
+    {
+        "name": "Coherence",
+        "description": "How well does the summary flow and make sense on its own?",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the evaluation criteria for the Coherence metric\n2. Assess how well the summary flows and makes sense on its own\n3. Assign a score from 1 to 5 based on the Coherence metric"
+    },
+    {
+        "name": "Conciseness",
+        "description": "How well does the summary avoid unnecessary information?",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the evaluation criteria for the metric of Conciseness.\n2. Assess how well each summary avoids unnecessary information based on the provided scale of 1-5.\n3. Evaluate each response based on the defined metric."
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Assess whether the response directly addresses the main points or questions raised in the context, accurately reflecting the key findings and conclusions.",
+        "scale": "High, Medium, Low",
+        "instruction": "\n1- Read the original biomedical research paper to understand its main points, key findings, and conclusions.\n2- Read the provided summary carefully.\n3- Compare the summary to the original paper, checking if the key findings and conclusions are accurately reflected.\n4- Determine if the summary includes all main points raised in the original paper.\n5- Evaluate whether the summary addresses the main questions or objectives outlined in the research paper.\n6- Assign a relevance score to the summary based on how well it reflects the main points, findings, and conclusions of the original paper: High (accurately reflects all key aspects), Medium (captures some but not all key aspects), Low (misses most key aspects)."
+    },
+    {
+        "name": "Comprehensiveness", "-"
+        "description": "Evaluate if the response covers all relevant aspects of the context, including major results, methods, and implications, without omitting significant details.",
+        "scale": "High, Medium, Low",
+        "instruction": "\n1- Read the original biomedical research paper to understand its major results, methods, and implications.\n2- Read the summary provided by the contestant.\n3- Compare the summary with the original paper to determine if all relevant aspects are covered, including major results, methods, and implications.\n4- Assess if any significant details from the original paper are omitted in the summary.\n5- Rate the summary as High if it covers all relevant aspects of the context without omitting significant details.\n6- Rate the summary as Medium if it covers most relevant aspects but misses some minor details.\n7- Rate the summary as Low if it misses major results, methods, implications, or omits significant details.\n8- Document the reasoning for the given rating, highlighting specific areas of completeness or omission in the summary."
+    },
+    {
+        "name": "Clarity",
+        "description": "Determine the clarity of the response in terms of language and structure, ensuring the information is presented in an understandable and logical manner.",
+        "scale": "High, Medium, Low",
+        "instruction": "\n1- Read the provided summary thoroughly to understand its content.\n2- Evaluate the language used in the summary for clarity. Consider if the language is simple, direct, and free of unnecessary jargon.\n3- Assess the structure of the summary. Determine if the ideas are presented in a logical order that makes the summary easy to follow.\n4- Check for any ambiguities or confusing sections in the summary that might hinder understanding.\n5- Rate the clarity of the summary on a scale of High, Medium, or Low, based on how understandable and logically presented the information is.\n6- Provide a brief explanation for your rating, citing specific examples from the summary that influenced your decision."
+    },
+    {
+        "name": "Conciseness",
+        "description": "Assess the response for being succinct while still conveying all necessary information, avoiding unnecessary repetition or verbosity.",
+        "scale": "High, Medium, Low",
+        "instruction": "\n1- Read the provided summary thoroughly to understand its content and the main points it conveys.\n2- Identify any instances of unnecessary repetition or verbosity in the summary.\n3- Determine if the summary includes all necessary information to understand the main points of the original biomedical research paper.\n4- Evaluate if the summary effectively conveys the essential information in a succinct manner without losing clarity.\n5- Assign a rating based on the evaluation: \n- High: The summary is concise and includes all essential information without unnecessary repetition or verbosity.\n- Medium: The summary includes most essential information but may have some unnecessary repetition or verbosity.\n- Low: The summary lacks essential information or contains significant unnecessary repetition or verbosity."
+    },
+    {
+        "name": "Scientific Accuracy", "-"
+        "description": "Evaluate the scientific accuracy of the response, ensuring all details align with the established facts and data presented in the context.",
+        "scale": "High, Medium, Low",
+        "instruction": "\n1- Read the original biomedical research paper carefully to understand its scientific content and context.\n2- Read the contestant's summary of the biomedical research paper.\n3- Compare the details in the contestant's summary with the original paper to check for alignment with the scientific facts and data presented.\n4- Identify any discrepancies, inaccuracies, or omissions in the summary related to key scientific facts or data.\n5- Evaluate the level of scientific accuracy in the summary based on the findings from the comparison.\n6- Assign a rating of High, Medium, or Low for scientific accuracy: High if the summary is mostly accurate with few or no errors, Medium if there are some inaccuracies but the main points are largely correct, and Low if there are significant inaccuracies or omissions."
+    },
+    {
+        "name": "Insightfulness",
+        "description": "Determine if the response provides additional insights or interpretations that enhance the understanding of the context or its implications.",
+        "scale": "High, Medium, Low",
+        "instruction": "\n1- Read the original biomedical research paper thoroughly to understand its context, main findings, and implications.\n2- Read the provided summary carefully.\n3- Evaluate whether the summary provides additional insights or interpretations that go beyond merely restating the original content. Consider if the summary enhances understanding of the research paper's context or implications.\n4- Assign a rating based on the following scale: High (provides significant additional insights or interpretations), Medium (provides some additional insights or interpretations), Low (provides little to no additional insights or interpretations).\n5- Document the reasoning for your rating. Include specific examples from the summary that justify the assigned level of insightfulness.\n6- Repeat the process for each summary provided for evaluation."
+    },
+    {
+        "name": "Consistency", "-"
+        "description": "Check for consistency within the response, ensuring there are no contradictions or conflicting statements.",
+        "scale": "High, Medium, Low",
+        "instruction": "\n1- Read the entire summary provided by the contestant.\n2- Identify any statements or claims made within the summary.\n3- Evaluate each statement or claim to ensure it does not contradict any other part of the summary.\n4- Check for logical coherence and flow between different parts of the summary.\n5- Assign a rating of High if the summary is completely consistent with no contradictions, Medium if there are minor inconsistencies that do not significantly impact understanding, and Low if there are major inconsistencies or contradictions that confuse the reader.\n6- Document examples of inconsistencies if any, to justify the rating provided."
+    }
+]

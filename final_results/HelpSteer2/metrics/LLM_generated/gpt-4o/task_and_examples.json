@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how relevant the response is to the given context and user's query. The response should directly address the user's request or problem.",
+        "scale": "Scale from 1 to 5, where 1 is not relevant at all and 5 is highly relevant.",
+        "instruction": "\n1- Read the entire user query and provided response carefully to understand the context.\n2- Determine if the response directly addresses the user's request or question. It should be specific and on-topic.\n3- Consider if the response provides useful information that matches the user's intent.\n4- Assign a relevance score from 1 to 5, based on how well the response meets the user's needs: 1 is not relevant at all, 2 is slightly relevant, 3 is moderately relevant, 4 is very relevant, and 5 is highly relevant.\n5- Provide a brief explanation for your chosen score to justify your evaluation."
+    },
+    {
+        "name": "Accuracy",
+        "description": "Assesses the factual correctness of the information provided in the response. The response should be free of errors and inaccuracies.",
+        "scale": "Scale from 1 to 5, where 1 is completely inaccurate and 5 is entirely accurate.",
+        "instruction": "\n1- Read the user's prompt/instruction carefully to understand what information or task is being requested.\n2- Read the contestant's response thoroughly to understand the information or explanation provided.\n3- Check the factual correctness of the information in the response. Verify any claims, data, or facts presented using reliable sources or general knowledge.\n4- Evaluate the response based on the degree of accuracy. Consider whether the information is entirely correct, mostly correct, partially correct, mostly incorrect, or entirely incorrect.\n5- Assign a score from 1 to 5 based on the following scale: \n1 - Completely inaccurate: The response contains incorrect information with no factual basis.\n2 - Mostly inaccurate: The response has significant inaccuracies but may have some correct elements.\n3 - Partially accurate: The response contains a mix of correct and incorrect information.\n4 - Mostly accurate: The response is largely correct, with only minor errors or omissions.\n5 - Entirely accurate: The response is factually correct with no errors or inaccuracies.\n6- Document the score given and note any specific inaccuracies or errors identified during the evaluation."
+    },
+    {
+        "name": "Clarity",
+        "description": "Evaluates how clear and understandable the response is. The language should be simple, and the explanation should be easy to follow.",
+        "scale": "Scale from 1 to 5, where 1 is very unclear and 5 is very clear.",
+        "instruction": "\n1- Read the user prompt or instruction carefully to understand what kind of response was expected from the contestant.\n2- Read the contestant's response thoroughly.\n3- Consider how clearly the contestant's response addresses the user's prompt or instruction.\n4- Evaluate whether the language used in the response is simple and easy to understand.\n5- Determine if the explanation provided in the response is straightforward and logical.\n6- Assign a clarity score from 1 to 5 based on how clear and understandable the response is, referring to the metric description for guidance.\n7- Document the reasons for the score given, noting specific examples of clarity or lack thereof in the response."
+    },
+    {
+        "name": "Depth",
+        "description": "Measures the depth and detail of the response. A deep response provides a thorough explanation, covering all necessary aspects of the question.",
+        "scale": "Scale from 1 to 5, where 1 is very shallow and 5 is very deep and comprehensive.",
+        "instruction": "\n1- Read the user prompt or instruction carefully to understand what the response should address.\n2- Read the contestant's response thoroughly to assess its depth and detail.\n3- Determine if the response covers all necessary aspects of the question or instruction provided.\n4- Rate the response on a scale from 1 to 5 based on the depth and detail, where 1 is very shallow and lacks detail, and 5 is very deep and comprehensive.\n5- Provide any necessary comments or justifications for the rating, focusing on the completeness and thoroughness of the response."
+    },
+    {
+        "name": "Engagement",
+        "description": "Assesses the degree to which the response engages the user, encouraging further interaction or exploration of the topic.",
+        "scale": "Scale from 1 to 5, where 1 is not engaging and 5 is very engaging.",
+        "instruction": "\n1- Read the user prompt carefully to understand the context and the expectation from the contestant's response.\n2- Read the contestant's response thoroughly to evaluate its content and tone.\n3- Consider how well the response encourages further interaction or exploration of the topic by the user. A highly engaging response will prompt the user to think deeply, ask more questions, or explore related topics.\n4- Rate the engagement level of the response on a scale from 1 to 5, where 1 is not engaging and 5 is very engaging. Use the following guidelines for each rating:\n- 1: The response is not engaging at all. It does not encourage any further interaction or exploration.\n- 2: The response is minimally engaging. It might provide some information but lacks elements that would intrigue the user.\n- 3: The response is moderately engaging. It provides useful information and might prompt some additional interest or questions.\n- 4: The response is engaging. It encourages further interaction or exploration, offering new insights or perspectives.\n- 5: The response is very engaging. It captivates the user, prompting a strong desire to interact further or explore the topic in depth.\n5- Document the rating along with any observations or notes that justify your evaluation. This will help in understanding why a particular score was given."
+    },
+    {
+        "name": "Conciseness",
+        "description": "Evaluates whether the response is concise and to the point, avoiding unnecessary information or verbosity.",
+        "scale": "Scale from 1 to 5, where 1 is very verbose and 5 is very concise.",
+        "instruction": "\n1- Read the user's prompt/instruction to understand the context and what is being asked.\n2- Read the contestant's response thoroughly.\n3- Evaluate whether the response directly addresses the prompt/instruction without superfluous information.\n4- Consider if the response includes any unnecessary details that do not add value to the main point.\n5- Assign a conciseness score from 1 to 5: 1 being very verbose, 5 being very concise.\n6- Justify your score by providing a brief explanation of your reasoning."
+    },
+    {
+        "name": "Coherence",
+        "description": "Measures how logically connected and coherent the response is. The response should flow well and make logical sense.",
+        "scale": "Scale from 1 to 5, where 1 is very incoherent and 5 is very coherent.",
+        "instruction": "\n1- Read the user's prompt/instruction carefully to understand the expected response.\n2- Read the contestant's response thoroughly.\n3- Evaluate how well the response logically follows the prompt. Consider the clarity and logical flow of ideas.\n4- Use the coherence scale to rate the response: 1 indicates very incoherent, and 5 indicates very coherent.\n5- Provide a brief explanation for the rating, citing specific parts of the response that influenced your decision."
+    },
+    {
+        "name": "Tone",
+        "description": "Assesses the appropriateness of the tone used in the response. The tone should match the context and be suitable for the interaction.",
+        "scale": "Scale from 1 to 5, where 1 is very inappropriate and 5 is very appropriate.",
+        "instruction": "\n1- Read the user prompt and the contestant's response carefully.\n2- Consider the context of the interaction. What is the mood, setting, or scenario? What tone would be appropriate?\n3- Evaluate if the contestant's response matches the expected tone. Is it too formal, too casual, or just right for the context?\n4- Rate the tone of the response on a scale from 1 to 5, where 1 is very inappropriate and 5 is very appropriate.\n5- Provide a brief justification for your rating, noting any specific elements that influenced your decision."
+    }
+]

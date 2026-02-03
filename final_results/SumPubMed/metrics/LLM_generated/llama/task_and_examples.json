@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Relevance",
+        "description": "How well does the answer address the question?",
+        "scale": "Ordinal",
+        "instruction": "1. Define the task as assessing the relevance of summaries for biomedical research papers\n2. Identify the key aspects of the papers, including the source literature and the fields of medicine, pharmacy, nursing, dentistry, health care, and health services\n3. Determine the specific question or topic that the summary is intended to address\n4. Evaluate how well the summary addresses the question or topic, considering factors such as accuracy, completeness, and concision\n5. Assign an ordinal score based on the degree of relevance, with higher scores indicating a stronger connection between the summary and the question or topic"
+    },
+    {
+        "name": "Accuracy",
+        "description": "How accurate is the information provided in the answer?",
+        "scale": "Ratio",
+        "instruction": "1. Define the evaluation criteria\n2. Identify the key aspects of the summaries to assess\n3. Develop a scoring system for the accuracy metric\n4. Establish a threshold for acceptable accuracy\n5. Apply the evaluation criteria to each summary"
+    },
+    {
+        "name": "Completeness",
+        "description": "How complete is the answer?",
+        "scale": "Interval",
+        "instruction": "1. Define the completeness scale to be used for evaluation, ensuring it is an interval scale\n2. Determine the key elements that must be present in a complete summary, such as main research question, methodology, main findings, and conclusions\n3. Develop a checklist or rubric based on these key elements to assess completeness\n4. Train evaluators on the use of the scale and the checklist or rubric to ensure consistency\n5. Evaluate each summary using the checklist or rubric, assigning a completeness score based on the interval scale\n6. Review and refine the evaluation process as necessary to ensure reliability and validity"
+    },
+    {
+        "name": "Clarity",
+        "description": "How clear is the answer?",
+        "scale": "Nominal",
+        "instruction": "1. Read and understand the context of the biomedical research paper\n2. Identify the main topic and key points discussed in the paper\n3. Determine if the summary accurately conveys the main topic and key points\n4. Evaluate the language and structure of the summary for clarity and coherence\n5. Assess whether the summary is concise and free of unnecessary information\n6. Rate the clarity of the summary based on the above factors"
+    },
+    {
+        "name": "Coherence",
+        "description": "How coherent is the answer?",
+        "scale": "Ordinal",
+        "instruction": "1. Read and understand the evaluation criteria for the Coherence metric\n2. Assess the clarity and logical flow of the summary\n3. Evaluate how well the summary is organized and easy to follow\n4. Check for any inconsistencies or ambiguities in the summary\n5. Rate the coherence of the summary based on the assessment"
+    },
+    {
+        "name": "Depth",
+        "description": "How in-depth is the answer?",
+        "scale": "Interval",
+        "instruction": "1. Read and understand the context of the biomedical research paper\n2. Identify the key points and main arguments presented in the paper\n3. Assess the level of detail and analysis provided in the summary\n4. Evaluate the depth of the summary based on the presence of specific examples, supporting evidence, and nuanced discussions\n5. Assign a score on the interval scale based on the assessment of depth"
+    },
+    {
+        "name": "Contextual understanding",
+        "description": "How well does the answer demonstrate understanding of the context?",
+        "scale": "Ratio",
+        "instruction": "1. Define the criteria for evaluating contextual understanding\n2. Read and comprehend the biomedical research paper\n3. Assess how well the summary demonstrates understanding of the context\n4. Assign a score based on the evaluation criteria\n5. Record the score and provide feedback"
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Relevance",
+        "tags": [
+            "Informativeness, Overlap and Focus"
+        ]
+    },
+    {
+        "name": "Accuracy",
+        "tags": [
+            "Accuracy"
+        ]
+    },
+    {
+        "name": "Completeness",
+        "tags": [
+            "Completeness"
+        ]
+    },
+    {
+        "name": "Clarity",
+        "tags": [
+            "Readability"
+        ]
+    },
+    {
+        "name": "Coherence",
+        "tags": [
+            "Coherence"
+        ]
+    },
+    {
+        "name": "Depth",
+        "tags": [
+            "Depth"
+        ]
+    },
+    {
+        "name": "Contextual understanding",
+        "tags": [
+            "Contextual understanding"
+        ]
+    }
+]

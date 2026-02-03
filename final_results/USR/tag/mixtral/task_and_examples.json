@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Contextual Relevance",
+        "tags": [
+            "Maintains Context",
+            "Understandable"
+        ]
+    },
+    {
+        "name": "Interesting Fact Integration",
+        "tags": [
+            "Uses Knowledge"
+        ]
+    },
+    {
+        "name": "Coherence and Cohesion",
+        "tags": [
+            "Maintains Context",
+            "Natural"
+        ]
+    },
+    {
+        "name": "Grammatical Accuracy",
+        "tags": [
+            "Grammatical Accuracy"
+        ]
+    },
+    {
+        "name": "Engagement and Interest",
+        "tags": [
+            "Interesting"
+        ]
+    },
+    {
+        "name": "Character Consistency",
+        "tags": [
+            "Character Consistency"
+        ]
+    }
+]

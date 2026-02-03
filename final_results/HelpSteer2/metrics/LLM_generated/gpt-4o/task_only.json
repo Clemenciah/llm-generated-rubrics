@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how well the contestant's response addresses and fulfills the given prompt or instruction.",
+        "scale": "1 to 5, where 1 is not relevant at all and 5 is perfectly relevant.",
+        "instruction": "\n1- Read the prompt or instruction provided to the contestant.\n2- Read the contestant's response to the prompt.\n3- Assess how well the response addresses the prompt or instruction.\n4- Consider whether the response fulfills the requirements or objectives of the prompt.\n5- Assign a relevance score from 1 to 5 based on the degree to which the response meets the prompt's requirements, where 1 is not relevant at all and 5 is perfectly relevant.\n6- Provide a brief justification for the score, highlighting specific aspects of the response that influenced your rating."
+    },
+    {
+        "name": "Clarity",
+        "description": "Assesses the clarity and understandability of the response. Evaluates if the response is easy to read and comprehend.",
+        "scale": "1 to 5, where 1 is very unclear and 5 is perfectly clear.",
+        "instruction": "\n1- Read the response carefully to understand its content and intention.\n2- Assess whether the language used in the response is clear and easy to understand.\n3- Determine if the response structure is logical and coherent, aiding understandability.\n4- Check for any ambiguous or confusing phrases that might hinder comprehension.\n5- Consider if any specialized terms are adequately explained or are self-evident in context.\n6- Assign a rating from 1 to 5 based on the overall clarity and understandability, where 1 is very unclear and 5 is perfectly clear.\n7- Document any specific examples or reasons for the rating given, if necessary, to justify the score."
+    },
+    {
+        "name": "Completeness",
+        "description": "Evaluates whether the response fully answers the prompt and provides all necessary information.",
+        "scale": "1 to 5, where 1 is very incomplete and 5 is fully complete.",
+        "instruction": "\n1- Read the user prompt carefully to understand what information is being requested.\n2- Read the contestant's response thoroughly.\n3- Determine if the response addresses all parts of the prompt.\n4- Check if the response provides all necessary information that was requested in the prompt.\n5- Consider if there are any gaps or missing elements in the response that leave the prompt partially unanswered.\n6- Assign a completeness score based on the following scale: 1 for very incomplete, 2 for incomplete, 3 for partially complete, 4 for mostly complete, and 5 for fully complete.\n7- Provide a rationale for the score, highlighting specific areas where the response was complete or incomplete."
+    },
+    {
+        "name": "Creativity",
+        "description": "Measures the originality and inventiveness of the response, considering whether the response provides unique insights or approaches.",
+        "scale": "1 to 5, where 1 is not creative at all and 5 is highly creative.",
+        "instruction": "\n1- Carefully read the user prompt or instruction to understand the context and what is being asked.\n2- Read the contestant's response thoroughly to comprehend their approach and insights.\n3- Evaluate the originality of the response by considering whether it includes unique insights, perspectives, or approaches that are not commonly expressed.\n4- Assess the inventiveness of the response, looking at how the contestant combines ideas or presents information in a novel way.\n5- Assign a score from 1 to 5 based on the creativity of the response, using the following scale: 1 - Not creative at all; 2 - Slightly creative; 3 - Moderately creative; 4 - Very creative; 5 - Highly creative.\n6- Provide a brief justification for the score, highlighting specific elements of creativity, such as unique insights or inventive presentation."
+    },
+    {
+        "name": "Accuracy",
+        "description": "Assesses the factual correctness of the information provided in the response, if applicable.",
+        "scale": "1 to 5, where 1 is mostly inaccurate and 5 is completely accurate.",
+        "instruction": "\n1- Read the user prompt/instruction carefully to understand the context and requirements.\n2- Read the contestant's response thoroughly.\n3- Identify any factual claims or pieces of information provided in the response.\n4- Verify the factual claims against reliable sources or general knowledge. Check for accuracy, relevance, and completeness.\n5- Assign a rating based on the accuracy of the response: 1 (mostly inaccurate), 2 (somewhat inaccurate), 3 (neutral/mixed accuracy), 4 (mostly accurate), 5 (completely accurate).\n6- Document any inaccuracies found and provide a brief explanation or correction."
+    },
+    {
+        "name": "Engagement",
+        "description": "Evaluates how engaging and interesting the response is to the reader.",
+        "scale": "1 to 5, where 1 is not engaging at all and 5 is extremely engaging.",
+        "instruction": "\n1- Read the entire response from the contestant carefully.\n2- Consider the content of the response: Is it interesting? Does it capture the reader's attention?\n3- Evaluate if the response adds value to the reader's understanding or provides entertainment.\n4- Consider the style of writing: Is it lively and dynamic, or dull and monotonous?\n5- Rate the response on a scale from 1 to 5 based on how engaging it is, where 1 is not engaging at all and 5 is extremely engaging.\n6- Provide a brief justification for the score based on your evaluation."
+    }
+]

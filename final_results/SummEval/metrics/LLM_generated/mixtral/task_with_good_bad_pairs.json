@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how well the summary captures the main points of the article. This includes the who, what, when, where, and why of the events described in the article.",
+        "scale": "Binary (Relevant or Irrelevant)",
+        "instruction": "\n1- Read the original news article carefully to understand the main points, including the who, what, when, where, and why of the events described.\n2- Read the contestant's summary carefully to understand their interpretation of the main points of the news article.\n3- Compare the main points of the original news article with the contestant's summary.\n4- If the contestant's summary accurately captures the main points of the original news article, including the who, what, when, where, and why of the events described, rate the response as 'Relevant'. If the contestant's summary does not accurately capture the main points of the original news article, rate the response as 'Irrelevant'."
+    },
+    {
+        "name": "Coherence",
+        "description": "Evaluates the logical consistency and grammatical correctness of the summary. This includes checking for proper grammar, punctuation, and spelling.",
+        "scale": "Continuous (0-1)",
+        "instruction": "\n1- Read the provided summary carefully, ensuring that you understand its content.\n2- Check for logical consistency, ensuring that the summary is coherent and presents a clear and understandable narrative.\n3- Evaluate the grammar, punctuation, and spelling of the summary, ensuring that it adheres to proper English language standards.\n4- Based on the evaluation, assign a score for coherence on a continuous scale of 0-1, with 1 being a perfectly coherent and grammatically correct summary and 0 being completely incoherent or grammatically incorrect."
+    },
+    {
+        "name": "Succinctness",
+        "description": "Measures the length and conciseness of the summary. The ideal summary should convey the main ideas of the article in a brief and compact manner.",
+        "scale": "Continuous (0-1)",
+        "instruction": "\n1- Read and understand the contestant's summary.\n2- Identify the main ideas and key points presented in the summary.\n3- Evaluate the length and conciseness of the summary. Consider whether the summary conveys the main ideas in a brief and compact manner.\n4- Assign a score on a continuous scale from 0 to 1, where 0 represents a summary that is too lengthy and verbose, and 1 represents a summary that is highly succinct and concise."
+    },
+    {
+        "name": "Non-redundancy",
+        "description": "Evaluates how well the summary avoids repeating information already present in the article. This includes checking for paraphrasing and summarizing the same information in different ways.",
+        "scale": "Continuous (0-1)",
+        "instruction": "\n1- Read and understand the news article for which the summary was generated.\n2- Read and understand the contestant's summary of the news article.\n3- Identify the key points and information presented in the news article.\n4- Compare the key points and information in the summary with those in the news article.\n5- Determine if the summary repeats any information already present in the article, including paraphrasing or summarizing the same information in different ways.\n6- Assign a score on a continuous scale from 0 to 1 based on the degree of non-redundancy in the summary, where 0 indicates that the summary is entirely redundant and 1 indicates that the summary is completely non-redundant."
+    },
+    {
+        "name": "Factual Accuracy",
+        "description": "Measures the correctness of the information presented in the summary. This includes checking that the summary does not contain any misinformation or false claims.",
+        "scale": "Binary (Accurate or Inaccurate)",
+        "instruction": "\n1- Read the news article thoroughly to understand the main points and factual information presented.\n2- Read the contestant's summary and compare it to the original news article.\n3- Check if all the information presented in the summary is factually correct and does not contain any misinformation or false claims.\n4- If the summary contains all the factual information from the news article without any misinformation or false claims, rate it as 'Accurate'.\n5- If the summary contains any misinformation or false claims, or if it omits important factual information from the news article, rate it as 'Inaccurate'."
+    }
+]

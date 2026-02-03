@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how well the assistant's response addresses the user's query or task.",
+        "scale": "1 (Not relevant) to 5 (Highly relevant)",
+        "instruction": "\n1- Read the user prompt or instruction carefully.\n2- Analyze the assistant's response to determine if it addresses the prompt.\n3- Evaluate the relevance of the response on a scale from 1 to 5, based on how well it meets the user's needs.\n4- Provide a justification for the rating, explaining why the response was rated as such.\n5- Document the final rating and justification for future reference."
+    },
+    {
+        "name": "Clarity",
+        "description": "Assesses the coherence and understandability of the assistant's response.",
+        "scale": "1 (Very unclear) to 5 (Very clear)",
+        "instruction": "\n1- Read the contestant's response carefully.\n2- Evaluate the response based on how well it communicates its ideas clearly and understandably.\n3- Assign a clarity rating on a scale of 1 to 5, where 1 is very unclear and 5 is very clear.\n4- Provide feedback on why the rating was given, highlighting specific aspects of clarity or lack thereof."
+    },
+    {
+        "name": "Depth of Knowledge",
+        "description": "Evaluates the extent and accuracy of information provided in the response, particularly in technical or specialized topics.",
+        "scale": "1 (Superficial) to 5 (Highly detailed and accurate)",
+        "instruction": "\n1- Read the contestant's response thoroughly to understand the content and context.\n2- Identify the technical or specialized topics covered in the response.\n3- Evaluate the accuracy of the information provided in the response.\n4- Assess the depth of the explanation, looking for detailed insights, examples, and thoroughness.\n5- Assign a score from 1 to 5 based on the depth of knowledge demonstrated in the response."
+    },
+    {
+        "name": "Engagement",
+        "description": "Measures how well the assistant maintains the user's interest and encourages further conversation or inquiry.",
+        "scale": "1 (Not engaging) to 5 (Very engaging)",
+        "instruction": "\n1- Read the provided responses carefully.\n2- Assess the level of engagement based on the criteria provided.\n3- Rate each response on a scale from 1 to 5 where 1 is not engaging and 5 is very engaging.\n4- Provide a brief explanation for the rating given to each response.\n5- Compile the ratings and explanations for review."
+    },
+    {
+        "name": "Conciseness",
+        "description": "Assesses whether the assistant's response is succinct and free of unnecessary information.",
+        "scale": "1 (Too verbose) to 5 (Perfectly concise)",
+        "instruction": "\n1- Read the contestant's response carefully.\n2- Assess the response for any unnecessary information.\n3- Determine if the response is succinct and to the point.\n4- Rate the response on a scale from 1 to 5 based on its conciseness.\n5- Provide any comments on the rating if necessary."
+    },
+    {
+        "name": "Empathy",
+        "description": "Evaluates how well the response acknowledges and addresses the user's feelings or frustrations during the interaction.",
+        "scale": "1 (Not empathetic) to 5 (Very empathetic)",
+        "instruction": "\n1- Read the contestant's response carefully.\n2- Identify any expressions of empathy in the response.\n3- Consider how well the response acknowledges the user's feelings.\n4- Evaluate if the response provides reassurance or support regarding the user's situation.\n5- Assign a score between 1 and 5 based on the level of empathy demonstrated in the response."
+    },
+    {
+        "name": "Error Handling",
+        "description": "Measures how effectively the assistant addresses misunderstandings or errors in the conversation.",
+        "scale": "1 (Ineffective) to 5 (Highly effective)",
+        "instruction": "\n1- Read the user's prompt and the assistant's response carefully.\n2- Identify any misunderstandings or errors in the assistant's response.\n3- Evaluate how effectively the assistant addresses those misunderstandings or errors.\n4- Assign a score from 1 to 5 based on the effectiveness of the error handling.\n5- Provide a brief justification for the score assigned."
+    }
+]

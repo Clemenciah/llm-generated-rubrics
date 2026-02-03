@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Relevance",
+        "description": "The generated summary should accurately reflect the main topic and key details of the original news article. It should not include irrelevant or extraneous information.",
+        "scale": "Binary (Relevant or Irrelevant)",
+        "instruction": "\n1- Read and understand the news article and its main topic.\n2- Read and understand the contestant's summary.\n3- Compare the contestant's summary with the original news article to determine if it accurately reflects the main topic and key details.\n4- Determine if the summary includes irrelevant or extraneous information.\n5- If the summary accurately reflects the main topic and key details without including irrelevant or extraneous information, rate it as 'Relevant'. Otherwise, rate it as 'Irrelevant'."
+    },
+    {
+        "name": "Coherence",
+        "description": "The generated summary should be coherent and well-structured, with a logical flow of ideas and a clear connection between sentences. It should not contain any grammatical errors or awkward sentence structures.",
+        "scale": "Likert scale (1-5, from not coherent to highly coherent)",
+        "instruction": "\n1- Read the contestant's generated summary carefully to understand the main points and how they are connected.\n2- Check for any grammatical errors or awkward sentence structures that may hinder the flow of ideas.\n3- Evaluate the logical flow of ideas and the connection between sentences. The summary should have a clear and coherent structure.\n4- Rate the summary on the Coherence metric using the Likert scale (1-5, from not coherent to highly coherent)."
+    },
+    {
+        "name": "Conciseness",
+        "description": "The generated summary should be concise and to the point, without any unnecessary repetition or redundancy. It should convey the main idea of the article in the fewest words possible, while still being informative.",
+        "scale": "Likert scale (1-5, from not concise to highly concise)",
+        "instruction": "\n1- Read and understand the given news article summary.\n2- Analyze the summary for conciseness, checking if the main idea of the article is conveyed in the fewest words possible without any unnecessary repetition or redundancy.\n3- Rate the conciseness of the summary on a Likert scale (1-5), where 1 indicates not concise and 5 indicates highly concise."
+    },
+    {
+        "name": "Accuracy",
+        "description": "The generated summary should accurately reflect the facts and information presented in the original news article. It should not contain any false or misleading information.",
+        "scale": "Binary (Accurate or Inaccurate)",
+        "instruction": "\n1- Read and understand the original news article.\n2- Read and understand the generated summary.\n3- Compare the facts and information presented in the original news article with those in the generated summary.\n4- Determine if the generated summary accurately reflects the facts and information presented in the original news article. If it does, assign the 'Accurate' rating. If it does not, assign the 'Inaccurate' rating."
+    },
+    {
+        "name": "Completeness",
+        "description": "The generated summary should capture all the important details and information presented in the original news article. It should not omit any crucial facts or details.",
+        "scale": "Likert scale (1-5, from incomplete to highly complete)",
+        "instruction": "\n1- Read and understand the original news article and the contestant's generated summary.\n2- Identify the important details and information presented in the original news article.\n3- Analyze the contestant's generated summary and determine if it captures all the important details and information identified in step 2.\n4- Rate the completeness of the generated summary using the Likert scale (1-5), with 1 being incomplete and 5 being highly complete."
+    }
+]

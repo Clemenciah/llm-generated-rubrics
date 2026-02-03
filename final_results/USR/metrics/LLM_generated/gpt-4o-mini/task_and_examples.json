@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how well the response relates to the preceding context and conversation. A relevant response should directly address the topics or questions raised in the previous statements.",
+        "scale": "1 (not relevant) to 5 (highly relevant)",
+        "instruction": "\n1- Read the conversation between the two individuals carefully.\n2- Identify the main topics or questions raised in the conversation.\n3- Evaluate the potential response based on how well it relates to the identified topics or questions.\n4- Rate the relevance of the response on a scale from 1 to 5.\n5- Provide a brief justification for the assigned rating."
+    },
+    {
+        "name": "Coherence",
+        "description": "Assesses the logical flow and clarity of the conversation. A coherent response should connect smoothly with the previous turns and maintain a clear narrative.",
+        "scale": "1 (not coherent) to 5 (highly coherent)",
+        "instruction": "\n1- Read the conversation between the two individuals.\n2- Understand the context and flow of the conversation.\n3- Evaluate the provided response based on its coherence with the previous turns.\n4- Assign a score from 1 to 5 based on the coherence of the response.\n5- Provide justification for the assigned score."
+    },
+    {
+        "name": "Engagement",
+        "description": "Evaluates the level of interest and enthusiasm conveyed in the response. Engaging responses often include follow-up questions or expressions of excitement.",
+        "scale": "1 (not engaging) to 5 (very engaging)",
+        "instruction": "\n1- Read the conversation between the individuals.\n2- Consider the potential response given.\n3- Evaluate the potential response based on the engagement metric.\n4- Assign a score from 1 to 5 based on the level of interest and enthusiasm conveyed.\n5- Justify the assigned score based on the conversation context and the response."
+    },
+    {
+        "name": "Originality",
+        "description": "Determines the uniqueness of the response. Original responses should provide new insights or perspectives rather than repeating common phrases or ideas.",
+        "scale": "1 (not original) to 5 (very original)",
+        "instruction": "\n1- Read the conversation between the two individuals carefully.\n2- Understand the context of the conversation and the topic being discussed.\n3- Review the provided potential response that includes an interesting fact.\n4- Evaluate the originality of the response using the defined scale.\n5- Assign a score from 1 to 5 based on the originality of the response."
+    },
+    {
+        "name": "Grammar and Syntax",
+        "description": "Checks the grammatical correctness and syntactical structure of the response. Responses should be free from errors and should follow standard language conventions.",
+        "scale": "1 (many errors) to 5 (no errors)",
+        "instruction": "\n1- Read the conversation carefully to understand the context.\n2- Read the potential response to evaluate its grammar and syntax.\n3- Check for grammatical correctness, punctuation, and overall sentence structure.\n4- Assign a score from 1 to 5 based on the evaluation criteria.\n5- Provide a brief justification for the score given."
+    },
+    {
+        "name": "Empathy",
+        "description": "Measures the degree to which the response shows understanding and sensitivity to the other person's feelings or experiences. Empathetic responses often acknowledge the other person's emotions or perspectives.",
+        "scale": "1 (not empathetic) to 5 (very empathetic)",
+        "instruction": "\n1- Read the conversation between the two individuals.\n2- Review the potential response provided.\n3- Analyze the response based on the empathy metric, considering how well it acknowledges and responds to the feelings or experiences of the other person.\n4- Assign a rating from 1 to 5 based on the empathy shown in the response.\n5- Provide a justification for the assigned rating."
+    }
+]

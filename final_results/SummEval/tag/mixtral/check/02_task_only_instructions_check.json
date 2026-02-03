@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how well the summary captures the main points of the original article. It checks if the generated summary includes the most important information and facts from the original text.",
+        "scale": "A score from 0 to 5, where 0 means the summary is not relevant at all to the original article and 5 means the summary is highly relevant and captures all the important information.",
+        "instruction": "\n1- Read the original news article thoroughly to understand its main points, facts, and overall context.\n2- Read the contestant's generated summary carefully and compare it to the original article.\n3- Evaluate the summary's relevance by checking if it includes the most important information and facts from the original article.\n4- Rate the summary on the Relevance metric using a score from 0 to 5. A score of 0 means the summary is not relevant at all to the original article, and a score of 5 means the summary is highly relevant and captures all the important information."
+    },
+    {
+        "name": "Coherence",
+        "description": "Measures how well the summary flows and makes sense as a standalone text. It checks if the generated summary is logically consistent, fluent, and easy to understand.",
+        "scale": "A score from 0 to 5, where 0 means the summary is incoherent and difficult to understand and 5 means the summary is highly coherent and flows well.",
+        "instruction": "\n1- Read the provided summary carefully, ensuring you understand the context and content.\n2- Evaluate the flow of the summary, checking if the sentences are logically connected and transition smoothly from one to another.\n3- Assess the fluency of the summary, checking if the language used is grammatically correct and easy to understand.\n4- Consider the logical consistency of the summary, ensuring that the information presented is coherent and makes sense.\n5- Based on the evaluation, assign a score from 0 to 5 according to the Coherence metric. A score of 0 indicates the summary is incoherent and difficult to understand, while a score of 5 indicates the summary is highly coherent and flows well."
+    },
+    {
+        "name": "Conciseness",
+        "description": "Measures how well the summary avoids redundancy and repetition. It checks if the generated summary is succinct and to the point, without unnecessary details or repetitions.",
+        "scale": "A score from 0 to 5, where 0 means the summary is highly redundant and repetitive and 5 means the summary is highly concise and to the point.",
+        "instruction": "\n1- Read the provided summary thoroughly and understand its contents.\n2- Check for any redundant or repeated information within the summary. This could include synonyms, paraphrased sentences, or repeated facts.\n3- Determine if the summary is succinct and to the point. The summary should convey the main points of the news article without unnecessary details.\n4- Rate the summary on the scale of 0 to 5 based on the conciseness metric. A score of 0 means the summary is highly redundant and repetitive, while a score of 5 means the summary is highly concise and to the point."
+    },
+    {
+        "name": "Grammaticality", "-"
+        "description": "Measures how well the summary adheres to the rules of grammar and syntax. It checks if the generated summary is grammatically correct and free of errors.",
+        "scale": "A score from 0 to 5, where 0 means the summary has many grammatical errors and 5 means the summary is grammatically flawless.",
+        "instruction": "\n1- Read the generated summary carefully to understand the context and the key points.\n2- Check for basic grammatical errors such as subject-verb agreement, punctuation, and spelling.\n3- Evaluate the syntax of the summary, looking for proper sentence structure, word order, and use of tenses.\n4- Determine if the summary uses correct and appropriate vocabulary.\n5- Assign a score based on the scale from 0 to 5, where 0 means the summary has many grammatical errors and 5 means the summary is grammatically flawless."
+    },
+    {
+        "name": "Factuality", "-"
+        "description": "Measures how accurately the summary represents the facts and information from the original article. It checks if the generated summary is factually correct and does not misrepresent the original content.",
+        "scale": "A score from 0 to 5, where 0 means the summary is highly inaccurate and misrepresents the facts and 5 means the summary is highly accurate and represents the facts correctly.",
+        "instruction": "\n1- Read the original news article and the generated summary carefully to understand their content.\n2- Identify the main points, facts, and information in the original news article.\n3- Compare the main points, facts, and information in the generated summary with those in the original news article.\n4- Determine if the generated summary accurately represents the facts and information from the original article. Check if there are any factual errors or misrepresentations in the summary.\n5- Assign a score from 0 to 5 for the metric 'Factuality'. A score of 0 means the summary is highly inaccurate and misrepresents the facts, while a score of 5 means the summary is highly accurate and represents the facts correctly."
+    }
+]

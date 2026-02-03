@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how well the summary captures the key points and themes of the original biomedical research paper.",
+        "scale": "Scale from 1 to 5, where 1 is irrelevant, and 5 is highly relevant.",
+        "instruction": "\n1- Read the provided summary carefully.\n2- Identify the key points and themes of the original biomedical research paper.\n3- Compare the identified key points and themes with those presented in the summary.\n4- Rate the relevance of the summary on a scale from 1 to 5 based on how well it captures the key points and themes.\n5- Provide a brief justification for the relevance rating given."
+    },
+    {
+        "name": "Clarity",
+        "description": "Assesses how clearly the summary conveys the information without ambiguity or confusion.",
+        "scale": "Scale from 1 to 5, where 1 is unclear and 5 is very clear.",
+        "instruction": "\n1- Read the provided summary carefully.\n2- Evaluate the clarity of the summary based on how easily the information can be understood.\n3- Consider whether the summary conveys the main points of the research paper without ambiguity.\n4- Assign a score from 1 to 5 based on your assessment of the clarity.\n5- Provide a brief justification for the score assigned."
+    },
+    {
+        "name": "Conciseness",
+        "description": "Evaluates the ability to summarize the content succinctly without unnecessary information or verbosity.",
+        "scale": "Scale from 1 to 5, where 1 is overly verbose and 5 is concise.",
+        "instruction": "\n1- Read the provided summary carefully.\n2- Identify the key points and essential information that should be included in the summary.\n3- Evaluate the summary for conciseness, checking for unnecessary information or verbosity.\n4- Assign a score from 1 to 5 based on the level of conciseness, where 1 indicates overly verbose and 5 indicates a highly concise summary.\n5- Provide feedback on how the summary could be improved in terms of conciseness if necessary."
+    },
+    {
+        "name": "Accuracy",
+        "description": "Determines how accurately the summary reflects the findings and conclusions of the original paper.",
+        "scale": "Scale from 1 to 5, where 1 is inaccurate and 5 is highly accurate.",
+        "instruction": "\n1- Read the original biomedical research paper carefully to understand its findings and conclusions.\n2- Review the provided summary to identify key points that should match the original paper.\n3- Assess how accurately the summary reflects the findings of the original paper, noting any discrepancies or omissions.\n4- Assign a score from 1 to 5 based on the accuracy of the summary: 1 for inaccurate, 2 for mostly inaccurate, 3 for somewhat accurate, 4 for mostly accurate, and 5 for highly accurate.\n5- Provide a brief justification for the score given, highlighting specific areas where the summary was aligned or misaligned with the original paper."
+    },
+    {
+        "name": "Grammar and Syntax",
+        "description": "Reviews the grammatical correctness and syntactical structure of the summary.",
+        "scale": "Scale from 1 to 5, where 1 has many errors and 5 is free of errors.",
+        "instruction": "\n1- Read the provided summary carefully to understand its content.\n2- Identify any grammatical errors present in the summary.\n3- Assess the syntactical structure of the sentences in the summary.\n4- Rate the summary on a scale from 1 to 5 based on the number of errors found, with 1 being many errors and 5 being free of errors.\n5- Provide feedback on specific areas for improvement if the score is below 5."
+    },
+    {
+        "name": "Depth of Understanding",
+        "description": "Measures the extent to which the summary demonstrates a deep understanding of the original paper's content.",
+        "scale": "Scale from 1 to 5, where 1 shows no understanding and 5 shows comprehensive understanding.",
+        "instruction": "\n1- Read the provided summary thoroughly.\n2- Compare the summary with the original research paper to identify key concepts and findings.\n3- Evaluate whether the summary captures the main objectives and conclusions of the research.\n4- Assess the use of terminology and concepts specific to the biomedical field in the summary.\n5- Rate the summary on a scale from 1 to 5 based on the depth of understanding it demonstrates."
+    },
+    {
+        "name": "Cohesion",
+        "description": "Assesses how well the sentences in the summary flow together and connect logically.",
+        "scale": "Scale from 1 to 5, where 1 is disjointed and 5 is cohesive.",
+        "instruction": "\n1- Read the provided summary carefully, making note of the main ideas conveyed.\n2- Analyze how the sentences in the summary connect to one another.\n3- Determine if the summary follows a logical progression of thoughts.\n4- Consider the use of transitional phrases and coherence within the summary.\n5- Assign a score from 1 to 5 based on the defined cohesion criteria."
+    }
+]

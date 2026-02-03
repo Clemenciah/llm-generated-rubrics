@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Relevance",
+        "tags": [
+            "Maintains Context",
+            "Understandable"
+        ]
+    },
+    {
+        "name": "Engagement",
+        "tags": [
+            "Interesting",
+            "Natural"
+        ]
+    },
+    {
+        "name": "Coherence",
+        "tags": [
+            "Understandable",
+            "Maintains Context"
+        ]
+    },
+    {
+        "name": "Creativity",
+        "tags": [
+            "Interesting",
+            "Uses Knowledge"
+        ]
+    },
+    {
+        "name": "Personality",
+        "tags": [
+            "Natural",
+            "Personalization"
+        ]
+    },
+    {
+        "name": "Information Value",
+        "tags": [
+            "Uses Knowledge",
+            "Interesting"
+        ]
+    }
+]

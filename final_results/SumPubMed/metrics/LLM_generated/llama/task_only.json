@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Accuracy",
+        "description": "The degree to which the summary accurately reflects the content of the original document.",
+        "scale": "0-1",
+        "instruction": "1. Read the original document and the generated summary carefully\n2. Identify the main points and key information in the original document\n3. Compare the generated summary with the main points and key information in the original document\n4. Assess the degree to which the summary accurately reflects the content of the original document\n5. Assign a score between 0 and 1 based on the assessment, where 1 represents a perfect match and 0 represents no match"
+    },
+    {
+        "name": "Completeness",
+        "description": "The degree to which the summary covers all the important information in the original document.",
+        "scale": "0-1",
+        "instruction": "1. Read the original document carefully to identify all the important information it contains.\n2. Read the provided summary and check if it covers all the important information from the original document.\n3. Assess the degree to which the summary covers the important information, considering factors such as key findings, methodology, and conclusions.\n4. Assign a score between 0 and 1 based on the completeness of the summary, where 1 represents a perfect summary that covers all important information and 0 represents a summary that misses all important information."
+    },
+    {
+        "name": "Relevance",
+        "description": "The degree to which the summary is relevant to the main topic of the original document.",
+        "scale": "0-1",
+        "instruction": "1. Read the original document to understand the main topic\n2. Read the generated summary to identify the key points\n3. Assess the degree to which the summary is relevant to the main topic of the original document\n4. Assign a score between 0 and 1 based on the relevance of the summary"
+    },
+    {
+        "name": "Readability",
+        "description": "The ease with which the summary can be understood by a reader.",
+        "scale": "1-5",
+        "instruction": "1. Read the summary carefully to understand its content and structure.\n2. Assess how clearly the main points of the original document are conveyed in the summary.\n3. Evaluate the use of language, including clarity, simplicity, and the avoidance of jargon or technical terms that might be unfamiliar to non-experts.\n4. Consider the organization and coherence of the summary, including the logical flow of ideas and the use of transitional phrases or sentences.\n5. Assign a score from 1 to 5 based on the overall readability of the summary, with 1 being the lowest (very difficult to understand) and 5 being the highest (very easy to understand)."
+    },
+    {
+        "name": "Coherence",
+        "description": "The degree to which the summary is logically connected and easy to follow.",
+        "scale": "1-5",
+        "instruction": "1. Read the summary carefully to understand its content\n2. Assess the logical connection between sentences and ideas in the summary\n3. Evaluate how easy the summary is to follow\n4. Assign a score from 1 to 5 based on the degree of coherence\n5. Provide feedback on the summary's coherence if necessary"
+    },
+    {
+        "name": "Fluency",
+        "description": "The degree to which the summary is written in a natural and fluent style.",
+        "scale": "1-5",
+        "instruction": "1. Read the summary carefully to assess its fluency.\n2. Evaluate how naturally the summary is written, considering factors like grammar, syntax, and coherence.\n3. Assign a score from 1 to 5, where 1 represents a summary with poor fluency and 5 represents a summary with excellent fluency.\n4. Consider the clarity and readability of the summary, taking into account the target audience and purpose of the summary.\n5. Refer to the evaluation criteria and instructions as needed to ensure consistency in scoring."
+    }
+]

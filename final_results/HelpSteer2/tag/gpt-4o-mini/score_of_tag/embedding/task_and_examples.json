@@ -1,0 +1,31 @@
+{
+  "dataset": "HelpSteer2",
+  "setting_name": "model_name=gpt-4o-mini-use_system=False-use_sample=True-use_response=False-number_of_shots=3-use_temperature=False-use_restriction=False.json",
+  "model_name": "gpt-4o-mini",
+  "use_system": "False",
+  "use_sample": "True",
+  "use_response": "False",
+  "number_of_shots": "3",
+  "use_temperature": "False",
+  "use_restriction": "False",
+  "generated": 7,
+  "unique": 6,
+  "unseen": 2,
+  "unseen_over_generated": 0.2857142857142857,
+  "unseen_over_unique": 0.3333333333333333,
+  "teacher_coverage": 0.6666666666666666,
+  "diversity": 0.4285714285714286,
+  "teacher_hit_count": 4,
+  "teacher_total": 6,
+  "new_aspect_count": 3,
+  "new_aspects": [
+    "Other: Emotional Intelligence",
+    "Other: Error Management",
+    "Other: User Engagement"
+  ],
+  "use_similarity": true,
+  "similarity_threshold": 0.82,
+  "meaningfulness_threshold": 1,
+  "device": "cpu",
+  "timestamp": "2025-09-20T18:36:24.935354Z"
+}

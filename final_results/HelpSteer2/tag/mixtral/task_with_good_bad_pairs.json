@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Relevance",
+        "tags": [
+            "Correctness/Completeness"
+        ]
+    },
+    {
+        "name": "Accuracy",
+        "tags": [
+            "Correctness/Completeness"
+        ]
+    },
+    {
+        "name": "Completeness",
+        "tags": [
+            "Correctness/Completeness"
+        ]
+    },
+    {
+        "name": "Clarity",
+        "tags": [
+            "Coherence/Clarity"
+        ]
+    },
+    {
+        "name": "Coherence",
+        "tags": [
+            "Coherence/Clarity"
+        ]
+    },
+    {
+        "name": "Grammatical Correctness",
+        "tags": [
+            "Coherence/Clarity"
+        ]
+    },
+    {
+        "name": "Tone",
+        "tags": [
+            "Coherence/Clarity"
+        ]
+    },
+    {
+        "name": "Timeliness",
+        "tags": [
+            "Other: Timeliness"
+        ]
+    }
+]

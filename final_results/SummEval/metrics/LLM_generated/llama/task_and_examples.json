@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Fluency",
+        "description": "How coherent and natural the summary sounds",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the evaluation criteria for the Fluency metric\n2. Assess the coherence of the summary\n3. Evaluate how natural the summary sounds\n4. Assign a score from 1 to 5 based on the assessment"
+    },
+    {
+        "name": "Relevance",
+        "description": "How well the summary captures the main points of the article",
+        "scale": "1-5",
+        "instruction": "1. Read the news article carefully to understand its main points\n2. Read the contestant's summary to determine its content\n3. Compare the summary with the article to identify captured main points\n4. Assess the summary's relevance based on the captured main points\n5. Assign a score from 1 to 5 based on the relevance assessment"
+    },
+    {
+        "name": "Accuracy",
+        "description": "How accurate the summary is in terms of facts and figures",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the evaluation criteria for the Accuracy metric\n2. Assess the summary for factual accuracy\n3. Check the summary for correct figures and data\n4. Compare the summary with the original news article to ensure consistency\n5. Assign a score from 1 to 5 based on the summary's accuracy"
+    },
+    {
+        "name": "Completeness",
+        "description": "How well the summary covers all the important aspects of the article",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the evaluation criteria for the Completeness metric\n2. Review the news article to identify all the important aspects\n3. Read the contestant's summary and identify the important aspects it covers\n4. Compare the summary to the article to determine how well it covers all the important aspects\n5. Assign a score from 1-5 based on how well the summary covers all the important aspects of the article"
+    },
+    {
+        "name": "Readability",
+        "description": "How easy the summary is to read and understand",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the task instructions carefully\n2. Review the evaluation criteria for the Readability metric\n3. Assess the clarity and coherence of the summary\n4. Evaluate the overall ease of understanding the summary\n5. Assign a score from 1 to 5 based on the Readability metric"
+    }
+]

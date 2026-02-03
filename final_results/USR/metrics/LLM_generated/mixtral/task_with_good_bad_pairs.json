@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "description": "Measures how well the response relates to the context and maintains the flow of conversation.",
+        "scale": "Binary (relevant or not relevant)",
+        "instruction": "\n1- Read and understand the conversation between the two individuals. Pay attention to the context, topic, and flow of the conversation.\n2- Read and understand the provided response and the given interesting fact.\n3- Evaluate the relevance of the response based on the context, topic, and flow of the conversation. Determine if the response is relevant or not relevant.\n4- Provide the evaluation result, stating whether the response is relevant or not relevant, based on the given Evaluation Criteria."
+    },
+    {
+        "name": "Informativeness",
+        "description": "Evaluates the amount of new and useful information provided in the response.",
+        "scale": "Continuous (0-100)",
+        "instruction": "\n1- Read and understand the conversation between the two individuals.\n2- Read and understand the potential response.\n3- Read and understand the interesting fact provided.\n4- Analyze the potential response to determine if it is relevant to the conversation.\n5- Analyze the potential response to determine if it provides new and useful information related to the conversation.\n6- Rate the potential response on a scale of 0-100 based on the informativeness metric."
+    },
+    {
+        "name": "Engagement",
+        "description": "Measures how engaging and interesting the response is to keep the conversation going.",
+        "scale": "Continuous (0-100)",
+        "instruction": "\n1- Read the conversation and the potential response carefully.\n2- Consider the given fact and how it is presented in the response.\n3- Rate the response based on the Engagement metric (0-100), considering how engaging and interesting the response is to keep the conversation going."
+    },
+    {
+        "name": "Consistency",
+        "description": "Evaluates how consistent the response is with the tone, style, and language used in the context.",
+        "scale": "Binary (consistent or not consistent)",
+        "instruction": "\n1- Read the given conversation between two individuals to understand the context, tone, style, and language used.\n2- Read the potential response for the next turn in the conversation.\n3- Evaluate the consistency of the response with the tone, style, and language used in the conversation context.\n4- Provide a binary rating (consistent or not consistent) based on the evaluation."
+    },
+    {
+        "name": "Coherence",
+        "description": "Measures how logically and grammatically correct the response is.",
+        "scale": "Continuous (0-100)",
+        "instruction": "\n1- Read the conversation between the two individuals to understand the context.\n2- Read the potential response for the next turn in the conversation.\n3- Read the interesting fact provided.\n4- Evaluate the response based on the given metric, Coherence. Rate the response on a continuous scale from 0 to 100 based on how logically and grammatically correct the response is."
+    },
+    {
+        "name": "Factual Accuracy",
+        "description": "Evaluates the correctness of the facts and statements provided in the response.",
+        "scale": "Binary (accurate or inaccurate)",
+        "instruction": "\n1- Read and understand the conversation between the two individuals.\n2- Read the given potential response and the interesting fact provided.\n3- Evaluate the factual accuracy of the response by checking if the facts and statements provided in the response are accurate based on the given conversation, potential response, and the interesting fact.\n4- Provide a binary rating (accurate or inaccurate) for the response based on the evaluation of factual accuracy."
+    }
+]

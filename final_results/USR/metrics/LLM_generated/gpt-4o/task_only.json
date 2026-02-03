@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Relevance",
+        "description": "This metric measures how well the generated continuation relates to the given context and incorporates the interesting fact provided. A relevant continuation logically follows from the conversation context and appropriately uses the given fact.",
+        "scale": "Scale from 1 to 5, where 1 is not relevant at all and 5 is highly relevant.",
+        "instruction": "\n1- Read the entire conversation provided to understand the context.\n2- Read the potential response for the next turn in the conversation that is provided.\n3- Identify the interesting fact that is supposed to be included in the response.\n4- Evaluate how well the response logically follows from the conversation context. Check if the response makes sense given what was previously said.\n5- Evaluate how well the response incorporates the interesting fact provided. Check if the fact is integrated naturally and appropriately into the response.\n6- Rate the response on a scale from 1 to 5 based on the Relevance metric. A score of 1 means the response is not relevant at all, while a score of 5 means the response is highly relevant."
+    },
+    {
+        "name": "Coherence",
+        "description": "This metric assesses the logical flow and consistency within the generated continuation. A coherent response maintains a clear and understandable progression of ideas without contradictions.",
+        "scale": "Scale from 1 to 5, where 1 is not coherent at all and 5 is highly coherent.",
+        "instruction": "\n1- Read the given conversation thoroughly to understand the context.\n2- Read the potential response provided for the next turn in the conversation.\n3- Evaluate the response based on how logically it follows the conversation, considering the progression of ideas and consistency with previous statements.\n4- Rate the coherence of the response on a scale from 1 to 5, where 1 means the response is not coherent at all and 5 means it is highly coherent.\n5- Document the rating and provide a brief justification for the score based on the coherence of the response."
+    },
+    {
+        "name": "Engagement",
+        "description": "This metric evaluates the ability of the continuation to capture and maintain the reader's interest. An engaging response is interesting, thought-provoking, or entertaining.",
+        "scale": "Scale from 1 to 5, where 1 is not engaging at all and 5 is extremely engaging.",
+        "instruction": "\n1- Read the provided conversation between two individuals thoroughly to understand the context and flow.\n2- Read the potential response that is provided for the next turn in the conversation, along with the interesting fact it contains.\n3- Consider how well the response captures attention and maintains interest. Does it offer a surprising or intriguing piece of information? Does it provoke thought or entertain?\n4- Rate the response on a scale from 1 to 5 based on the level of engagement it provides, where 1 is not engaging at all and 5 is extremely engaging.\n5- Provide a brief explanation for the rating, focusing on why the response is engaging or not."
+    },
+    {
+        "name": "Creativity",
+        "description": "This metric measures the originality and inventiveness of the response. A creative continuation introduces novel ideas or perspectives that are imaginative and insightful.",
+        "scale": "Scale from 1 to 5, where 1 is not creative at all and 5 is highly creative.",
+        "instruction": "\n1- Read the conversation provided to understand the context.\n2- Read the next turn response that will be evaluated.\n3- Consider how the response introduces novel ideas or perspectives related to the conversation.\n4- Evaluate the originality and inventiveness of the response based on the Creativity metric.\n5- Rate the response on a scale of 1 to 5, where 1 is not creative at all and 5 is highly creative."
+    },
+    {
+        "name": "Grammaticality",
+        "description": "This metric assesses the grammatical correctness of the continuation. A grammatically correct response uses proper syntax, punctuation, and spelling.",
+        "scale": "Scale from 1 to 5, where 1 has numerous grammatical errors and 5 is free of grammatical errors.",
+        "instruction": "\n1- Read the given conversation carefully to understand the context.\n2- Read the potential response for the next turn in the conversation.\n3- Evaluate the grammatical correctness of the response. Check for syntax, punctuation, and spelling errors.\n4- Rate the grammaticality of the response on a scale from 1 to 5, where 1 indicates numerous grammatical errors and 5 indicates the response is free of grammatical errors.\n5- Provide the rating as the final output for the evaluation."
+    }
+]

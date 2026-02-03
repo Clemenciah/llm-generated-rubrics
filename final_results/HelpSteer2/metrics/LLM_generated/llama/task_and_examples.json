@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Relevance",
+        "description": "How well the response addresses the user's question or prompt.",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the task and instructions carefully\n2. Identify the key aspects of the evaluation criteria for the Relevance metric\n3. Determine how well the response addresses the user's question or prompt\n4. Assign a score from 1 to 5 based on the evaluation\n5. Provide a clear and concise justification for the assigned score"
+    },
+    {
+        "name": "Accuracy",
+        "description": "How accurate the information provided in the response is.",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the task and the evaluation criteria carefully.\n2. Review the response to identify the information provided.\n3. Check the information against trusted sources to determine its accuracy.\n4. Evaluate the accuracy based on the scale provided (1-5).\n5. Assign a score based on the evaluation."
+    },
+    {
+        "name": "Completeness",
+        "description": "How comprehensive the response is in addressing the user's question or prompt.",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the evaluation criteria carefully\n2. Review the response to ensure it addresses all parts of the user's question or prompt\n3. Assess the comprehensiveness of the response\n4. Determine the score based on the scale of 1-5 for the Completeness metric\n5. Record the score and provide feedback if necessary"
+    },
+    {
+        "name": "Coherence",
+        "description": "How logical and easy to follow the response is.",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the prompt or instruction provided by the user.\n2. Assess the response based on how logical it is, considering if the ideas are well-connected and easy to follow.\n3. Evaluate the clarity of the response, checking if it is free of ambiguity and confusion.\n4. Determine the overall coherence of the response by considering its logical flow and ease of understanding.\n5. Assign a score from 1 to 5 based on the evaluation, where 1 is the lowest and 5 is the highest."
+    },
+    {
+        "name": "Empathy",
+        "description": "How well the response acknowledges and understands the user's perspective or emotions.",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the evaluation criteria for the Empathy metric\n2. Analyze the user's prompt to identify their perspective or emotions\n3. Assess the response to determine how well it acknowledges and understands the user's perspective or emotions\n4. Evaluate the response based on the Empathy metric scale of 1-5\n5. Assign a score based on the evaluation"
+    },
+    {
+        "name": "Conversational Flow",
+        "description": "How well the response contributes to a natural and engaging conversation.",
+        "scale": "1-5",
+        "instruction": "1. Read the user's prompt carefully and understand the context\n2. Assess how well the response is connected to the prompt and contributes to the conversation\n3. Evaluate the response's ability to engage the user and encourage further discussion\n4. Consider the coherence and logical flow of the response\n5. Rate the response on a scale of 1-5 based on its conversational flow"
+    }
+]

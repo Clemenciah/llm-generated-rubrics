@@ -1,0 +1,30 @@
+{
+  "dataset": "HelpSteer2",
+  "setting_name": "model_name=gpt-4o-use_system=False-use_sample=True-use_response=True-number_of_shots=3-use_temperature=False-use_restriction=False.json",
+  "model_name": "gpt-4o",
+  "use_system": "False",
+  "use_sample": "True",
+  "use_response": "True",
+  "number_of_shots": "3",
+  "use_temperature": "False",
+  "use_restriction": "False",
+  "generated": 8,
+  "unique": 8,
+  "unseen": 1,
+  "unseen_over_generated": 0.125,
+  "unseen_over_unique": 0.125,
+  "teacher_coverage": 0.8333333333333334,
+  "diversity": 0.2857142857142857,
+  "teacher_hit_count": 5,
+  "teacher_total": 6,
+  "new_aspect_count": 2,
+  "new_aspects": [
+    "Creativity",
+    "Engagement"
+  ],
+  "use_similarity": false,
+  "similarity_threshold": 0.82,
+  "meaningfulness_threshold": 1,
+  "device": "cpu",
+  "timestamp": "2025-09-20T18:31:57.847012Z"
+}

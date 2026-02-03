@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Relevance",
+        "tags": [
+            "Correctness/Completeness"
+        ]
+    },
+    {
+        "name": "Clarity",
+        "tags": [
+            "Coherence/Clarity"
+        ]
+    },
+    {
+        "name": "Depth of Knowledge",
+        "tags": [
+            "Correctness/Completeness",
+            "Helpfulness/Understanding"
+        ]
+    },
+    {
+        "name": "Engagement",
+        "tags": [
+            "Helpfulness/Understanding",
+            "Other: User Engagement"
+        ]
+    },
+    {
+        "name": "Conciseness",
+        "tags": [
+            "Succinct vs. Verbose Language"
+        ]
+    },
+    {
+        "name": "Empathy",
+        "tags": [
+            "Other: Emotional Intelligence"
+        ]
+    },
+    {
+        "name": "Error Handling",
+        "tags": [
+            "Other: Error Management"
+        ]
+    }
+]

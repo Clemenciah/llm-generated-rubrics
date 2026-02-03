@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Relevance",
+        "description": "The response should be relevant to the topic and address the user's question or request.",
+        "scale": "Binary (relevant/not relevant)",
+        "instruction": "\n1- Read the user's prompt or instruction carefully to understand the topic and the request.\n2- Read the contestant's response to the prompt or instruction.\n3- Determine if the response is relevant to the topic and addresses the user's question or request.\n4- Rate the response as either 'relevant' or 'not relevant' based on the determination in step 3.\n5- If necessary, provide a brief explanation for the rating, citing specific examples from the response to support the decision."
+    },
+    {
+        "name": "Accuracy",
+        "description": "The response should be factually correct and provide accurate information.",
+        "scale": "Binary (accurate/inaccurate)",
+        "instruction": "\n1- Read the provided response carefully.\n2- Research and verify the information given in the response to ensure its accuracy.\n3- Determine whether the response is factually correct and provides accurate information.\n4- Assign the rating of 'accurate' if the response is factually correct and provides accurate information, or 'inaccurate' if it does not."
+    },
+    {
+        "name": "Completeness",
+        "description": "The response should be complete and fully address the user's question or request.",
+        "scale": "Ordinal (incomplete, partially complete, mostly complete, complete)",
+        "instruction": "\n1- Read the user's question or request carefully to understand what is being asked.\n2- Read the contestant's response to the user's question or request.\n3- Determine if the response fully addresses the user's question or request by considering if all aspects of the question or request have been answered or fulfilled.\n4- Rate the response using the ordinal scale: incomplete, partially complete, mostly complete, or complete based on the completeness of the response."
+    },
+    {
+        "name": "Clarity",
+        "description": "The response should be clear and easy to understand, with simple and concise language.",
+        "scale": "Ordinal (unclear, somewhat clear, mostly clear, very clear)",
+        "instruction": "\n1- Read the given response thoroughly. Make sure you understand the context and the main points presented in the response.\n2- Determine if the response is easy to understand and if the language used is simple and concise. If the response is clear and easy to follow, move on to the next step.\n3- Rate the response on the ordinal scale of unclear, somewhat clear, mostly clear, or very clear based on the clarity of the response."
+    },
+    {
+        "name": "Coherence",
+        "description": "The response should be coherent and logically consistent, with a clear structure and organization.",
+        "scale": "Ordinal (incoherent, somewhat coherent, mostly coherent, very coherent)",
+        "instruction": "\n1- Read and understand the given response that needs to be evaluated.\n2- Evaluate the response based on the Coherence metric. Determine if the response is incoherent, somewhat coherent, mostly coherent, or very coherent.\n3- Check if the response has a clear structure and organization, and if the ideas presented are logically consistent with each other.\n4- Provide a rating for the Coherence metric based on the evaluation: incoherent, somewhat coherent, mostly coherent, or very coherent."
+    },
+    {
+        "name": "Grammatical Correctness",
+        "description": "The response should be grammatically correct, with no errors in punctuation, spelling, or syntax.",
+        "scale": "Ordinal (grammatically incorrect, somewhat correct, mostly correct, very correct)",
+        "instruction": "\n1- Read the contestant's response carefully, paying close attention to the grammar, punctuation, and syntax.\n2- Identify any errors in grammar, punctuation, or syntax, such as missing or incorrect punctuation, misspelled words, incorrect verb tenses, or incorrect word order.\n3- Determine the overall level of grammatical correctness based on the number and severity of errors identified. Use the following scale:\n3.1- Grammatically Incorrect: The response contains multiple significant errors in grammar, punctuation, or syntax that significantly impact readability or comprehension.\n3.2- Somewhat Correct: The response contains some errors in grammar, punctuation, or syntax that may impact readability or comprehension, but not significantly.\n3.3- Mostly Correct: The response contains minor errors in grammar, punctuation, or syntax that do not significantly impact readability or comprehension.\n3.4- Very Correct: The response contains no significant errors in grammar, punctuation, or syntax and is written in clear, concise, and grammatically correct language.\n4- Record the rating for the response based on the scale above."
+    },
+    {
+        "name": "Tone",
+        "description": "The response should have a consistent tone, and be appropriate for the context and audience.",
+        "scale": "Ordinal (inappropriate tone, somewhat appropriate tone, mostly appropriate tone, very appropriate tone)",
+        "instruction": "\n1- Read the provided response carefully and understand its context.\n2- Determine the intended tone of the response based on the context and audience.\n3- Evaluate the consistency of the tone throughout the response.\n4- Decide whether the tone is appropriate for the context and audience.\n5- Rate the tone of the response on a scale: inappropriate tone, somewhat appropriate tone, mostly appropriate tone, very appropriate tone."
+    },
+    {
+        "name": "Timeliness",
+        "description": "The response should be provided in a timely manner, within a reasonable time frame.",
+        "scale": "Ordinal (untimely, somewhat timely, mostly timely, very timely)",
+        "instruction": "\n1- Read the response provided by the contestant.\n2- Determine the time frame within which the response was provided. This information may be given alongside the response or may need to be inferred based on the context and the nature of the task.\n3- Evaluate the timeliness of the response based on the time frame. Consider whether the response was provided within a reasonable time frame given the complexity of the task and the prompt.\n4- Rate the timeliness of the response using the ordinal scale provided in the evaluation criteria. The options are 'untimely', 'somewhat timely', 'mostly timely', and 'very timely'."
+    }
+]

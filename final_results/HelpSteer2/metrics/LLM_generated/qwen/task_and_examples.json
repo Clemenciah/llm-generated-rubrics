@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Relevance to Context",
+        "description": "Measures how well the response addresses the specific context and prompt provided by the user.",
+        "scale": "1 to 5",
+        "instruction": "1. Read the user's prompt and context carefully.\n2. Evaluate the response based on how well it addresses the specific context and prompt provided by the user.\n3. Rate the response on a scale of 1 to 5, where 1 is completely irrelevant and 5 is perfectly relevant."
+    },
+    {
+        "name": "Clarity and Coherence",
+        "description": "Evaluates the clarity and coherence of the response, including the logical flow and readability.",
+        "scale": "1 to 5",
+        "instruction": "1. Understand the prompt or instruction provided by the user.\n2. Evaluate if the response is clear and easy to understand, without unnecessary complexity or jargon.\n3. Assess the coherence of the response, ensuring that the information is logically organized and flows well.\n4. Check for any inconsistencies or contradictions within the response.\n5. Rate the response on a scale of 1 to 5, where 1 is very poor and 5 is excellent, based on the clarity and coherence criteria."
+    },
+    {
+        "name": "Depth of Information",
+        "description": "Assesses the depth and quality of the information provided, including the level of detail and relevance of the content.",
+        "scale": "1 to 5",
+        "instruction": "1. Understand the prompt or instruction provided by the user.\n2. Evaluate the depth and quality of the information provided in the response.\n3. Assess the level of detail and relevance of the content in the response.\n4. Score the response on a scale of 1 to 5, where 1 is poor and 5 is excellent.\n5. Provide a brief justification for the score given."
+    },
+    {
+        "name": "Technical Accuracy",
+        "description": "Evaluates the technical accuracy of the information provided, especially in technical or domain-specific contexts.",
+        "scale": "1 to 5",
+        "instruction": "1. Understand the technical context of the response.\n2. Assess if the provided information is factually correct and relevant to the domain.\n3. Evaluate if the response addresses the technical aspects of the question comprehensively.\n4. Check for any technical errors or inaccuracies in the response.\n5. Assign a score from 1 to 5 based on the overall technical accuracy of the response."
+    },
+    {
+        "name": "Engagement and Responsiveness",
+        "description": "Measures how well the response engages the user and responds to their specific questions or concerns.",
+        "scale": "1 to 5",
+        "instruction": "1. Read the user's prompt or instruction carefully.\n2. Evaluate the response based on how well it engages the user and addresses their specific questions or concerns.\n3. Consider the clarity and relevance of the response.\n4. Assess the level of enthusiasm and interest the response conveys to the user.\n5. Rate the response on a scale of 1 to 5, where 1 is poor and 5 is excellent in terms of engagement and responsiveness."
+    },
+    {
+        "name": "User-Friendliness",
+        "description": "Assesses the user-friendliness of the response, including the tone, style, and accessibility of the information.",
+        "scale": "1 to 5",
+        "instruction": "1. Read and understand the provided instructions and evaluation criteria.\n2. Evaluate the response based on the User-Friendliness metric, focusing on tone, style, and accessibility of the information.\n3. Use a scale from 1 to 5, where 1 is very poor and 5 is excellent.\n4. Provide a clear and concise justification for the score given.\n5. Ensure the evaluation is fair and unbiased."
+    },
+    {
+        "name": "Consistency",
+        "description": "Evaluates the consistency of the response over multiple interactions, ensuring that the information provided remains aligned and coherent.",
+        "scale": "1 to 5",
+        "instruction": "1. Read the user's prompt or instruction carefully.\n2. Evaluate the response for consistency across multiple interactions, ensuring that the information provided remains aligned and coherent.\n3. Rate the response on a scale of 1 to 5, where 1 is highly inconsistent and 5 is highly consistent.\n4. Provide a brief explanation for the rating given."
+    }
+]

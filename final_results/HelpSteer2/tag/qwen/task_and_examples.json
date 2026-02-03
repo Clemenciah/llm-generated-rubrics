@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Relevance to Context",
+        "tags": [
+            "Correctness/Completeness",
+            "Helpfulness/Understanding"
+        ]
+    },
+    {
+        "name": "Clarity and Coherence",
+        "tags": [
+            "Coherence/Clarity"
+        ]
+    },
+    {
+        "name": "Depth of Information",
+        "tags": [
+            "Correctness/Completeness",
+            "Helpfulness/Understanding"
+        ]
+    },
+    {
+        "name": "Technical Accuracy",
+        "tags": [
+            "Correctness/Completeness"
+        ]
+    },
+    {
+        "name": "Engagement and Responsiveness",
+        "tags": [
+            "Helpfulness/Understanding",
+            "User Engagement"
+        ]
+    },
+    {
+        "name": "User-Friendliness",
+        "tags": [
+            "Simple vs. Complex Language",
+            "Succinct vs. Verbose Language",
+            "Safe vs Unsafe"
+        ]
+    },
+    {
+        "name": "Consistency",
+        "tags": [
+            "Coherence/Clarity",
+            "Consistency"
+        ]
+    }
+]

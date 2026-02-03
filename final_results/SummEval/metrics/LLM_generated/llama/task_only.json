@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Relevance",
+        "description": "How well does the summary relate to the original article?",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the instructions carefully\n2. Keep the document open while reviewing and refer to it as needed\n3. Evaluate the responses based on the Relevance metric\n4. Assess how well each summary relates to the original article\n5. Assign a score from 1 to 5 based on the Relevance evaluation criteria"
+    },
+    {
+        "name": "Accuracy",
+        "description": "How accurate is the summary in terms of facts and figures?",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the instructions carefully\n2. Keep the document open while reviewing and refer to it as needed\n3. Evaluate the responses based on the Accuracy metric\n4. Assess how accurate the summary is in terms of facts and figures\n5. Rate the response on a scale of 1-5"
+    },
+    {
+        "name": "Completeness",
+        "description": "How well does the summary cover the main points of the article?",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the instructions carefully\n2. Review the responses based on the Completeness metric\n3. Assess how well each summary covers the main points of the article\n4. Assign a score from 1 to 5 for each response based on the Completeness metric"
+    },
+    {
+        "name": "Coherence",
+        "description": "How well does the summary flow and make sense?",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the evaluation criteria for the Coherence metric\n2. Assess how well the summary flows and makes sense\n3. Assign a score from 1 to 5 based on the coherence of the summary"
+    },
+    {
+        "name": "Conciseness",
+        "description": "How well does the summary convey the main points in a concise manner?",
+        "scale": "1-5",
+        "instruction": "1. Read and understand the instructions carefully\n2. Keep the document open while reviewing and refer to it as needed\n3. Evaluate the responses based on the Conciseness metric\n4. Assess how well each summary conveys the main points in a concise manner\n5. Rate the responses on a scale of 1-5 for Conciseness"
+    }
+]

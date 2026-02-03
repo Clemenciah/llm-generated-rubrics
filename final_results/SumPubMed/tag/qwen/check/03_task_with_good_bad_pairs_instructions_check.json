@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Comprehension and Relevance", "-"
+        "description": "Measures how well the summary captures the key points and relevance of the original text. The summary should accurately reflect the main ideas, findings, and conclusions of the paper.",
+        "scale": "1 (Very Poor) to 5 (Excellent)",
+        "instruction": "1. Read the original biomedical research paper thoroughly.\n2. Read the summary provided by the contestant.\n3. Evaluate how well the summary captures the key points and relevance of the original text.\n4. Assess if the summary accurately reflects the main ideas, findings, and conclusions of the paper.\n5. Rate the summary on a scale of 1 (Very Poor) to 5 (Excellent) based on the comprehension and relevance criteria."
+    },
+    {
+        "name": "Clarity and Coherence",
+        "description": "Evaluates the clarity and logical flow of the summary. The summary should be easy to understand, with ideas presented in a coherent and organized manner.",
+        "scale": "1 (Very Poor) to 5 (Excellent)",
+        "instruction": "1. Read the summary carefully.\n2. Assess the clarity of the summary. Is it easy to understand? Are the sentences clear and concise?\n3. Evaluate the coherence of the summary. Do the ideas flow logically? Is the summary well-organized?\n4. Rate the summary on a scale from 1 to 5, where 1 is 'Very Poor' and 5 is 'Excellent'.\n5. Provide a brief explanation for your rating."
+    },
+    {
+        "name": "Conciseness",
+        "description": "Assesses the length and conciseness of the summary. The summary should be succinct and avoid unnecessary details while still capturing the essential information.",
+        "scale": "1 (Very Poor) to 5 (Excellent)",
+        "instruction": "1. Read the summary carefully.\n2. Assess if the summary is succinct and avoids unnecessary details.\n3. Check if the essential information is still captured in the summary.\n4. Rate the summary on a scale of 1 to 5, where 1 is 'Very Poor' and 5 is 'Excellent'."
+    },
+    {
+        "name": "Accuracy",
+        "description": "Evaluates the accuracy of the information presented in the summary. The summary should not contain factual errors or misrepresentations of the original text.",
+        "scale": "1 (Very Poor) to 5 (Excellent)",
+        "instruction": "1. Read the original document and the contestant's summary.\n2. Assess the summary for factual accuracy and whether it accurately represents the content of the original document.\n3. Assign a score from 1 to 5 based on the accuracy of the summary.\n4. Provide a brief justification for the assigned score."
+    },
+    {
+        "name": "Originality and Insight",
+        "description": "Measures the level of original thought and insight provided in the summary. The summary should offer unique perspectives or interpretations that add value to the understanding of the original text.",
+        "scale": "1 (Very Poor) to 5 (Excellent)",
+        "instruction": "1. Read the original biomedical research paper thoroughly.\n2. Read the contestant\u2019s summary carefully.\n3. Evaluate the level of original thought and insight in the summary.\n4. Consider whether the summary provides unique perspectives or interpretations that add value to the understanding of the original text.\n5. Rate the summary on a scale of 1 to 5, where 1 is 'Very Poor' and 5 is 'Excellent'.\n6. Provide a brief justification for the score given."
+    }
+]

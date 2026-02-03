@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Relevance",
+        "tags": [
+            "Correctness/Completeness"
+        ]
+    },
+    {
+        "name": "Clarity",
+        "tags": [
+            "Coherence/Clarity"
+        ]
+    },
+    {
+        "name": "Depth of Information",
+        "tags": [
+            "Correctness/Completeness",
+            "Helpfulness/Understanding"
+        ]
+    },
+    {
+        "name": "Accuracy",
+        "tags": [
+            "Correctness/Completeness"
+        ]
+    },
+    {
+        "name": "Engagement",
+        "tags": [
+            "Coherence/Clarity",
+            "Helpfulness/Understanding"
+        ]
+    },
+    {
+        "name": "Empathy",
+        "tags": [
+            "Helpfulness/Understanding",
+            "Safe vs Unsafe"
+        ]
+    },
+    {
+        "name": "Resourcefulness",
+        "tags": [
+            "Helpfulness/Understanding"
+        ]
+    }
+]
