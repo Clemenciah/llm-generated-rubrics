@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Understandable",
+    "description": "Is the response understandable given the previous context?",
+    "scale": "0-1",
+    "instruction": "Is the response understandable in the context of the history? (Not if it's on topic, but for example if it uses pronouns they should make sense)\nA score of 0 (no) means that the response is difficult to understand. You do not know what the person is trying to say.\nExample: 'I didn\u2019t know that. I love to watch the movie Inception, it\u2019s also the first racing movie to be a woman haha. I guess the movie was originally titled \u201cInception\u201d awesome movie!'\nContext: 'In my religion, there is no star. How about you?'\nResponse: 'Yeah it was back in 1975.'\nA score of 1 (yes) means that the response is understandable. You know what the person is trying to say.\nExample: 'My favorite role would have to be quarterback. It is such an interesting role.'\nResponse: 'That is true. I think LeBron is the highest paid celebrity, I wonder if he will be in the Space Jam sequel.'"
+  },
+  {
+    "name": "Natural",
+    "description": "Does the response seem to be something that a person would naturally say?",
+    "scale": "1-3",
+    "instruction": "Is the response naturally written?\nA score of 1 (bad) means that the response is unnatural.\nContext: A: wow. do you believe in stars of the zodiac? what is your star?\nB: in my religion, there is no star. how about you?\nResponse: yeah, it was back in 1975.\ni think he is, he is a great teacher and he also taught ellie kemper, she is a great teacher\nA score of 2 (ok) means the response is strange, but not entirely unnatural.\nContext: A: wow. do you believe in stars of the zodiac? what is your star?\nB: in my religion, there is no star. how about you?\nResponse: i read it sometimes for the fun of it.\nA score of 3 (good) means that the response is natural.\ni think it\u2019s funny that the soviet union sent a spacecraft to venus"
+  },
+  {
+    "name": "Maintains Context",
+    "description": "Does the response serve as a valid continuation of the preceding conversation?",
+    "scale": "1-3",
+    "instruction": "Does the response serve as a valid continuation of the conversation history?\nA score of 1 (no) means that the response drastically changes topic or ignores the conversation history.\nContext: A: wow. do you believe in stars of the zodiac? what is your star?\nB: in my religion, there is no star. how about you?\nResponse: i think it\u2019s funny that the soviet union sent a spacecraft to venus.\nA score of 2 (somewhat) means the response refers to the conversation history in a limited capacity (e.g., in a generic way) and shifts the conversation topic.\nContext: i do like some drama stuff, yeah he was awesome in that.\nResponse: yeah. do you like jon hamm?\nContext: i believe that! he would have played longer i\u2019m sure if he did the granny style approach to shooting free throws!\nResponse: i agree. did you know that space jam is the highest grossing basketball movie of all time?\nA score of 3 (yes) means the response is on topic and strongly acknowledges the conversation history.\nContext: B: wow, that\u2019s great. especially because more than 60% of NBA players go broke 5 years after retirement.\nA: i believe that! he would have played longer i\u2019m sure if he did the granny style approach to shooting free throws!\nResponse: a lot of players can make money by starring in movies. did you know space jam is the highest grossing movie of all time? maybe one of the broke retired players can be in the sequel!\nContext: B: you like drama? patrick stewart teaches classes now. i loved him in star trek.\nA: i do like some drama stuff, yeah he was awesome in that.\nResponse: jon hamm was also a drama teacher. he taught erin from the office."
+  },
+  {
+    "name": "Interesting",
+    "description": "Is the response dull or interesting?",
+    "scale": "1-3",
+    "instruction": "Is the response dull/interesting?\nA score of 1 (dull) means that the response is generic and dull.\nExample: 'that's true. i agree.'\nA score of 2 (somewhat interesting) means the response is somewhat interesting and could engage you in the conversation (e.g., an opinion, thought).\nExample: 'my favorite role would have to be quarterback. it is such an interesting role.'\n'i love tom brady. i love tom brady.'\nA score of 3 (interesting) means the response is very interesting or presents an interesting fact.\nExample: 'i agree. did you know that space jam is the highest grossing basketball movie of all time?'\n'a lot of players can make money by starring in movies. did you know space jam is the highest grossing movie of all time? maybe one of the broke retired players can be in the sequel!'"
+  },
+  {
+    "name": "Uses Knowledge",
+    "description": "Given the fact that the response is conditioned on, how well does the response use that fact?",
+    "scale": "0-1",
+    "instruction": "Given the interesting fact that the response is conditioned on, how well does the response use the fact?\nA score of 0 (no) means the response does not mention or refer to the fact at all.\nA score of 1 (yes) means the response uses the fact well."
+  },
+  {
+    "name": "Overall Quality",
+    "description": "Given your answers above, what is your overall impression of the quality of this utterance?",
+    "scale": "1-5",
+    "instruction": "Given your answers above, what is your overall impression of this utterance?\nA score of 1 (very bad) means this is a completely invalid response. It would be difficult to recover the conversation after this.\nA score of 2 (bad) means this is a valid response, but otherwise poor in quality.\nA score of 3 (neutral) means this response is neither good nor bad. This response has no negative qualities, but no positive ones either.\nA score of 4 (good) means this is a good response, but falls short of being perfect because of a key flaw.\nA score of 5 (very good) means this response is good and does not have any strong flaws."
+  }
+]
