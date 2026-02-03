@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Relevance",
+        "description": "The rating measures how well the summary captures the key points of the article. Consider whether all and only the important aspects are contained in the summary.",
+        "scale": "1-5",
+        "instruction": "In this task you will evaluate the quality of summaries written for a news article. To correctly solve this task, follow these steps: 1. Carefully read the news article, be aware of the information it contains. 2. Read the proposed summaries. 3. Rate each summary on a scale from 1 (worst) to 5 (best) by its Relevance."
+    },
+    {
+        "name": "Consistency",
+        "description": "The rating measures whether the facts in the summary are consistent with the facts in the original article. Consider whether the summary does reproduce all facts accurately and does not make up untrue information.",
+        "scale": "1-5",
+        "instruction": "In this task you will evaluate the quality of summaries written for a news article. To correctly solve this task, follow these steps: 1. Carefully read the news article, be aware of the information it contains. 2. Read the proposed summaries. 3. Rate each summary on a scale from 1 (worst) to 5 (best) by its Consistency."
+    },
+    {
+        "name": "Fluency",
+        "description": "This rating measure the quality of individual sentences. Are they well-written and grammatically correct? Consider the quality of individual sentences.",
+        "scale": "1-5",
+        "instruction": "In this task you will evaluate the quality of summaries written for a news article. To correctly solve this task, follow these steps: 1. Carefully read the news article, be aware of the information it contains. 2. Read the proposed summaries. 3. Rate each summary on a scale from 1 (worst) to 5 (best) by its Fluency."
+    },
+    {
+        "name": "Coherence",
+        "description": "The rating measures the quality of all sentences collectively, to the fit together and sound naturally. Consider the quality of the summary as a whole.",
+        "scale": "1-5",
+        "instruction": "In this task you will evaluate the quality of summaries written for a news article. To correctly solve this task, follow these steps: 1. Carefully read the news article, be aware of the information it contains. 2. Read the proposed summaries. 3. Rate each summary on a scale from 1 (worst) to 5 (best) by its Coherence."
+    },
+    {
+        "name": "Overall Quality",
+        "description": "Given your answers above, what is your overall impression of the quality of this utterance?",
+        "scale": "1-5",
+        "instruction": "Given your answers above, what is your overall impression of this utterance?\nA score of 1 (very bad) means this is a completely invalid response. It would be difficult to recover the conversation after this.\nA score of 2 (bad) means this is a valid response, but otherwise poor in quality.\nA score of 3 (neutral) means this response is neither good nor bad. This response has no negative qualities, but no positive ones either.\nA score of 4 (good) means this is a good response, but falls short of being perfect because of a key flaw.\nA score of 5 (very good) means this response is good and does not have any strong flaws."
+    }
+]
